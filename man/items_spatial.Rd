@@ -4,38 +4,38 @@
 \name{items_spatial}
 \alias{items_spatial}
 \title{Item Matrix Results of Revised PSVT:R}
-\format{A data frame with 516 observations on the following 30 variables.
+\format{A \code{matrix} with 516 observations on the following 30 variables.
 \itemize{
-\item \code{item01}: Subject's Response to Item 1.
-\item \code{item02}: Subject's Response to Item 2.
-\item \code{item03}: Subject's Response to Item 3.
-\item \code{item04}: Subject's Response to Item 4.
-\item \code{item05}: Subject's Response to Item 5.
-\item \code{item06}: Subject's Response to Item 6.
-\item \code{item07}: Subject's Response to Item 7.
-\item \code{item08}: Subject's Response to Item 8.
-\item \code{item09}: Subject's Response to Item 9.
-\item \code{item10}: Subject's Response to Item 10.
-\item \code{item11}: Subject's Response to Item 11.
-\item \code{item12}: Subject's Response to Item 12.
-\item \code{item13}: Subject's Response to Item 13.
-\item \code{item14}: Subject's Response to Item 14.
-\item \code{item15}: Subject's Response to Item 15.
-\item \code{item16}: Subject's Response to Item 16.
-\item \code{item17}: Subject's Response to Item 17.
-\item \code{item18}: Subject's Response to Item 18.
-\item \code{item19}: Subject's Response to Item 19.
-\item \code{item20}: Subject's Response to Item 20.
-\item \code{item21}: Subject's Response to Item 21.
-\item \code{item22}: Subject's Response to Item 22.
-\item \code{item23}: Subject's Response to Item 23.
-\item \code{item24}: Subject's Response to Item 24.
-\item \code{item25}: Subject's Response to Item 25.
-\item \code{item26}: Subject's Response to Item 26.
-\item \code{item27}: Subject's Response to Item 27.
-\item \code{item28}: Subject's Response to Item 28.
-\item \code{item29}: Subject's Response to Item 29.
-\item \code{item30}: Subject's Response to Item 30.
+\item \code{Item01}: Subject's Response to Item 1.
+\item \code{Item02}: Subject's Response to Item 2.
+\item \code{Item03}: Subject's Response to Item 3.
+\item \code{Item04}: Subject's Response to Item 4.
+\item \code{Item05}: Subject's Response to Item 5.
+\item \code{Item06}: Subject's Response to Item 6.
+\item \code{Item07}: Subject's Response to Item 7.
+\item \code{Item08}: Subject's Response to Item 8.
+\item \code{Item09}: Subject's Response to Item 9.
+\item \code{Item10}: Subject's Response to Item 10.
+\item \code{Item11}: Subject's Response to Item 11.
+\item \code{Item12}: Subject's Response to Item 12.
+\item \code{Item13}: Subject's Response to Item 13.
+\item \code{Item14}: Subject's Response to Item 14.
+\item \code{Item15}: Subject's Response to Item 15.
+\item \code{Item16}: Subject's Response to Item 16.
+\item \code{Item17}: Subject's Response to Item 17.
+\item \code{Item18}: Subject's Response to Item 18.
+\item \code{Item19}: Subject's Response to Item 19.
+\item \code{Item20}: Subject's Response to Item 20.
+\item \code{Item21}: Subject's Response to Item 21.
+\item \code{Item22}: Subject's Response to Item 22.
+\item \code{Item23}: Subject's Response to Item 23.
+\item \code{Item24}: Subject's Response to Item 24.
+\item \code{Item25}: Subject's Response to Item 25.
+\item \code{Item26}: Subject's Response to Item 26.
+\item \code{Item27}: Subject's Response to Item 27.
+\item \code{Item28}: Subject's Response to Item 28.
+\item \code{Item29}: Subject's Response to Item 29.
+\item \code{Item30}: Subject's Response to Item 30.
 }}
 \source{
 Choice38 Experiment at UIUC during Spring 2014 - Spring 2015
@@ -44,7 +44,8 @@ Choice38 Experiment at UIUC during Spring 2014 - Spring 2015
 items_spatial
 }
 \description{
-This data set contains the subject's responses to items. Correct answers are denoted by 1 and incorrect answers are denoted by 0.
+This data set contains the subject's responses to items. Correct answers are
+denoted by 1 and incorrect answers are denoted by 0.
 }
 \author{
 Steven Culpepper and James Balamuta

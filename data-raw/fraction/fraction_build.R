@@ -6,20 +6,7 @@
 ######## Assessment Items
 
 # Import Assessment Items given by Culpepper
-items_fractions = read.delim("data-raw/fraction/fractionsdata.txt", header = FALSE, sep = " ")
-
-# Force to matrix
-items_fractions = as.matrix(items_fractions)
-
-# Number of Items
-j = ncol(items_fractions)
-
-# Number of Responses
-n = nrow(items_fractions)
-
-# Labeling
-colnames(items_fractions) = sprintf(paste0("item%0", nchar(j), "i"), seq_len(j))
-rownames(items_fractions) = sprintf(paste0("subject%0", nchar(n), "d"), seq_len(n))
+items_fractions = ecdm::read_items("data-raw/fraction/fractionsdata.txt", header = FALSE, sep = " ")
 
 ########
 
@@ -50,10 +37,11 @@ qmatrix_fractions = rbind(
 
 # Number of Attributes
 k = ncol(qmatrix_fractions)
+j = nrow(qmatrix_fractions)
 
 # Labeling
-colnames(qmatrix_fractions) = sprintf(paste0("skill%0", nchar(k), "d"), seq_len(k)) 
-rownames(qmatrix_fractions) = sprintf(paste0("item%0", nchar(j), "d"), seq_len(j))
+colnames(qmatrix_fractions) = sprintf(paste0("Trait%0", nchar(k), "d"), seq_len(k))
+rownames(qmatrix_fractions) = sprintf(paste0("Item%0", nchar(j), "d"), seq_len(j))
 
 # Release assessment scores
 devtools::use_data(items_fractions, overwrite = TRUE)

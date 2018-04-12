@@ -4,42 +4,42 @@
 \name{qmatrix_fractions}
 \alias{qmatrix_fractions}
 \title{Expert Derived Q Matrix for Fractions Data}
-\format{A \code{matrix} with dimensions J = 20 (items/rows) and K = 8 (skills/columns).
-Each entry in the matrix is either 1, if the item uses the skill, or 0, if
-the item does not use the skill. The skills identified by this \code{matrix} are:
+\format{A \code{matrix} with dimensions J = 20 (Items/rows) and K = 8 (Trait/columns).
+Each entry in the matrix is either 1, if the Item uses the Trait, or 0, if
+the Item does not use the Trait. The traits identified by this \code{matrix} are:
 \itemize{
-\item \code{skill1}: Convert a whole number to a fraction,
-\item \code{skill2}: Separate a whole number from fraction,
-\item \code{skill3}: Simplify before subtraction,
-\item \code{skill4}: Find a common denominator,
-\item \code{skill5}: Borrow from the whole number part,
-\item \code{skill6}: Column borrow to subtract the second numerator from the first,
-\item \code{skill7}: Subtract numerators,
-\item \code{skill8}: Reduce answers to simplest form.
+\item \code{Trait1}: Convert a whole number to a fraction,
+\item \code{Trait2}: Separate a whole number from fraction,
+\item \code{Trait3}: Simplify before subtraction,
+\item \code{Trait4}: Find a common denominator,
+\item \code{Trait5}: Borrow from the whole number part,
+\item \code{Trait6}: Column borrow to subtract the second numerator from the first,
+\item \code{Trait7}: Subtract numerators,
+\item \code{Trait8}: Reduce answers to simplest form.
 }
 
 The subjects answered the following assessment items:
 \itemize{
-\item \code{item01}: \eqn{\frac{5}{3}-\frac{3}{4}}{5/3 - 3/4}
-\item \code{item02}: \eqn{\frac{3}{4}-\frac{3}{8}}{3/4 - 3/8}
-\item \code{item03}: \eqn{\frac{5}{6}-\frac{1}{9}}{5/6 - 1/9}
-\item \code{item04}: \eqn{3\frac{1}{2}-2\frac{3}{2}}{3*1/2 - 2*3/2}
-\item \code{item05}: \eqn{4\frac{3}{5}-3\frac{4}{10}}{4*3/5 - 3*4/10}
-\item \code{item06}: \eqn{\frac{6}{7}-\frac{4}{7}}{6/7 - 4/7}
-\item \code{item07}: \eqn{3-2\frac{1}{5}}{3 - 2*1/5}
-\item \code{item08}: \eqn{\frac{2}{3}-\frac{2}{3}}{2/3 - 2/3}
-\item \code{item09}: \eqn{3\frac{7}{8}-2}{3*7/8 - 2}
-\item \code{item10}: \eqn{4\frac{4}{12}-2\frac{7}{12}}{4*4/12 - 2*7/12}
-\item \code{item11}: \eqn{4\frac{1}{3}-2\frac{4}{3}}{4*1/3 - 2*4/3}
-\item \code{item12}: \eqn{\frac{11}{8}-\frac{1}{8}}{11/8 - 1/8}
-\item \code{item13}: \eqn{3\frac{3}{8}-2\frac{5}{6}}{3*3/8 - 2*5/6}
-\item \code{item14}: \eqn{3\frac{4}{5}-3\frac{2}{5}}{3*4/5 - 3*2/5}
-\item \code{item15}: \eqn{2-\frac{1}{3}}{2 - 1/3}
-\item \code{item16}: \eqn{4\frac{5}{7}-1\frac{4}{7}}{4*5/7 - 1*4/7}
-\item \code{item17}: \eqn{7\frac{3}{5}-2\frac{4}{5}}{7*3/5 - 2*4/5}
-\item \code{item18}: \eqn{4\frac{1}{10}-2\frac{8}{10}}{4*1/10 - 2*8/10}
-\item \code{item19}: \eqn{4-1\frac{4}{3}}{4 - 1*4/3}
-\item \code{item20}: \eqn{4\frac{1}{3}-1\frac{5}{3}}{4*1/3 - 1*5/3}
+\item \code{Item01}: \eqn{\frac{5}{3}-\frac{3}{4}}{5/3 - 3/4}
+\item \code{Item02}: \eqn{\frac{3}{4}-\frac{3}{8}}{3/4 - 3/8}
+\item \code{Item03}: \eqn{\frac{5}{6}-\frac{1}{9}}{5/6 - 1/9}
+\item \code{Item04}: \eqn{3\frac{1}{2}-2\frac{3}{2}}{3*1/2 - 2*3/2}
+\item \code{Item05}: \eqn{4\frac{3}{5}-3\frac{4}{10}}{4*3/5 - 3*4/10}
+\item \code{Item06}: \eqn{\frac{6}{7}-\frac{4}{7}}{6/7 - 4/7}
+\item \code{Item07}: \eqn{3-2\frac{1}{5}}{3 - 2*1/5}
+\item \code{Item08}: \eqn{\frac{2}{3}-\frac{2}{3}}{2/3 - 2/3}
+\item \code{Item09}: \eqn{3\frac{7}{8}-2}{3*7/8 - 2}
+\item \code{Item10}: \eqn{4\frac{4}{12}-2\frac{7}{12}}{4*4/12 - 2*7/12}
+\item \code{Item11}: \eqn{4\frac{1}{3}-2\frac{4}{3}}{4*1/3 - 2*4/3}
+\item \code{Item12}: \eqn{\frac{11}{8}-\frac{1}{8}}{11/8 - 1/8}
+\item \code{Item13}: \eqn{3\frac{3}{8}-2\frac{5}{6}}{3*3/8 - 2*5/6}
+\item \code{Item14}: \eqn{3\frac{4}{5}-3\frac{2}{5}}{3*4/5 - 3*2/5}
+\item \code{Item15}: \eqn{2-\frac{1}{3}}{2 - 1/3}
+\item \code{Item16}: \eqn{4\frac{5}{7}-1\frac{4}{7}}{4*5/7 - 1*4/7}
+\item \code{Item17}: \eqn{7\frac{3}{5}-2\frac{4}{5}}{7*3/5 - 2*4/5}
+\item \code{Item18}: \eqn{4\frac{1}{10}-2\frac{8}{10}}{4*1/10 - 2*8/10}
+\item \code{Item19}: \eqn{4-1\frac{4}{3}}{4 - 1*4/3}
+\item \code{Item20}: \eqn{4\frac{1}{3}-1\frac{5}{3}}{4*1/3 - 1*5/3}
 }}
 \usage{
 qmatrix_fractions
