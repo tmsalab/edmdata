@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# ecdmdatadata
+# ecdmdata
 
 [![Project Status: Active - The project has reached a stable, usable
 state and is being actively
@@ -17,7 +17,7 @@ sets for psychometric modeling.
 
 ## Installation
 
-You can install ecdmdatadata from github with:
+You can install `ecdmdata` from github with:
 
 ``` r
 # install.packages("devtools")
