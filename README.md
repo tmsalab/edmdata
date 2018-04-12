@@ -12,8 +12,8 @@ Status](https://travis-ci.org/tmsalab/ecdmdata.svg?branch=master)](https://travi
 [![CRAN RStudio mirror
 downloads](http://cranlogs.r-pkg.org/badges/ecdmdata)](http://www.r-pkg.org/pkg/ecdmdata)
 
-The goal of `ecdmdatadata` is to provide a set of an example assessment
-data sets for psychometric modeling.
+The goal of `ecdmdata` is to provide a set of an example assessment data
+sets for psychometric modeling.
 
 ## Installation
 
@@ -21,13 +21,17 @@ You can install ecdmdatadata from github with:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("tmsalab/ecdmdatadata")
+devtools::install_github("tmsalab/ecdmdata")
 ```
 
 ## Data Sets Included
 
-  - `items_ecpe` / `qmatrix_ecpe`: Examination for the Certificate of
-    Proficiency in English (ECPE), Templin, J. and Hoffman, L. (2013).
-  - `items_fractions` / `qmatrix_fractions`: Fraction Addition and
-    Subtraction, Tatsuoka, K. K. (1984).
-  - `items_spatial`: Revised PSVT:R, Culpepper and Balamuta (2013).
+  - Examination for the Certificate of Proficiency in English (ECPE),
+    Templin, J. and Hoffman, L. (2013).
+      - `items_ecpe`, N = 2922 subject responses to J = 28 items.
+      - `qmatrix_ecpe`, J = 28 items and K = 3 traits.
+  - Fraction Addition and Subtraction, Tatsuoka, K. K. (1984).
+      - `items_fractions`: N = 536 subject responses to J = 20 items.
+      - `qmatrix_fractions`: J = 20 items and K = 8 traits.
+  - Revised PSVT:R, Culpepper and Balamuta (2013).
+      - `items_spatial`: N = 516 subject responses to J = 30 items.
