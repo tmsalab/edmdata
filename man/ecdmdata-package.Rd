@@ -6,16 +6,25 @@
 \alias{ecdmdata-package}
 \title{ecdmdata: Data Sets for Psychometric Modeling}
 \description{
-Collection of data sets from assessments that can be used to
-evaluate psychometric models.
+Collection of data sets from assessments that can be used to 
+    evaluate psychometric models.
+}
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://tmsalab.github.io/ecdmdata}
+  \item \url{https://github.com/tmsalab/ecdmdata}
+  \item Report bugs at \url{https://github.com/tmsalab/ecdmdata/issues}
+}
+
 }
 \author{
-\strong{Maintainer}: James Balamuta \email{balamut2@illinois.edu} [copyright holder]
+\strong{Maintainer}: James Joseph Balamuta \email{balamut2@illinois.edu} (0000-0003-2826-8458)
 
 Authors:
 \itemize{
-  \item Steven Culpepper \email{sculpepp@illinois.edu} [copyright holder]
-  \item Jeffrey Douglas \email{jeffdoug@illinois.edu} [copyright holder]
+  \item Steven Andrew Culpepper \email{sculpepp@illinois.edu} (0000-0003-4226-6176)
+  \item Jeffrey Douglas \email{jeffdoug@illinois.edu}
 }
 
 }
