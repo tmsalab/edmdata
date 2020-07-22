@@ -4,7 +4,8 @@
 \name{qmatrix_fractions}
 \alias{qmatrix_fractions}
 \title{Expert Derived Q Matrix for Fractions Data}
-\format{A \code{matrix} with dimensions J = 20 (Items/rows) and K = 8 (Trait/columns).
+\format{
+A \code{matrix} with dimensions J = 20 (Items/rows) and K = 8 (Trait/columns).
 Each entry in the matrix is either 1, if the Item uses the Trait, or 0, if
 the Item does not use the Trait. The traits identified by this \code{matrix} are:
 \itemize{
@@ -40,7 +41,8 @@ The subjects answered the following assessment items:
 \item \code{Item18}: \eqn{4\frac{1}{10}-2\frac{8}{10}}{4*1/10 - 2*8/10}
 \item \code{Item19}: \eqn{4-1\frac{4}{3}}{4 - 1*4/3}
 \item \code{Item20}: \eqn{4\frac{1}{3}-1\frac{5}{3}}{4*1/3 - 1*5/3}
-}}
+}
+}
 \usage{
 qmatrix_fractions
 }

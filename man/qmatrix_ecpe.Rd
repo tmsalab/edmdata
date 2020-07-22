@@ -4,7 +4,8 @@
 \name{qmatrix_ecpe}
 \alias{qmatrix_ecpe}
 \title{Examination for the Certificate of Proficiency in English (ECPE) Expert-Derived Q matrix}
-\format{A \code{matrix} with dimensions J = 28 (items/rows) and K = 3 (skills/columns).
+\format{
+A \code{matrix} with dimensions J = 28 (items/rows) and K = 3 (skills/columns).
 Each entry in the matrix is either 1, if the item uses the skill, or 0, if
 the item does not use the skill. The skills identified by this \code{matrix} are:
 \itemize{
@@ -42,7 +43,8 @@ The subjects answered the following assessment items:
 \item \code{item26}
 \item \code{item27}
 \item \code{item28}
-}}
+}
+}
 \usage{
 qmatrix_ecpe
 }

@@ -4,7 +4,8 @@
 \name{items_fractions}
 \alias{items_fractions}
 \title{Fraction Assessment Item Responses}
-\format{A \code{matrix} consisting of 536 rows and 20 columns. Thus, there are
+\format{
+A \code{matrix} consisting of 536 rows and 20 columns. Thus, there are
 \eqn{N = 536} subject responses to \eqn{J = 20} items.
 
 The subjects answered the following assessment items:
@@ -29,7 +30,8 @@ The subjects answered the following assessment items:
 \item \code{Item18}: \eqn{4\frac{1}{10}-2\frac{8}{10}}{4*1/10 - 2*8/10}
 \item \code{Item19}: \eqn{4-1\frac{4}{3}}{4 - 1*4/3}
 \item \code{Item20}: \eqn{4\frac{1}{3}-1\frac{5}{3}}{4*1/3 - 1*5/3}
-}}
+}
+}
 \usage{
 items_fractions
 }
