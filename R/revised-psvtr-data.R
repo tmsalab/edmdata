@@ -36,5 +36,5 @@
 #' - `Item30`: Subject's Response to Item 30.
 #' @source Choice38 Experiment at UIUC during Spring 2014 - Spring 2015
 #' @author Steven Culpepper and James Balamuta
-"items_spatial"
+"items_revised_psvtr"
 

@@ -4,7 +4,8 @@
 \name{items_ecpe}
 \alias{items_ecpe}
 \title{Examination for the Certificate of Proficiency in English (ECPE) Item Responses}
-\format{A \code{matrix} consisting of 2922 rows and 28 columns. Thus, there are
+\format{
+A \code{matrix} consisting of 2922 rows and 28 columns. Thus, there are
 \eqn{N = 2922} subject responses to \eqn{J = 28} items.
 
 The subjects answered the following assessment items:
@@ -36,7 +37,8 @@ The subjects answered the following assessment items:
 \item \code{item26}
 \item \code{item27}
 \item \code{item28}
-}}
+}
+}
 \usage{
 items_ecpe
 }

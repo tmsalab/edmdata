@@ -16,9 +16,8 @@ knitr::opts_chunk$set(
 # ecdmdata
 
 <!-- badges: start -->
-
 [![R build status](https://github.com/tmsalab/ecdmdata/workflows/R-CMD-check/badge.svg)](https://github.com/tmsalab/ecdmdata/actions)
-[![Package-License](http://img.shields.io/badge/license-GPL%20(%3E=2)-brightgreen.svg?style=flat)](http://www.gnu.org/licenses/gpl-2.0.html)
+[![Package-License](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](https://opensource.org/licenses/MIT)
 <!-- badges: end -->
 
 
@@ -34,16 +33,69 @@ You can install `ecdmdata` from github with:
 devtools::install_github("tmsalab/ecdmdata")
 ```
 
+```{r echo = FALSE}
+library("ecdmdata")
+```
+
+
 ## Data Sets Included
 
 - Examination for the Certificate of Proficiency in English (ECPE) [@Templin:2013:DCMECPE]. 
-    - `items_ecpe`, N = 2922 subject responses to J = 28 items.
-    - `qmatrix_ecpe`, J = 28 items and K = 3 traits. 
+    - `items_ecpe`: N = `r nrow(items_ecpe)` subject responses to J = `r ncol(items_ecpe)` items.
+    - `qmatrix_ecpe`: J = `r nrow(qmatrix_ecpe)` items and K = `r ncol(qmatrix_ecpe)` traits. 
 - Fraction Addition and Subtraction [@Tatsuoka:1984:FractionSubtraction].
-    - `items_fractions`: N = 536 subject responses to J = 20 items.
-    - `qmatrix_fractions`: J = 20 items and K = 8 traits. 
+    - `items_fractions`: N = `r nrow(items_fractions)` subject responses to J = `r ncol(items_fractions)` items.
+    - `qmatrix_fractions`: J = `r nrow(items_fractions)` items and K = `r ncol(items_fractions)` traits. 
 - Revised PSVT:R [@Culpepper:2017:ChoiceIRT].
-    - `items_spatial`: N = 516 subject responses to J = 30 items.
+    - `items_revised_psvtr`: N = `r nrow(items_revised_psvtr)` subject responses
+      to J = `r ncol(items_revised_psvtr)` items.
+- Taylor Manifest Anxiety Scale [@OpenPsychometrics:2012:TaylorAnxietyScale].
+    - `items_taylor_manifest_anxiety_scale`: N = `r nrow(items_taylor_manifest_anxiety_scale)`
+      subject responses to J = `r ncol(items_taylor_manifest_anxiety_scale)` items.
+    
+## Using data in the package
+
+There are two ways to access the data contained within this package.
+
+The first is to load the package itself and type the name of a data set.
+This approach takes advantage of *R*’s lazy loading mechansim, which
+avoids loading the data until it is used in *R* session. For details on
+how lazy loading works, please see [Section 1.17: Lazy
+Loading](https://cran.r-project.org/doc/manuals/r-release/R-ints.html#Lazy-loading)
+of the [R
+Internals](https://cran.r-project.org/doc/manuals/r-release/R-ints.html)
+manual.
+
+``` r
+# Load the `ecdmdata` package
+library("ecdmdata")
+
+# See the first 10 observations of the `items_revised_psvtr` dataset
+head(items_revised_psvtr)
+
+# View the help documentation for `items_revised_psvtr`
+?items_revised_psvtr
+```
+
+The second approach is to use the `data()` command to load data on the
+fly without and type the name of a data set.
+
+``` r
+# Loading `items_revised_psvtr` without a `library(ucidata)` call
+data("items_revised_psvtr", package = "ucidata")
+
+# See the first 10 observations of the `items_revised_psvtr` dataset
+head(items_revised_psvtr)
+
+# View the help documentation for `items_revised_psvtr`
+?items_revised_psvtr
+```
+
+## Build Scripts
+
+Want to see how each data set was imported? Check out the
+[`data-raw`](https://github.com/tmsalab/ecdmdata/tree/master/data-raw)
+folder!
 
 ## Authors
 
