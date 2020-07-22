@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://tmsalab.github.io/ecdmdata/index.html</loc>
+  </url>
+  <url>
+    <loc>https://tmsalab.github.io/ecdmdata/reference/ecdmdata-package.html</loc>
+  </url>
+  <url>
+    <loc>https://tmsalab.github.io/ecdmdata/reference/items_ecpe.html</loc>
+  </url>
+  <url>
+    <loc>https://tmsalab.github.io/ecdmdata/reference/items_fractions.html</loc>
+  </url>
+  <url>
+    <loc>https://tmsalab.github.io/ecdmdata/reference/items_revised_psvtr.html</loc>
+  </url>
+  <url>
+    <loc>https://tmsalab.github.io/ecdmdata/reference/items_taylor_manifest_anxiety_scale.html</loc>
+  </url>
+  <url>
+    <loc>https://tmsalab.github.io/ecdmdata/reference/qmatrix_ecpe.html</loc>
+  </url>
+  <url>
+    <loc>https://tmsalab.github.io/ecdmdata/reference/qmatrix_fractions.html</loc>
+  </url>
+</urlset>
