@@ -1,4 +1,20 @@
+url: https://tmsalab.github.io/ecdmdata
+
+development:
+  mode: auto
+
+navbar:
+  type: default
+  left:
+  - text: Home
+    href: index.html
+  - text: Reference
+    href: reference/index.html
+  - text: News
+    menu:
+    - text: "Change log"
+      href: news/index.html
+
 template:
   params:
-    bootswatch: cerulean
     ganalytics: UA-151562227-1
