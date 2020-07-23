@@ -100,7 +100,7 @@ folder!
 
 ## Authors
 
-James Joseph Balamuta and Steven Andrew Culpepper
+James Joseph Balamuta, Steven Andrew Culpepper, Jeffrey Douglas
 
 ## Citing the `ecdmdata` package
 
