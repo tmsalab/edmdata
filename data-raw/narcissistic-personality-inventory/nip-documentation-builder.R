@@ -56,7 +56,15 @@ questions_split = stringr::str_split(highlight_question_id,
 #     "2=", "Option 2: "
 #   )
 
-writeLines(
+writeLines("#' @format
+#' A `matrix` consisting of **`r nrow(ecdmdata::items_narcissistic_personality_inventory)`**
+#' rows and **`r ncol(ecdmdata::items_narcissistic_personality_inventory)`** columns.
+#'
+#' Items with their desired response bolded:",
+ "man-roxygen/var-docs-narcissistic-personality-inventory.R"
+)
+
+write(
   paste0("#' - ", sapply(questions_split, paste, collapse="\n#'    - "), collapse="\n"),
-  "man-roxygen/var-docs-narcissistic-personality-inventory.R"
+  "man-roxygen/var-docs-narcissistic-personality-inventory.R", append=TRUE
   )
