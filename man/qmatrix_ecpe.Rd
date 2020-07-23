@@ -52,8 +52,23 @@ qmatrix_ecpe
 Examination for the Certificate of Proficiency in English (ECPE) Expert-Derived Q matrix
 }
 \references{
-Templin, J. and Hoffman, L. (2013), Obtaining Diagnostic Classification Model
-Estimates Using Mplus. Educational Measurement: Issues and Practice, 32: 37-50.
-\url{doi:10.1111/emip.12010}
+\strong{Data originated from:}
+\itemize{
+\item Templin, J., & Bradshaw, L. (2014). Hierarchical diagnostic
+classification models: A family of models for estimating and testing
+attribute hierarchies. \emph{Psychometrika}, \emph{79}(2), 317–339.
+\url{https://doi.org/10.1007/s11336-013-9362-0}
+\item Templin, J., & Hoffman, L. (2013). Obtaining diagnostic classification
+model estimates using mplus. \emph{Educational Measurement: Issues and
+Practice}, \emph{32}(2), 37–50. \url{https://doi.org/10.1111/emip.12010}
+}
+
+\strong{Data used in:}
+\itemize{
+\item Culpepper, S. A., & Chen, Y. (2019). Development and application of an
+exploratory reduced reparameterized unified model. \emph{Journal of
+Educational and Behavioral Statistics}, \emph{44}(1), 3–24.
+\url{https://doi.org/10.3102/1076998618791306}
+}
 }
 \keyword{datasets}
