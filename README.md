@@ -28,13 +28,14 @@ devtools::install_github("tmsalab/ecdmdata")
     (Templin and Hoffman 2013).
       - `items_ecpe`: N = 2922 subject responses to J = 28 items.
       - `qmatrix_ecpe`: J = 28 items and K = 3 traits.
-  - Fraction Addition and Subtraction (Tatsuoka 1984).
+  - Fraction Addition and Subtraction (Tatsuoka 1984, 2002).
       - `items_fractions`: N = 536 subject responses to J = 20 items.
       - `qmatrix_fractions`: J = 536 items and K = 20 traits.
-  - Revised PSVT:R (Culpepper and Balamuta 2017).
+  - Revised PSVT:R (Yoon 2011; Culpepper and Balamuta 2017).
       - `items_revised_psvtr`: N = 516 subject responses to J = 30
         items.
-  - Taylor Manifest Anxiety Scale (OpenPsychometrics, n.d.b).
+  - Taylor Manifest Anxiety Scale (Taylor 1953; OpenPsychometrics,
+    n.d.b).
       - `items_taylor_manifest_anxiety_scale`: N = 4468 subject
         responses to J = 50 items.
   - Narcissistic Personality Inventory (Raskin and Terry 1988;
@@ -139,10 +140,25 @@ Construct Validity.” *Journal of Personality and Social Psychology* 54
 
 </div>
 
+<div id="ref-Tatsuoka:2002:FractionSubtractionRelease">
+
+Tatsuoka, Curtis. 2002. “Data Analytic Methods for Latent Partially
+Ordered Classification Models.” *Journal of the Royal Statistical
+Society: Series C (Applied Statistics)* 51 (3): 337–50.
+
+</div>
+
 <div id="ref-Tatsuoka:1984:FractionSubtraction">
 
 Tatsuoka, Kikumi K. 1984. “Analysis of Errors in Fraction Addition and
 Subtraction Problems. Final Report.”
+
+</div>
+
+<div id="ref-Taylor:1953:TMI">
+
+Taylor, Janet A. 1953. “A Personality Scale of Manifest Anxiety.” *The
+Journal of Abnormal and Social Psychology* 48 (2): 285.
 
 </div>
 
@@ -152,6 +168,14 @@ Templin, Jonathan, and Lesa Hoffman. 2013. “Obtaining Diagnostic
 Classification Model Estimates Using Mplus.” *Educational Measurement:
 Issues and Practice* 32 (2): 37–50.
 <https://doi.org/10.1111/emip.12010>.
+
+</div>
+
+<div id="ref-Yoon:2011:RevisedPSVTR">
+
+Yoon, So Yoon. 2011. *Psychometric Properties of the Revised Purdue
+Spatial Visualization Tests: Visualization of Rotations (the Revised
+Psvt: R)*. Purdue University.
 
 </div>
 
