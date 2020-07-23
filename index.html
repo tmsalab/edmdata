@@ -45,22 +45,10 @@
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
 <li>
-  <a href="index.html">Home</a>
-</li>
-<li>
   <a href="reference/index.html">Reference</a>
 </li>
-<li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    News
-     
-    <span class="caret"></span>
-  </a>
-  <ul class="dropdown-menu" role="menu">
 <li>
-      <a href="news/index.html">Change log</a>
-    </li>
-  </ul>
+  <a href="news/index.html">Changelog</a>
 </li>
       </ul>
 <ul class="nav navbar-nav navbar-right">
@@ -83,8 +71,7 @@
       </header><div class="row">
   <div class="contents col-md-9">
 <div id="ecdmdata" class="section level1">
-<div class="page-header"><h1 class="hasAnchor">
-<a href="#ecdmdata" class="anchor"></a>ecdmdata</h1></div>
+
 <!-- badges: start -->
 
 <p>The goal of <code>ecdmdata</code> is to provide a set of an example assessment data sets for psychometric modeling.</p>
@@ -99,35 +86,41 @@
 <h2 class="hasAnchor">
 <a href="#data-sets-included" class="anchor"></a>Data Sets Included</h2>
 <ul>
-<li>Examination for the Certificate of Proficiency in English (ECPE) (Templin and Hoffman 2013).
+<li>Examination for the Certificate of Proficiency in English (ECPE) (Templin &amp; Bradshaw, 2014; Templin &amp; Hoffman, 2013).
 <ul>
 <li>
 <code>items_ecpe</code>: N = 2922 subject responses to J = 28 items.</li>
 <li>
 <code>qmatrix_ecpe</code>: J = 28 items and K = 3 traits.</li>
+<li>
+<strong>TMSA Papers:</strong> Culpepper &amp; Chen (2019)</li>
 </ul>
 </li>
-<li>Fraction Addition and Subtraction (Tatsuoka 1984, 2002).
+<li>Fraction Addition and Subtraction (Tatsuoka, 2002, 1984).
 <ul>
 <li>
 <code>items_fractions</code>: N = 536 subject responses to J = 20 items.</li>
 <li>
 <code>qmatrix_fractions</code>: J = 536 items and K = 20 traits.</li>
+<li>
+<strong>TMSA Papers:</strong> Chen et al. (2020), Culpepper (2019), Culpepper &amp; Chen (2019), Chen et al. (2018)</li>
 </ul>
 </li>
-<li>Revised PSVT:R (Yoon 2011; Culpepper and Balamuta 2017).
+<li>Revised PSVT:R (Culpepper &amp; Balamuta, 2017; Yoon, 2011).
 <ul>
 <li>
 <code>items_revised_psvtr</code>: N = 516 subject responses to J = 30 items.</li>
+<li>
+<strong>TMSA Papers:</strong> Culpepper &amp; Balamuta (2017), Culpepper (2015)</li>
 </ul>
 </li>
-<li>Taylor Manifest Anxiety Scale (Taylor 1953; OpenPsychometrics, n.d.b).
+<li>Taylor Manifest Anxiety Scale (OpenPsychometrics, 2012; Taylor, 1953).
 <ul>
 <li>
 <code>items_taylor_manifest_anxiety_scale</code>: N = 4468 subject responses to J = 50 items.</li>
 </ul>
 </li>
-<li>Narcissistic Personality Inventory (Raskin and Terry 1988; OpenPsychometrics, n.d.a).
+<li>Narcissistic Personality Inventory (OpenPsychometrics, 2013; Raskin &amp; Terry, 1988).
 <ul>
 <li>
 <code>items_narcissistic_personality_inventory</code>: N = 11243 subject responses to J = 40 items.</li>
@@ -166,7 +159,7 @@
 <div id="authors" class="section level2">
 <h2 class="hasAnchor">
 <a href="#authors" class="anchor"></a>Authors</h2>
-<p>James Joseph Balamuta and Steven Andrew Culpepper</p>
+<p>James Joseph Balamuta, Steven Andrew Culpepper, Jeffrey Douglas</p>
 </div>
 <div id="citing-the-ecdmdata-package" class="section level2">
 <h2 class="hasAnchor">
@@ -183,32 +176,50 @@
 <h2 class="hasAnchor">
 <a href="#references" class="anchor"></a>References</h2>
 <div id="refs" class="references">
-<div id="ref-Culpepper:2017:ChoiceIRT">
-<p>Culpepper, Steven Andrew, and James Joseph Balamuta. 2017. “A Hierarchical Model for Accuracy and Choice on Standardized Tests.” <em>Psychometrika</em> 82 (3): 820–45.</p>
+<div id="ref-Chen:2018:EDINA">
+<p>Chen, Y., Culpepper, S. A., Chen, Y., &amp; Douglas, J. (2018). Bayesian estimation of the dina q matrix. <em>Psychometrika</em>, <em>83</em>(1), 89–108. <a href="https://doi.org/10.1007/s11336-017-9579-4" class="uri">https://doi.org/10.1007/s11336-017-9579-4</a></p>
 </div>
-<div id="ref-OpenPsychometrics:2013:NPI">
-<p>OpenPsychometrics. n.d.a. <em>Narcissistic Personality Inventory</em>. <a href="http://openpsychometrics.org/_rawdata/NPI.zip" class="uri">http://openpsychometrics.org/_rawdata/NPI.zip</a>.</p>
+<div id="ref-Chen:2020:SLCMDC">
+<p>Chen, Y., Culpepper, S. A., &amp; Liang, F. (2020). A sparse latent class model for cognitive diagnosis. <em>Psychometrika</em>, 1–33. <a href="https://doi.org/10.1007/s11336-019-09693-2" class="uri">https://doi.org/10.1007/s11336-019-09693-2</a></p>
+</div>
+<div id="ref-Culpepper:2015:BayesianDINA">
+<p>Culpepper, S. A. (2015). Bayesian estimation of the dina model with gibbs sampling. <em>Journal of Educational and Behavioral Statistics</em>, <em>40</em>(5), 454–476. <a href="https://doi.org/10.3102/1076998615595403" class="uri">https://doi.org/10.3102/1076998615595403</a></p>
+</div>
+<div id="ref-Culpepper:2019:EGDM">
+<p>Culpepper, S. A. (2019). Estimating the cognitive diagnosis <span class="math inline"><em>Q</em></span> matrix with expert knowledge: Application to the fraction-subtraction dataset. <em>Psychometrika</em>, <em>84</em>(2), 333–357. <a href="https://doi.org/10.1007/s11336-018-9643-8" class="uri">https://doi.org/10.1007/s11336-018-9643-8</a></p>
+</div>
+<div id="ref-Culpepper:2017:ChoiceIRT">
+<p>Culpepper, S. A., &amp; Balamuta, J. J. (2017). A Hierarchical Model for Accuracy and Choice on Standardized Tests. <em>Psychometrika</em>, <em>82</em>(3), 820–845. <a href="https://doi.org/10.1007/s11336-015-9484-7" class="uri">https://doi.org/10.1007/s11336-015-9484-7</a></p>
+</div>
+<div id="ref-Culpepper:2019:ErRUM">
+<p>Culpepper, S. A., &amp; Chen, Y. (2019). Development and application of an exploratory reduced reparameterized unified model. <em>Journal of Educational and Behavioral Statistics</em>, <em>44</em>(1), 3–24. <a href="https://doi.org/10.3102/1076998618791306" class="uri">https://doi.org/10.3102/1076998618791306</a></p>
 </div>
 <div id="ref-OpenPsychometrics:2012:TaylorAnxietyScale">
-<p>———. n.d.b. <em>Taylor Manifest Anxiety Scale</em>. <a href="http://openpsychometrics.org/_rawdata/TMA.zip" class="uri">http://openpsychometrics.org/_rawdata/TMA.zip</a>.</p>
+<p>OpenPsychometrics. (2012). <em>Taylor manifest anxiety scale</em>. <a href="http://openpsychometrics.org/_rawdata/TMA.zip" class="uri">http://openpsychometrics.org/_rawdata/TMA.zip</a></p>
+</div>
+<div id="ref-OpenPsychometrics:2013:NPI">
+<p>OpenPsychometrics. (2013). <em>Narcissistic personality inventory</em>. <a href="http://openpsychometrics.org/_rawdata/NPI.zip" class="uri">http://openpsychometrics.org/_rawdata/NPI.zip</a></p>
 </div>
 <div id="ref-Raskin:1988:NPI">
-<p>Raskin, Robert, and Howard Terry. 1988. “A Principal-Components Analysis of the Narcissistic Personality Inventory and Further Evidence of Its Construct Validity.” <em>Journal of Personality and Social Psychology</em> 54 (5): 890.</p>
+<p>Raskin, R., &amp; Terry, H. (1988). A principal-components analysis of the narcissistic personality inventory and further evidence of its construct validity. <em>Journal of Personality and Social Psychology</em>, <em>54</em>(5), 890.</p>
 </div>
 <div id="ref-Tatsuoka:2002:FractionSubtractionRelease">
-<p>Tatsuoka, Curtis. 2002. “Data Analytic Methods for Latent Partially Ordered Classification Models.” <em>Journal of the Royal Statistical Society: Series C (Applied Statistics)</em> 51 (3): 337–50.</p>
+<p>Tatsuoka, C. (2002). Data analytic methods for latent partially ordered classification models. <em>Journal of the Royal Statistical Society: Series C (Applied Statistics)</em>, <em>51</em>(3), 337–350. <a href="https://doi.org/10.1111/1467-9876.00272" class="uri">https://doi.org/10.1111/1467-9876.00272</a></p>
 </div>
 <div id="ref-Tatsuoka:1984:FractionSubtraction">
-<p>Tatsuoka, Kikumi K. 1984. “Analysis of Errors in Fraction Addition and Subtraction Problems. Final Report.”</p>
+<p>Tatsuoka, K. K. (1984). <em>Analysis of errors in fraction addition and subtraction problems. Final report.</em></p>
 </div>
 <div id="ref-Taylor:1953:TMI">
-<p>Taylor, Janet A. 1953. “A Personality Scale of Manifest Anxiety.” <em>The Journal of Abnormal and Social Psychology</em> 48 (2): 285.</p>
+<p>Taylor, J. A. (1953). A personality scale of manifest anxiety. <em>The Journal of Abnormal and Social Psychology</em>, <em>48</em>(2), 285.</p>
+</div>
+<div id="ref-Templin:2014:HierarchicalDCM">
+<p>Templin, J., &amp; Bradshaw, L. (2014). Hierarchical diagnostic classification models: A family of models for estimating and testing attribute hierarchies. <em>Psychometrika</em>, <em>79</em>(2), 317–339. <a href="https://doi.org/10.1007/s11336-013-9362-0" class="uri">https://doi.org/10.1007/s11336-013-9362-0</a></p>
 </div>
 <div id="ref-Templin:2013:DCMECPE">
-<p>Templin, Jonathan, and Lesa Hoffman. 2013. “Obtaining Diagnostic Classification Model Estimates Using Mplus.” <em>Educational Measurement: Issues and Practice</em> 32 (2): 37–50. <a href="https://doi.org/10.1111/emip.12010" class="uri">https://doi.org/10.1111/emip.12010</a>.</p>
+<p>Templin, J., &amp; Hoffman, L. (2013). Obtaining diagnostic classification model estimates using mplus. <em>Educational Measurement: Issues and Practice</em>, <em>32</em>(2), 37–50. <a href="https://doi.org/10.1111/emip.12010" class="uri">https://doi.org/10.1111/emip.12010</a></p>
 </div>
 <div id="ref-Yoon:2011:RevisedPSVTR">
-<p>Yoon, So Yoon. 2011. <em>Psychometric Properties of the Revised Purdue Spatial Visualization Tests: Visualization of Rotations (the Revised Psvt: R)</em>. Purdue University.</p>
+<p>Yoon, S. Y. (2011). <em>Psychometric properties of the revised purdue spatial visualization tests: Visualization of rotations (the revised psvt: R)</em>. Purdue University.</p>
 </div>
 </div>
 </div>
@@ -235,9 +246,12 @@
 <div class="developers">
 <h2>Developers</h2>
 <ul class="list-unstyled">
-<li>James Joseph Balamuta <br><small class="roles"> Author, maintainer </small> <a href="https://orcid.org/0000-0003-2826-8458" target="orcid.widget" aria-label="ORCID"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
-<li>Steven Andrew Culpepper <br><small class="roles"> Author </small> <a href="https://orcid.org/0000-0003-4226-6176" target="orcid.widget" aria-label="ORCID"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
-<li>Jeffrey Douglas <br><small class="roles"> Author </small>  </li>
+<li>
+<a href="https://thecoatlessprofessor.com">James Joseph Balamuta</a> <br><small class="roles"> Author, maintainer </small> <a href="https://orcid.org/0000-0003-2826-8458" target="orcid.widget" aria-label="ORCID"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
+<li>
+<a href="http://publish.illinois.edu/sculpepper/">Steven Andrew Culpepper</a> <br><small class="roles"> Author </small> <a href="https://orcid.org/0000-0003-4226-6176" target="orcid.widget" aria-label="ORCID"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
+<li>
+<a href="http://publish.illinois.edu/jeffdoug/">Jeffrey Douglas</a> <br><small class="roles"> Author </small>  </li>
 </ul>
 </div>
 
@@ -253,7 +267,7 @@
 
 
       <footer><div class="copyright">
-  <p>Developed by James Joseph Balamuta, Steven Andrew Culpepper, Jeffrey Douglas.</p>
+  <p>Developed by <a href="https://thecoatlessprofessor.com">James Joseph Balamuta</a>, <a href="http://publish.illinois.edu/sculpepper/">Steven Andrew Culpepper</a>, <a href="http://publish.illinois.edu/jeffdoug/">Jeffrey Douglas</a>.</p>
 </div>
 
 <div class="pkgdown">
