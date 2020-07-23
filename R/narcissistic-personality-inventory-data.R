@@ -1,11 +1,7 @@
 #' Narcissistic Personality Inventory Item Responses
 #'
-#' @format
-#' A `matrix` consisting of `r nrow(items_narcissistic_personality_inventory)` rows and
-#' `r ncol(items_narcissistic_personality_inventory)` columns.
-#'
-#' Items alongside their desired response:
 #' @template var-docs-narcissistic-personality-inventory
+#'
 #' @section Data pre-processing:
 #' We have applied list-wise deletion during pre-processing to remove any
 #' observations with missing values from the data set.
