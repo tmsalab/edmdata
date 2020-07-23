@@ -36,19 +36,18 @@ devtools::install_github("tmsalab/ecdmdata")
 library("ecdmdata")
 ```
 
-
 ## Data Sets Included
 
 - Examination for the Certificate of Proficiency in English (ECPE) [@Templin:2013:DCMECPE]. 
     - `items_ecpe`: N = `r nrow(items_ecpe)` subject responses to J = `r ncol(items_ecpe)` items.
     - `qmatrix_ecpe`: J = `r nrow(qmatrix_ecpe)` items and K = `r ncol(qmatrix_ecpe)` traits. 
-- Fraction Addition and Subtraction [@Tatsuoka:1984:FractionSubtraction].
+- Fraction Addition and Subtraction [@Tatsuoka:1984:FractionSubtraction; @Tatsuoka:2002:FractionSubtractionRelease].
     - `items_fractions`: N = `r nrow(items_fractions)` subject responses to J = `r ncol(items_fractions)` items.
     - `qmatrix_fractions`: J = `r nrow(items_fractions)` items and K = `r ncol(items_fractions)` traits. 
-- Revised PSVT:R [@Culpepper:2017:ChoiceIRT].
+- Revised PSVT:R [@Yoon:2011:RevisedPSVTR; @Culpepper:2017:ChoiceIRT].
     - `items_revised_psvtr`: N = `r nrow(items_revised_psvtr)` subject responses
       to J = `r ncol(items_revised_psvtr)` items.
-- Taylor Manifest Anxiety Scale [@OpenPsychometrics:2012:TaylorAnxietyScale].
+- Taylor Manifest Anxiety Scale [@Taylor:1953:TMI; @OpenPsychometrics:2012:TaylorAnxietyScale].
     - `items_taylor_manifest_anxiety_scale`: N = `r nrow(items_taylor_manifest_anxiety_scale)`
       subject responses to J = `r ncol(items_taylor_manifest_anxiety_scale)` items.
 - Narcissistic Personality Inventory [@Raskin:1988:NPI; @OpenPsychometrics:2013:NPI].
