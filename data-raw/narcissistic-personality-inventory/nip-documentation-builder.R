@@ -57,6 +57,6 @@ questions_split = stringr::str_split(highlight_question_id,
 #   )
 
 writeLines(
-  paste0("\n#' - ", sapply(questions_split, paste, collapse="\n#'    - "), collapse=""),
+  paste0("#' - ", sapply(questions_split, paste, collapse="\n#'    - "), collapse="\n"),
   "man-roxygen/var-docs-narcissistic-personality-inventory.R"
   )

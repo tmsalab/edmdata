@@ -1,4 +1,3 @@
-
 #' - `Q1`
 #'    - **Option 1**: I have a natural talent for influencing people
 #'    - Option 2: I am not good at influencing people.
