@@ -1,7 +1,11 @@
+## Template generation ----
+template_location = file.path("man-roxygen", "var-docs-narcissistic-personality-inventory.R")
+data_raw_location = file.path("data-raw", "narcissistic-personality-inventory")
+
 ## Process answers ----
+nip_raw_answers = readLines(file.path(data_raw_location, "nips-scoring.txt"))
 
-nip_raw_answers = readLines("data-raw/narcissistic-personality-inventory/nips-scoring.txt")
-
+# Convert scoring rules to detect correct answers.
 nip_answers = stringr::str_replace(nip_answers,
                      "\\(\\(int\\) \\$_POST\\['Q[0-9]+'\\] == ([1-2]).*",
                      "\\1")
@@ -9,12 +13,12 @@ nip_answers = stringr::str_replace(nip_answers,
 
 ## Process questions ----
 
-nip_questions = readLines("data-raw/narcissistic-personality-inventory/raw-npi-questions.txt")
+nip_questions = readLines(file.path(data_raw_location, "raw-npi-questions.txt"))
 
 ## Inject bold for score detection
 highlight_question_answers = stringr::str_replace(
   nip_questions,
-  pattern = paste0(nip_answers,"="),
+  pattern = paste0(nip_answers, "="),
   replacement = paste0("**Option ", nip_answers, "**: ")
   )
 
@@ -31,7 +35,7 @@ highlight_question_id = stringr::str_replace(
   replacement = "`\\1`"
 )
 
-
+## Breakup single-line data to list-form ----
 
 # Sample data:
 # Q1. 1=I have a natural talent for influencing people. 2=I am not good at influencing people.
@@ -44,27 +48,17 @@ highlight_question_id = stringr::str_replace(
 questions_split = stringr::str_split(highlight_question_id,
                                      "\\.[[:space:]]?", n = 3)
 
-
-## Old, not used
-## Convert 1= and 2= to Options
-# questions_labelled = questions_split %>% lapply(
-#   stringr::str_replace_all,
-#   "1=", "Option 1: "
-# ) %>%
-#   lapply(
-#     stringr::str_replace_all,
-#     "2=", "Option 2: "
-#   )
-
+## Write to documentation template ----
 writeLines("#' @format
 #' A `matrix` consisting of **`r nrow(ecdmdata::items_narcissistic_personality_inventory)`**
 #' rows and **`r ncol(ecdmdata::items_narcissistic_personality_inventory)`** columns.
 #'
 #' Items with their desired response bolded:",
- "man-roxygen/var-docs-narcissistic-personality-inventory.R"
+  template_location
 )
 
 write(
   paste0("#' - ", sapply(questions_split, paste, collapse="\n#'    - "), collapse="\n"),
-  "man-roxygen/var-docs-narcissistic-personality-inventory.R", append=TRUE
+  template_location,
+  append = TRUE
   )
