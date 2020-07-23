@@ -59,7 +59,7 @@ Illinois, Computer-Based Education Research Laboratory (CERL).
 
 \strong{Data used in:}
 \itemize{
-\item Chen, Y., Culpepper, S., & Liang, F. (2020). A sparse latent class model
+\item Chen, Y., Culpepper, S. A., & Liang, F. (2020). A sparse latent class model
 for cognitive diagnosis. \emph{Psychometrika}, 1–33.
 \url{https://doi.org/10.1007/s11336-019-09693-2}
 \item Culpepper, S. A. (2019). Estimating the cognitive diagnosis \eqn{Q} matrix

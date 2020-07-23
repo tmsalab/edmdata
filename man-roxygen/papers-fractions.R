@@ -12,7 +12,7 @@
 #'
 #' **Data used in:**
 #'
-#' - Chen, Y., Culpepper, S., & Liang, F. (2020). A sparse latent class model
+#' - Chen, Y., Culpepper, S. A., & Liang, F. (2020). A sparse latent class model
 #'   for cognitive diagnosis. *Psychometrika*, 1–33.
 #'   <https://doi.org/10.1007/s11336-019-09693-2>
 #' - Culpepper, S. A. (2019). Estimating the cognitive diagnosis \eqn{Q} matrix

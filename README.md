@@ -28,12 +28,12 @@ devtools::install_github("tmsalab/ecdmdata")
     (Templin & Bradshaw, 2014; Templin & Hoffman, 2013).
       - `items_ecpe`: N = 2922 subject responses to J = 28 items.
       - `qmatrix_ecpe`: J = 28 items and K = 3 traits.
-      - **TMSA Papers:** S. A. Culpepper & Chen (2019)
+      - **TMSA Papers:** Culpepper & Chen (2019)
   - Fraction Addition and Subtraction (Tatsuoka, 2002, 1984).
       - `items_fractions`: N = 536 subject responses to J = 20 items.
       - `qmatrix_fractions`: J = 536 items and K = 20 traits.
-      - **TMSA Papers:** Chen et al. (2020), S. A. Culpepper (2019), S.
-        A. Culpepper & Chen (2019), Chen et al. (2018)
+      - **TMSA Papers:** Chen et al. (2020), Culpepper (2019), Culpepper
+        & Chen (2019), Chen et al. (2018)
   - Revised PSVT:R (Culpepper & Balamuta, 2017; Yoon, 2011).
       - `items_revised_psvtr`: N = 516 subject responses to J = 30
         items.
@@ -123,8 +123,8 @@ estimation of the dina q matrix. *Psychometrika*, *83*(1), 89–108.
 
 <div id="ref-Chen:2020:SLCMDC">
 
-Chen, Y., Culpepper, S., & Liang, F. (2020). A sparse latent class model
-for cognitive diagnosis. *Psychometrika*, 1–33.
+Chen, Y., Culpepper, S. A., & Liang, F. (2020). A sparse latent class
+model for cognitive diagnosis. *Psychometrika*, 1–33.
 <https://doi.org/10.1007/s11336-019-09693-2>
 
 </div>
