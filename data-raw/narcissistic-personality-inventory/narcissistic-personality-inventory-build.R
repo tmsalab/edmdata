@@ -72,8 +72,8 @@ transformed_npi_scale = raw_npi_scale
 # to:
 # transformed_npi_scale\1 = 1*(raw_npi_scale\1 \2)
 #
-# Note: Score calculation rules were derived from
-# Table 1 of Taylor, J. (1953). "A personality scale of manifest anxiety"
+# Not sure where exactly the score rules were derived from. Not covered in the
+# 1988 Hall/Raskin paper.
 transformed_npi_scale['Q1'] = 1*(raw_npi_scale['Q1'] == 1)
 transformed_npi_scale['Q2'] = 1*(raw_npi_scale['Q2'] == 1)
 transformed_npi_scale['Q3'] = 1*(raw_npi_scale['Q3'] == 1)
