@@ -20,7 +20,6 @@ knitr::opts_chunk$set(
 [![Package-License](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](https://opensource.org/licenses/MIT)
 <!-- badges: end -->
 
-
 The goal of `ecdmdata` is to provide a set of an example assessment data sets
 for psychometric modeling.
 
@@ -52,6 +51,9 @@ library("ecdmdata")
 - Taylor Manifest Anxiety Scale [@OpenPsychometrics:2012:TaylorAnxietyScale].
     - `items_taylor_manifest_anxiety_scale`: N = `r nrow(items_taylor_manifest_anxiety_scale)`
       subject responses to J = `r ncol(items_taylor_manifest_anxiety_scale)` items.
+- Narcissistic Personality Inventory [@Raskin:1988:NPI; @OpenPsychometrics:2013:NPI].
+    - `items_narcissistic_personality_inventory`: N = `r nrow(items_narcissistic_personality_inventory)`
+      subject responses to J = `r ncol(items_narcissistic_personality_inventory)` items.
     
 ## Using data in the package
 
