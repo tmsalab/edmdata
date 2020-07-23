@@ -34,9 +34,13 @@ devtools::install_github("tmsalab/ecdmdata")
   - Revised PSVT:R (Culpepper and Balamuta 2017).
       - `items_revised_psvtr`: N = 516 subject responses to J = 30
         items.
-  - Taylor Manifest Anxiety Scale (OpenPsychometrics, n.d.).
-      - `items_taylor_anxiety_scale`: N = 4468 subject responses to J =
-        50 items.
+  - Taylor Manifest Anxiety Scale (OpenPsychometrics, n.d.b).
+      - `items_taylor_manifest_anxiety_scale`: N = 4468 subject
+        responses to J = 50 items.
+  - Narcissistic Personality Inventory (Raskin and Terry 1988;
+    OpenPsychometrics, n.d.a).
+      - `items_narcissistic_personality_inventory`: N = 11243 subject
+        responses to J = 40 items.
 
 ## Using data in the package
 
@@ -112,10 +116,26 @@ Hierarchical Model for Accuracy and Choice on Standardized Tests.”
 
 </div>
 
+<div id="ref-OpenPsychometrics:2013:NPI">
+
+OpenPsychometrics. n.d.a. *Narcissistic Personality Inventory*.
+<http://openpsychometrics.org/_rawdata/NPI.zip>.
+
+</div>
+
 <div id="ref-OpenPsychometrics:2012:TaylorAnxietyScale">
 
-OpenPsychometrics. n.d. *Taylor Manifest Anxiety Scale*.
+———. n.d.b. *Taylor Manifest Anxiety Scale*.
 <http://openpsychometrics.org/_rawdata/TMA.zip>.
+
+</div>
+
+<div id="ref-Raskin:1988:NPI">
+
+Raskin, Robert, and Howard Terry. 1988. “A Principal-Components Analysis
+of the Narcissistic Personality Inventory and Further Evidence of Its
+Construct Validity.” *Journal of Personality and Social Psychology* 54
+(5): 890.
 
 </div>
 
