@@ -1,20 +1,62 @@
 url: https://tmsalab.github.io/ecdmdata
 
-development:
-  mode: auto
-
-navbar:
-  type: default
-  left:
-  - text: Home
-    href: index.html
-  - text: Reference
-    href: reference/index.html
-  - text: News
-    menu:
-    - text: "Change log"
-      href: news/index.html
-
 template:
   params:
     ganalytics: UA-151562227-1
+
+home:
+  strip_header: true
+
+development:
+  mode: auto
+
+authors:
+  James Joseph Balamuta:
+    href: https://thecoatlessprofessor.com
+  Steven Andrew Culpepper:
+    href: http://publish.illinois.edu/sculpepper/
+  Jeffrey Douglas:
+    href: http://publish.illinois.edu/jeffdoug/
+
+reference:
+- title: Examination for the Certificate of Proficiency in English (ECPE)
+  desc: >
+    Data on ECPE grammar from [Templin and Hoffman (2013)](https://doi.org/10.1111/emip.12010)
+    and [Templin and Bradshaw (2014)](https://doi.org/10.1007/s11336-013-9362-0)
+    used in [Culpepper and Chen (2019)](https://doi.org/10.3102/1076998618791306).
+  contents:
+  - items_ecpe
+  - qmatrix_ecpe
+- title: Fraction Addition and Subtraction
+  desc: >
+    Data exploring errors in Fraction Addition and Subtraction Problems
+    from [Tatsuoka (1984, 2002)](https://doi.org/10.1111/1467-9876.00272) used in
+    [Chen et al. (2020)](https://doi.org/10.1007/s11336-019-09693-2),
+    [Culpepper (2019)](https://doi.org/10.1007/s11336-018-9643-8),
+    [Culpepper and Chen (2019)](https://doi.org/10.3102/1076998618791306),
+    and [Chen et al. (2018)](https://doi.org/10.1007/s11336-017-9579-4)
+  contents:
+  - items_fractions
+  - qmatrix_fractions
+- title: "Revised Purdue Spatial Visualization Test: Visualization of Rotations (Revised PSVT:R)"
+  desc: >
+    Data collected using Revised PSVT:R by [Yoon (2011)](https://docs.lib.purdue.edu/dissertations/AAI3480934/)
+    from [Culpepper and Balamuta (2017)](https://doi.org/10.1007/s11336-015-9484-7)
+    used in [Culpepper (2015)](https://doi.org/10.3102/1076998615595403) and
+    [Culpepper and Balamuta (2017)](https://doi.org/10.1007/s11336-015-9484-7)
+  contents:
+  - items_revised_psvtr
+- title: OpenPsychometrics
+  desc: >
+    Data sets compiled from <https://openpsychometrics.org/_rawdata/>. These
+    data sets have been processed to meet definitions for use in psychometric
+    applications. Most notably, any observations with missing data have been removed
+    and data has been transformed to ensure the item matrix contains correct/incorrect
+    marking.
+  contents:
+  - items_narcissistic_personality_inventory
+  - items_taylor_manifest_anxiety_scale
+
+navbar:
+  components:
+    home: ~
