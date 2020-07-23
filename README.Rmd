@@ -36,7 +36,6 @@ devtools::install_github("tmsalab/ecdmdata")
 library("ecdmdata")
 ```
 
-
 ## Data Sets Included
 
 - Examination for the Certificate of Proficiency in English (ECPE) [@Templin:2013:DCMECPE]. 

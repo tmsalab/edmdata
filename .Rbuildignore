@@ -10,3 +10,4 @@
 ^pkgdown$
 ^\.github$
 ^bibliography\.bib$
+^LICENSE\.md$
