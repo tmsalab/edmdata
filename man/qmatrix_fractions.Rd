@@ -5,8 +5,16 @@
 \alias{qmatrix_fractions}
 \title{Expert Derived Q Matrix for Fractions Data}
 \format{
-A \code{matrix} with dimensions J = 20 (Items/rows) and K = 8 (Trait/columns).
-Each entry in the matrix is either 1, if the Item uses the Trait, or 0, if
+An object of class \code{matrix} (inherits from \code{array}) with 20 rows and 8 columns.
+}
+\usage{
+qmatrix_fractions
+}
+\description{
+Expert Derived Q Matrix for Fractions Data
+}
+\details{
+Each entry in the matrix is either \code{1}, if the Item uses the Trait, or \code{0}, if
 the Item does not use the Trait. The traits identified by this \code{matrix} are:
 \itemize{
 \item \code{Trait1}: Convert a whole number to a fraction,
@@ -42,12 +50,6 @@ The subjects answered the following assessment items:
 \item \code{Item19}: \eqn{4-1\frac{4}{3}}{4 - 1*4/3}
 \item \code{Item20}: \eqn{4\frac{1}{3}-1\frac{5}{3}}{4*1/3 - 1*5/3}
 }
-}
-\usage{
-qmatrix_fractions
-}
-\description{
-Expert Derived Q Matrix for Fractions Data
 }
 \references{
 \strong{Data originated from:}

@@ -1,10 +1,7 @@
 
-#' Fraction Assessment Item Responses
+#' Fraction Subtraction and Addition Assessment Item Responses
 #'
-#' @format
-#' A `matrix` consisting of 536 rows and 20 columns. Thus, there are
-#' \eqn{N = 536} subject responses to \eqn{J = 20} items.
-#'
+#' @details
 #' The subjects answered the following assessment items:
 #'
 #' - `Item01`: \eqn{\frac{5}{3}-\frac{3}{4}}{5/3 - 3/4}
@@ -33,9 +30,8 @@
 
 #' Expert Derived Q Matrix for Fractions Data
 #'
-#' @format
-#' A `matrix` with dimensions J = 20 (Items/rows) and K = 8 (Trait/columns).
-#' Each entry in the matrix is either 1, if the Item uses the Trait, or 0, if
+#' @details
+#' Each entry in the matrix is either `1`, if the Item uses the Trait, or `0`, if
 #' the Item does not use the Trait. The traits identified by this `matrix` are:
 #'
 #' - `Trait1`: Convert a whole number to a fraction,

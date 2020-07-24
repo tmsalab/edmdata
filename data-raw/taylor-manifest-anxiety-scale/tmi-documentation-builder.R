@@ -13,11 +13,11 @@ question_merged_with_answer =
   )
 
 ## Write format header to template file ----
-writeLines("#' @format
-#' A `matrix` consisting of **`r nrow(ecdmdata::items_taylor_manifest_anxiety_scale)`**
-#' rows and **`r ncol(ecdmdata::items_taylor_manifest_anxiety_scale)`** columns.
+writeLines("#' @details
+#' Questions alongside of their correct answer is based off of Table 1 of the
+#' Taylor (1953) paper.
 #'
-#' Items with their desired response bolded:",
+#' Items with their desired response bolded in parentheses:",
   template_location
 )
 

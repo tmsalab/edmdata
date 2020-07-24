@@ -182,6 +182,7 @@ OpenPsychometrics. (2013). *Narcissistic personality inventory*.
 Raskin, R., & Terry, H. (1988). A principal-components analysis of the
 narcissistic personality inventory and further evidence of its construct
 validity. *Journal of Personality and Social Psychology*, *54*(5), 890.
+<https://doi.org/10.1037/0022-3514.54.5.890>
 
 </div>
 
@@ -197,7 +198,7 @@ C (Applied Statistics)*, *51*(3), 337–350.
 <div id="ref-Tatsuoka:1984:FractionSubtraction">
 
 Tatsuoka, K. K. (1984). *Analysis of errors in fraction addition and
-subtraction problems. Final report.*
+subtraction problems. Final report.* <https://eric.ed.gov/?id=ED257665>
 
 </div>
 
@@ -205,6 +206,7 @@ subtraction problems. Final report.*
 
 Taylor, J. A. (1953). A personality scale of manifest anxiety. *The
 Journal of Abnormal and Social Psychology*, *48*(2), 285.
+<https://doi.org/10.1037/h0056264>
 
 </div>
 
@@ -230,6 +232,7 @@ Practice*, *32*(2), 37–50. <https://doi.org/10.1111/emip.12010>
 Yoon, S. Y. (2011). *Psychometric properties of the revised purdue
 spatial visualization tests: Visualization of rotations (the revised
 psvt: R)*. Purdue University.
+<https://docs.lib.purdue.edu/dissertations/AAI3480934/>
 
 </div>
 

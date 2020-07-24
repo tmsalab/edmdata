@@ -1,9 +1,9 @@
-#' Item Matrix Results of Revised PSVT:R
+#' Revised PSVT:R Item Responses
 #'
-#' This data set contains the subject's responses to items. Correct answers are
-#' denoted by 1 and incorrect answers are denoted by 0.
+#' @details
+#' Data set contains the subject's responses to Revised PSVT:R items.
+#' Correct answers are denoted by 1 and incorrect answers are denoted by 0.
 #'
-#' @format A `matrix` with 516 observations on the following 30 variables.
 #' - `Item01`: Subject's Response to Item 1.
 #' - `Item02`: Subject's Response to Item 2.
 #' - `Item03`: Subject's Response to Item 3.
@@ -34,7 +34,7 @@
 #' - `Item28`: Subject's Response to Item 28.
 #' - `Item29`: Subject's Response to Item 29.
 #' - `Item30`: Subject's Response to Item 30.
-#' @source Choice38 Experiment at UIUC during Spring 2014 - Spring 2015
-#' @author Steven Culpepper and James Balamuta
+#'
+#' @template papers-revised-psvtr
 "items_revised_psvtr"
 

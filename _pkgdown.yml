@@ -30,7 +30,9 @@ reference:
 - title: Fraction Addition and Subtraction
   desc: >
     Data exploring errors in Fraction Addition and Subtraction Problems
-    from [Tatsuoka (1984, 2002)](https://doi.org/10.1111/1467-9876.00272) used in
+    from [Tatsuoka, C. (2002)](https://doi.org/10.1111/1467-9876.00272)
+    generated in [Tatsuoka, K. K. (1984)](https://eric.ed.gov/?id=ED257665)
+    used in
     [Chen et al. (2020)](https://doi.org/10.1007/s11336-019-09693-2),
     [Culpepper (2019)](https://doi.org/10.1007/s11336-018-9643-8),
     [Culpepper and Chen (2019)](https://doi.org/10.3102/1076998618791306),
@@ -48,11 +50,11 @@ reference:
   - items_revised_psvtr
 - title: OpenPsychometrics
   desc: >
-    Data sets compiled from <https://openpsychometrics.org/_rawdata/>. These
-    data sets have been processed to meet definitions for use in psychometric
+    Data sets compiled from [OpenPsychometrics' raw data portal](https://openpsychometrics.org/_rawdata/).
+    These data sets have been processed to meet definitions for use in psychometric
     applications. Most notably, any observations with missing data have been removed
-    and data has been transformed to ensure the item matrix contains correct/incorrect
-    marking.
+    and responses have been converted to a correct/incorrect marking for the
+    items matrix.
   contents:
   - items_narcissistic_personality_inventory
   - items_taylor_manifest_anxiety_scale

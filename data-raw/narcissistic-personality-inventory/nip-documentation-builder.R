@@ -6,7 +6,7 @@ data_raw_location = file.path("data-raw", "narcissistic-personality-inventory")
 nip_raw_answers = readLines(file.path(data_raw_location, "nips-scoring.txt"))
 
 # Convert scoring rules to detect correct answers.
-nip_answers = stringr::str_replace(nip_answers,
+nip_answers = stringr::str_replace(nip_raw_answers,
                      "\\(\\(int\\) \\$_POST\\['Q[0-9]+'\\] == ([1-2]).*",
                      "\\1")
 
@@ -49,11 +49,9 @@ questions_split = stringr::str_split(highlight_question_id,
                                      "\\.[[:space:]]?", n = 3)
 
 ## Write to documentation template ----
-writeLines("#' @format
-#' A `matrix` consisting of **`r nrow(ecdmdata::items_narcissistic_personality_inventory)`**
-#' rows and **`r ncol(ecdmdata::items_narcissistic_personality_inventory)`** columns.
+writeLines("#' @details
 #'
-#' Items with their desired response bolded:",
+#' Items with their desired option response bolded:",
   template_location
 )
 

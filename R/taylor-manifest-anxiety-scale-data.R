@@ -12,9 +12,5 @@
 #' response. If a subject matched this response, they were given a 1 inside
 #' of the item matrix, otherwise they received a zero.
 #'
-#' @details
-#' Questions alongside of their correct answer is based off of Table 1 of the
-#' Taylor (1953) paper.
-#'
 #' @template papers-taylor-manifest-anxiety-scale
 "items_taylor_manifest_anxiety_scale"

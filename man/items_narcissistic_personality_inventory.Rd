@@ -5,10 +5,16 @@
 \alias{items_narcissistic_personality_inventory}
 \title{Narcissistic Personality Inventory Item Responses}
 \format{
-A \code{matrix} consisting of \strong{11243}
-rows and \strong{40} columns.
-
-Items with their desired response bolded:
+An object of class \code{matrix} (inherits from \code{array}) with 11243 rows and 40 columns.
+}
+\usage{
+items_narcissistic_personality_inventory
+}
+\description{
+Narcissistic Personality Inventory Item Responses
+}
+\details{
+Items with their desired option response bolded:
 \itemize{
 \item \code{Q1}
 \itemize{
@@ -211,14 +217,6 @@ Items with their desired response bolded:
 \item \strong{Option 2}: I am an extraordinary person.
 }
 }
-
-An object of class \code{matrix} (inherits from \code{array}) with 11243 rows and 40 columns.
-}
-\usage{
-items_narcissistic_personality_inventory
-}
-\description{
-Narcissistic Personality Inventory Item Responses
 }
 \section{Data pre-processing}{
 
