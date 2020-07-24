@@ -38,6 +38,10 @@ devtools::install_github("tmsalab/ecdmdata")
       - `items_revised_psvtr`: N = 516 subject responses to J = 30
         items.
       - **TMSA Papers:** Culpepper & Balamuta (2017), Culpepper (2015)
+  - Pre-generated identified Q matrices.
+      - `qmatrix_oracle_k3_j20`: J = 20 items and K = 3 traits.
+      - `qmatrix_oracle_k4_j20`: J = 20 items and K = 4 traits.
+      - `qmatrix_oracle_k5_j30`: J = 30 items and K = 5 traits.
   - Taylor Manifest Anxiety Scale (OpenPsychometrics, 2012; Taylor,
     1953).
       - `items_taylor_manifest_anxiety_scale`: N = 4468 subject

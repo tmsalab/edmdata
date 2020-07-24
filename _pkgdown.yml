@@ -48,6 +48,14 @@ reference:
     [Culpepper and Balamuta (2017)](https://doi.org/10.1007/s11336-015-9484-7)
   contents:
   - items_revised_psvtr
+- title: Oracle Q Matrices
+  desc: >
+    Pre-generated identified Q matrices used in simulation studies.
+  contents:
+  - qmatrix_oracle_k3_j20
+  - qmatrix_oracle_k4_j20
+  - qmatrix_oracle_k5_j30
+
 - title: OpenPsychometrics
   desc: >
     Data sets compiled from [OpenPsychometrics' raw data portal](https://openpsychometrics.org/_rawdata/).
