@@ -198,7 +198,7 @@ C (Applied Statistics)*, *51*(3), 337–350.
 <div id="ref-Tatsuoka:1984:FractionSubtraction">
 
 Tatsuoka, K. K. (1984). *Analysis of errors in fraction addition and
-subtraction problems. Final report.*
+subtraction problems. Final report.* <https://eric.ed.gov/?id=ED257665>
 
 </div>
 
