@@ -50,11 +50,11 @@ reference:
   - items_revised_psvtr
 - title: OpenPsychometrics
   desc: >
-    Data sets compiled from <https://openpsychometrics.org/_rawdata/>. These
-    data sets have been processed to meet definitions for use in psychometric
+    Data sets compiled from [OpenPsychometrics' raw data portal](https://openpsychometrics.org/_rawdata/).
+    These data sets have been processed to meet definitions for use in psychometric
     applications. Most notably, any observations with missing data have been removed
-    and data has been transformed to ensure the item matrix contains correct/incorrect
-    marking.
+    and responses have been converted to a correct/incorrect marking for the
+    items matrix.
   contents:
   - items_narcissistic_personality_inventory
   - items_taylor_manifest_anxiety_scale
