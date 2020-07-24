@@ -1,6 +1,6 @@
-#' @format
-#' A `matrix` consisting of **`r nrow(ecdmdata::items_taylor_manifest_anxiety_scale)`**
-#' rows and **`r ncol(ecdmdata::items_taylor_manifest_anxiety_scale)`** columns.
+#' @details
+#' Questions alongside of their correct answer is based off of Table 1 of the
+#' Taylor (1953) paper.
 #'
 #' Items with their desired response bolded:
 #' - `Q1`: I do not tire quickly. **(False)**

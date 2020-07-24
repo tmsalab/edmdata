@@ -1,8 +1,6 @@
-#' @format
-#' A `matrix` consisting of **`r nrow(ecdmdata::items_narcissistic_personality_inventory)`**
-#' rows and **`r ncol(ecdmdata::items_narcissistic_personality_inventory)`** columns.
+#' @details
 #'
-#' Items with their desired response bolded:
+#' Items with their desired option response bolded:
 #' - `Q1`
 #'    - **Option 1**: I have a natural talent for influencing people
 #'    - Option 2: I am not good at influencing people.

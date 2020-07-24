@@ -5,8 +5,17 @@
 \alias{items_taylor_manifest_anxiety_scale}
 \title{Taylor Manifest Anxiety Scale Item Responses}
 \format{
-A \code{matrix} consisting of \strong{4468}
-rows and \strong{50} columns.
+An object of class \code{matrix} (inherits from \code{array}) with 4468 rows and 50 columns.
+}
+\usage{
+items_taylor_manifest_anxiety_scale
+}
+\description{
+Taylor Manifest Anxiety Scale Item Responses
+}
+\details{
+Questions alongside of their correct answer is based off of Table 1 of the
+Taylor (1953) paper.
 
 Items with their desired response bolded:
 \itemize{
@@ -61,18 +70,6 @@ Items with their desired response bolded:
 \item \code{Q49}: I shrink from facing crisis of difficulty. \strong{(True)}
 \item \code{Q50}: I am entirely self-confident. \strong{(False)}
 }
-
-An object of class \code{matrix} (inherits from \code{array}) with 4468 rows and 50 columns.
-}
-\usage{
-items_taylor_manifest_anxiety_scale
-}
-\description{
-Taylor Manifest Anxiety Scale Item Responses
-}
-\details{
-Questions alongside of their correct answer is based off of Table 1 of the
-Taylor (1953) paper.
 }
 \section{Data pre-processing}{
 
