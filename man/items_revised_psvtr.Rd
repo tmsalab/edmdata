@@ -3,9 +3,19 @@
 \docType{data}
 \name{items_revised_psvtr}
 \alias{items_revised_psvtr}
-\title{Item Matrix Results of Revised PSVT:R}
+\title{Revised PSVT:R Item Responses}
 \format{
-A \code{matrix} with 516 observations on the following 30 variables.
+An object of class \code{matrix} (inherits from \code{array}) with 516 rows and 30 columns.
+}
+\usage{
+items_revised_psvtr
+}
+\description{
+Revised PSVT:R Item Responses
+}
+\details{
+Data set contains the subject's responses to Revised PSVT:R items.
+Correct answers are denoted by 1 and incorrect answers are denoted by 0.
 \itemize{
 \item \code{Item01}: Subject's Response to Item 1.
 \item \code{Item02}: Subject's Response to Item 2.
@@ -39,17 +49,29 @@ A \code{matrix} with 516 observations on the following 30 variables.
 \item \code{Item30}: Subject's Response to Item 30.
 }
 }
-\source{
-Choice38 Experiment at UIUC during Spring 2014 - Spring 2015
+\references{
+\strong{Assessment Design:}
+\itemize{
+\item Yoon, S. Y. (2011). \emph{Psychometric properties of the revised purdue
+spatial visualization tests: Visualization of rotations (the revised
+psvt: R)}. Purdue University.
 }
-\usage{
-items_revised_psvtr
+
+\strong{Data originated from:}
+\itemize{
+\item Culpepper, S. A., & Balamuta, J. J. (2017). A Hierarchical Model for
+Accuracy and Choice on Standardized Tests. \emph{Psychometrika}, \emph{82}(3),
+820–845. \url{https://doi.org/10.1007/s11336-015-9484-7}
 }
-\description{
-This data set contains the subject's responses to items. Correct answers are
-denoted by 1 and incorrect answers are denoted by 0.
+
+\strong{Data used in:}
+\itemize{
+\item Culpepper, S. A. (2015). Bayesian estimation of the dina model with
+gibbs sampling. \emph{Journal of Educational and Behavioral Statistics},
+\emph{40}(5), 454–476. \url{https://doi.org/10.3102/1076998615595403}
+\item Culpepper, S. A., & Balamuta, J. J. (2017). A Hierarchical Model for
+Accuracy and Choice on Standardized Tests. \emph{Psychometrika}, \emph{82}(3),
+820–845. \url{https://doi.org/10.1007/s11336-015-9484-7}
 }
-\author{
-Steven Culpepper and James Balamuta
 }
 \keyword{datasets}
