@@ -1,9 +1,6 @@
-
 #' Examination for the Certificate of Proficiency in English (ECPE) Item Responses
 #'
-#' @format
-#' A `matrix` consisting of 2922 rows and 28 columns. Thus, there are
-#' \eqn{N = 2922} subject responses to \eqn{J = 28} items.
+#' @details
 #'
 #' The subjects answered the following assessment items:
 #'
@@ -35,14 +32,14 @@
 #' - `item27`
 #' - `item28`
 #'
+#'
 #' @template papers-fractions
 "items_ecpe"
 
 #' Examination for the Certificate of Proficiency in English (ECPE) Expert-Derived Q matrix
 #'
-#' @format
-#' A `matrix` with dimensions J = 28 (items/rows) and K = 3 (skills/columns).
-#' Each entry in the matrix is either 1, if the item uses the skill, or 0, if
+#' @details
+#' Each entry in the matrix is either `1`, if the item uses the skill, or `0`, if
 #' the item does not use the skill. The skills identified by this `matrix` are:
 #'
 #' - `skill1`: Morphosyntactic rules

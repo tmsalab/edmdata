@@ -5,8 +5,16 @@
 \alias{qmatrix_ecpe}
 \title{Examination for the Certificate of Proficiency in English (ECPE) Expert-Derived Q matrix}
 \format{
-A \code{matrix} with dimensions J = 28 (items/rows) and K = 3 (skills/columns).
-Each entry in the matrix is either 1, if the item uses the skill, or 0, if
+An object of class \code{q_matrix} (inherits from \code{matrix}) with 28 rows and 3 columns.
+}
+\usage{
+qmatrix_ecpe
+}
+\description{
+Examination for the Certificate of Proficiency in English (ECPE) Expert-Derived Q matrix
+}
+\details{
+Each entry in the matrix is either \code{1}, if the item uses the skill, or \code{0}, if
 the item does not use the skill. The skills identified by this \code{matrix} are:
 \itemize{
 \item \code{skill1}: Morphosyntactic rules
@@ -44,12 +52,6 @@ The subjects answered the following assessment items:
 \item \code{item27}
 \item \code{item28}
 }
-}
-\usage{
-qmatrix_ecpe
-}
-\description{
-Examination for the Certificate of Proficiency in English (ECPE) Expert-Derived Q matrix
 }
 \references{
 \strong{Data originated from:}
