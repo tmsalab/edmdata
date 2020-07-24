@@ -233,12 +233,23 @@ of the item matrix, otherwise they received a zero.
 }
 
 \references{
-OpenPsychometrics. 2013. \emph{Narcissistic Personality Inventory}.
-\url{http://openpsychometrics.org/_rawdata/NPI.zip}.
+\strong{Assessment Design:}
+\itemize{
+\item Raskin, R., & Terry, H. (1988). A principal-components analysis of the
+narcissistic personality inventory and further evidence of its construct
+validity. \emph{Journal of Personality and Social Psychology}, \emph{54}(5), 890.
+\url{https://doi.org/10.1037/0022-3514.54.5.890}
+}
 
-Raskin, Robert, and Howard Terry. 1988. "A Principal-Components Analysis
-of the Narcissistic Personality Inventory and Further Evidence of Its
-Construct Validity." \emph{Journal of Personality and Social Psychology} 54
-(5): 890.
+\strong{Data originated from:}
+\itemize{
+\item OpenPsychometrics. 2013. \emph{Narcissistic Personality Inventory}.
+\url{http://openpsychometrics.org/_rawdata/NPI.zip}.
+}
+
+\strong{Data used in:}
+\itemize{
+\item TBA
+}
 }
 \keyword{datasets}

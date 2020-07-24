@@ -3,7 +3,7 @@
 \docType{data}
 \name{qmatrix_fractions}
 \alias{qmatrix_fractions}
-\title{Expert Derived Q Matrix for Fractions Data}
+\title{Fraction Subtraction and Addition Assessment Expert-Derived Q Matrix}
 \format{
 An object of class \code{matrix} (inherits from \code{array}) with 20 rows and 8 columns.
 }
@@ -11,7 +11,7 @@ An object of class \code{matrix} (inherits from \code{array}) with 20 rows and 8
 qmatrix_fractions
 }
 \description{
-Expert Derived Q Matrix for Fractions Data
+Fraction Subtraction and Addition Assessment Expert-Derived Q Matrix
 }
 \details{
 Each entry in the matrix is either \code{1}, if the Item uses the Trait, or \code{0}, if

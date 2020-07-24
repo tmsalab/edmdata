@@ -28,7 +28,7 @@
 #' @template papers-fractions
 "items_fractions"
 
-#' Expert Derived Q Matrix for Fractions Data
+#' Fraction Subtraction and Addition Assessment Expert-Derived Q Matrix
 #'
 #' @details
 #' Each entry in the matrix is either `1`, if the Item uses the Trait, or `0`, if
