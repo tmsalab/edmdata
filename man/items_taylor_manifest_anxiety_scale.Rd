@@ -86,11 +86,22 @@ of the item matrix, otherwise they received a zero.
 }
 
 \references{
-OpenPsychometrics. 2012. \emph{Taylor Manifest Anxiety Scale}.
-\url{http://openpsychometrics.org/_rawdata/TMA.zip}.
-
-Taylor, J. A. (1953). \emph{A personality scale of manifest anxiety}.
+\strong{Assessment Design:}
+\itemize{
+\item Taylor, J. A. (1953). \emph{A personality scale of manifest anxiety}.
 The Journal of Abnormal and Social Psychology, 48(2), 285–290.
 \url{https://doi.org/10.1037/h0056264}
+}
+
+\strong{Data originated from:}
+\itemize{
+\item OpenPsychometrics. 2012. \emph{Taylor Manifest Anxiety Scale}.
+\url{http://openpsychometrics.org/_rawdata/TMA.zip}.
+}
+
+\strong{Data used in:}
+\itemize{
+\item TBA
+}
 }
 \keyword{datasets}
