@@ -3,11 +3,17 @@
 \docType{data}
 \name{items_fractions}
 \alias{items_fractions}
-\title{Fraction Assessment Item Responses}
+\title{Fraction Subtraction and Addition Assessment Item Responses}
 \format{
-A \code{matrix} consisting of 536 rows and 20 columns. Thus, there are
-\eqn{N = 536} subject responses to \eqn{J = 20} items.
-
+An object of class \code{matrix} (inherits from \code{array}) with 536 rows and 20 columns.
+}
+\usage{
+items_fractions
+}
+\description{
+Fraction Subtraction and Addition Assessment Item Responses
+}
+\details{
 The subjects answered the following assessment items:
 \itemize{
 \item \code{Item01}: \eqn{\frac{5}{3}-\frac{3}{4}}{5/3 - 3/4}
@@ -31,12 +37,6 @@ The subjects answered the following assessment items:
 \item \code{Item19}: \eqn{4-1\frac{4}{3}}{4 - 1*4/3}
 \item \code{Item20}: \eqn{4\frac{1}{3}-1\frac{5}{3}}{4*1/3 - 1*5/3}
 }
-}
-\usage{
-items_fractions
-}
-\description{
-Fraction Assessment Item Responses
 }
 \references{
 \strong{Data originated from:}
