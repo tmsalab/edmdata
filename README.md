@@ -1,25 +1,25 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# ecdmdata
+# edmdata
 
 <!-- badges: start -->
 
 [![R build
-status](https://github.com/tmsalab/ecdmdata/workflows/R-CMD-check/badge.svg)](https://github.com/tmsalab/ecdmdata/actions)
+status](https://github.com/tmsalab/edmdata/workflows/R-CMD-check/badge.svg)](https://github.com/tmsalab/edmdata/actions)
 [![Package-License](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](https://opensource.org/licenses/MIT)
 <!-- badges: end -->
 
-The goal of `ecdmdata` is to provide a set of an example assessment data
+The goal of `edmdata` is to provide a set of an example assessment data
 sets for psychometric modeling.
 
 ## Installation
 
-You can install `ecdmdata` from github with:
+You can install `edmdata` from github with:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("tmsalab/ecdmdata")
+devtools::install_github("tmsalab/edmdata")
 ```
 
 ## Data Sets Included
@@ -65,8 +65,8 @@ Internals](https://cran.r-project.org/doc/manuals/r-release/R-ints.html)
 manual.
 
 ``` r
-# Load the `ecdmdata` package
-library("ecdmdata")
+# Load the `edmdata` package
+library("edmdata")
 
 # See the first 10 observations of the `items_revised_psvtr` dataset
 head(items_revised_psvtr)
@@ -92,21 +92,21 @@ head(items_revised_psvtr)
 ## Build Scripts
 
 Want to see how each data set was imported? Check out the
-[`data-raw`](https://github.com/tmsalab/ecdmdata/tree/master/data-raw)
+[`data-raw`](https://github.com/tmsalab/edmdata/tree/master/data-raw)
 folder\!
 
 ## Authors
 
 James Joseph Balamuta, Steven Andrew Culpepper, Jeffrey Douglas
 
-## Citing the `ecdmdata` package
+## Citing the `edmdata` package
 
-To ensure future development of the package, please cite `ecdmdata`
+To ensure future development of the package, please cite `edmdata`
 package if used during an analysis or simulation study. Citation
 information for the package may be acquired by using in *R*:
 
 ``` r
-citation("ecdmdata")
+citation("edmdata")
 ```
 
 ## License
