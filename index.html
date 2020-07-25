@@ -5,7 +5,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Data Sets for Psychometric Modeling • ecdmdata</title>
+<title>Data Sets for Psychometric Modeling • edmdata</title>
 <!-- jquery --><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script><!-- Bootstrap --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha256-bZLfwXAP04zRMK2BjiO8iu9pf4FbLqX6zitd+tIvLhE=" crossorigin="anonymous">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha256-nuL8/2cJ5NDSSwnKD8VqreErSWHtnEP9E7AySL+1ev4=" crossorigin="anonymous"></script><!-- bootstrap-toc --><link rel="stylesheet" href="bootstrap-toc.css">
 <script src="bootstrap-toc.js"></script><!-- Font Awesome icons --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous">
@@ -37,7 +37,7 @@
         <span class="icon-bar"></span>
       </button>
       <span class="navbar-brand">
-        <a class="navbar-link" href="index.html">ecdmdata</a>
+        <a class="navbar-link" href="index.html">edmdata</a>
         <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.6.0</span>
       </span>
     </div>
@@ -70,17 +70,17 @@
 
       </header><div class="row">
   <div class="contents col-md-9">
-<div id="ecdmdata" class="section level1">
+<div id="edmdata" class="section level1">
 
 <!-- badges: start -->
 
-<p>The goal of <code>ecdmdata</code> is to provide a set of an example assessment data sets for psychometric modeling.</p>
+<p>The goal of <code>edmdata</code> is to provide a set of an example assessment data sets for psychometric modeling.</p>
 <div id="installation" class="section level2">
 <h2 class="hasAnchor">
 <a href="#installation" class="anchor"></a>Installation</h2>
-<p>You can install <code>ecdmdata</code> from github with:</p>
+<p>You can install <code>edmdata</code> from github with:</p>
 <div class="sourceCode" id="cb1"><pre class="r"><span class="co"># install.packages("devtools")</span>
-<span class="kw pkg">devtools</span><span class="kw ns">::</span><span class="fu">install_github</span>(<span class="st">"tmsalab/ecdmdata"</span>)</pre></div>
+<span class="kw pkg">devtools</span><span class="kw ns">::</span><span class="fu">install_github</span>(<span class="st">"tmsalab/edmdata"</span>)</pre></div>
 </div>
 <div id="data-sets-included" class="section level2">
 <h2 class="hasAnchor">
@@ -143,8 +143,8 @@
 <a href="#using-data-in-the-package" class="anchor"></a>Using data in the package</h2>
 <p>There are two ways to access the data contained within this package.</p>
 <p>The first is to load the package itself and type the name of a data set. This approach takes advantage of <em>R</em>’s lazy loading mechansim, which avoids loading the data until it is used in <em>R</em> session. For details on how lazy loading works, please see <a href="https://cran.r-project.org/doc/manuals/r-release/R-ints.html#Lazy-loading">Section 1.17: Lazy Loading</a> of the <a href="https://cran.r-project.org/doc/manuals/r-release/R-ints.html">R Internals</a> manual.</p>
-<div class="sourceCode" id="cb2"><pre class="r"><span class="co"># Load the `ecdmdata` package</span>
-<span class="fu"><a href="https://rdrr.io/r/base/library.html">library</a></span>(<span class="st">"ecdmdata"</span>)
+<div class="sourceCode" id="cb2"><pre class="r"><span class="co"># Load the `edmdata` package</span>
+<span class="fu"><a href="https://rdrr.io/r/base/library.html">library</a></span>(<span class="st">"edmdata"</span>)
 
 <span class="co"># See the first 10 observations of the `items_revised_psvtr` dataset</span>
 <span class="fu"><a href="https://rdrr.io/r/utils/head.html">head</a></span>(<span class="no">items_revised_psvtr</span>)
@@ -164,18 +164,18 @@
 <div id="build-scripts" class="section level2">
 <h2 class="hasAnchor">
 <a href="#build-scripts" class="anchor"></a>Build Scripts</h2>
-<p>Want to see how each data set was imported? Check out the <a href="https://github.com/tmsalab/ecdmdata/tree/master/data-raw"><code>data-raw</code></a> folder!</p>
+<p>Want to see how each data set was imported? Check out the <a href="https://github.com/tmsalab/edmdata/tree/master/data-raw"><code>data-raw</code></a> folder!</p>
 </div>
 <div id="authors" class="section level2">
 <h2 class="hasAnchor">
 <a href="#authors" class="anchor"></a>Authors</h2>
 <p>James Joseph Balamuta, Steven Andrew Culpepper, Jeffrey Douglas</p>
 </div>
-<div id="citing-the-ecdmdata-package" class="section level2">
+<div id="citing-the-edmdata-package" class="section level2">
 <h2 class="hasAnchor">
-<a href="#citing-the-ecdmdata-package" class="anchor"></a>Citing the <code>ecdmdata</code> package</h2>
-<p>To ensure future development of the package, please cite <code>ecdmdata</code> package if used during an analysis or simulation study. Citation information for the package may be acquired by using in <em>R</em>:</p>
-<div class="sourceCode" id="cb4"><pre class="r"><span class="fu"><a href="https://rdrr.io/r/utils/citation.html">citation</a></span>(<span class="st">"ecdmdata"</span>)</pre></div>
+<a href="#citing-the-edmdata-package" class="anchor"></a>Citing the <code>edmdata</code> package</h2>
+<p>To ensure future development of the package, please cite <code>edmdata</code> package if used during an analysis or simulation study. Citation information for the package may be acquired by using in <em>R</em>:</p>
+<div class="sourceCode" id="cb4"><pre class="r"><span class="fu"><a href="https://rdrr.io/r/utils/citation.html">citation</a></span>(<span class="st">"edmdata"</span>)</pre></div>
 </div>
 <div id="license" class="section level2">
 <h2 class="hasAnchor">
@@ -268,7 +268,7 @@
   <div class="dev-status">
 <h2>Dev status</h2>
 <ul class="list-unstyled">
-<li><a href="https://github.com/tmsalab/ecdmdata/actions"><img src="https://github.com/tmsalab/ecdmdata/workflows/R-CMD-check/badge.svg" alt="R build status"></a></li>
+<li><a href="https://github.com/tmsalab/edmdata/actions"><img src="https://github.com/tmsalab/edmdata/workflows/R-CMD-check/badge.svg" alt="R build status"></a></li>
 <li><a href="https://opensource.org/licenses/MIT"><img src="http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat" alt="Package-License"></a></li>
 </ul>
 </div>
