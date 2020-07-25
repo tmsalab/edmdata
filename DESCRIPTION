@@ -1,4 +1,4 @@
-Package: ecdmdata
+Package: edmdata
 Title: Data Sets for Psychometric Modeling
 Version: 0.6.0
 Authors@R: c(
