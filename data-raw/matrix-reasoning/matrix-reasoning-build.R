@@ -45,21 +45,26 @@ raw_eiq_test =
                   )
   )
 
+
+## Transform responses to binary correct/incorrect. ----
+library("magrittr")
+
 code_correct_answer = function(x, ans = 10) {
   1*(x == ans)
 }
 
-library("magrittr")
+# Note: Some items contain 0, which is outside of the 1-7, 10 entry. The
+# codebook does not indicate if this is missing data or incorrectly coded.
+# For simplicity, we opted to say this was a bad response.
 
-# Transform to a binary matrix
 transformed_eiq_test = raw_eiq_test %>%
   dplyr::mutate_at(dplyr::vars(dplyr::contains('Q')), code_correct_answer)
 
+## Check scores are equivalent between T/F encoding. ----
 correct_rowsum = transformed_eiq_test %>%
   dplyr::select(dplyr::starts_with("Q")) %>%
   rowSums()
 
-# Check if equivalent
 stopifnot(
   isTRUE(
     all.equal(
@@ -68,8 +73,7 @@ stopifnot(
     )
   )
 
-# Convert to an item matrix
-# Enforce list-wise deletion.
+## Convert to an item matrix ----
 items_matrix_reasoning =
   transformed_eiq_test %>%
   dplyr::select(dplyr::matches("Q")) %>%
