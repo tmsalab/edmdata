@@ -62,10 +62,11 @@ reference:
     These data sets have been processed to meet definitions for use in psychometric
     applications. Most notably, any observations with missing data have been removed
     and responses have been converted to a correct/incorrect marking for the
-    items matrix.
+    items matrix. Matrix reasoning was used in [Chen et al. (2020)](https://doi.org/10.1007/s11336-019-09693-2).
   contents:
   - items_narcissistic_personality_inventory
   - items_taylor_manifest_anxiety_scale
+  - items_matrix_reasoning
 
 navbar:
   components:

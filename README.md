@@ -38,11 +38,11 @@ devtools::install_github("tmsalab/edmdata")
       - `items_revised_psvtr`: N = 516 subject responses to J = 30
         items.
       - **TMSA Papers:** Culpepper & Balamuta (2017), Culpepper (2015)
-  - Pre-generated identified Q matrices.
-      - `qmatrix_oracle_k3_j20`: J = 20 items and K = 3 traits.
-      - `qmatrix_oracle_k4_j20`: J = 20 items and K = 4 traits.
-      - `qmatrix_oracle_k5_j30`: J = 30 items and K = 5 traits.
-  - Taylor Manifest Anxiety Scale (OpenPsychometrics, 2012; Taylor,
+  - Experimental Matrix Reasoning Test (OpenPsychometrics, 2012a).
+      - `items_matrix_reasoning`: N = 400 subject responses to J = 25
+        items.
+      - **TMSA Papers:** Chen et al. (2020)
+  - Taylor Manifest Anxiety Scale (OpenPsychometrics, 2012b; Taylor,
     1953).
       - `items_taylor_manifest_anxiety_scale`: N = 4468 subject
         responses to J = 50 items.
@@ -50,6 +50,10 @@ devtools::install_github("tmsalab/edmdata")
     & Terry, 1988).
       - `items_narcissistic_personality_inventory`: N = 11243 subject
         responses to J = 40 items.
+  - Pre-generated identified Q matrices.
+      - `qmatrix_oracle_k3_j20`: J = 20 items and K = 3 traits.
+      - `qmatrix_oracle_k4_j20`: J = 20 items and K = 4 traits.
+      - `qmatrix_oracle_k5_j30`: J = 30 items and K = 5 traits.
 
 ## Using data in the package
 
@@ -167,9 +171,16 @@ Educational and Behavioral Statistics*, *44*(1), 3–24.
 
 </div>
 
+<div id="ref-OpenPsychometrics:2012:IQ1">
+
+OpenPsychometrics. (2012a). *Experimental matrix reasoning iq test*.
+<http://openpsychometrics.org/_rawdata/IQ1.zip>
+
+</div>
+
 <div id="ref-OpenPsychometrics:2012:TaylorAnxietyScale">
 
-OpenPsychometrics. (2012). *Taylor manifest anxiety scale*.
+OpenPsychometrics. (2012b). *Taylor manifest anxiety scale*.
 <http://openpsychometrics.org/_rawdata/TMA.zip>
 
 </div>
