@@ -34,7 +34,7 @@ reference:
     generated in [Tatsuoka, K. K. (1984)](https://eric.ed.gov/?id=ED257665)
     used in
     [Chen et al. (2020)](https://doi.org/10.1007/s11336-019-09693-2),
-    [Culpepper (2019)](https://doi.org/10.1007/s11336-018-9643-8),
+    [Culpepper (2019a)](https://doi.org/10.1007/s11336-018-9643-8),
     [Culpepper and Chen (2019)](https://doi.org/10.3102/1076998618791306),
     and [Chen et al. (2018)](https://doi.org/10.1007/s11336-017-9579-4)
   contents:
@@ -48,6 +48,13 @@ reference:
     [Culpepper and Balamuta (2017)](https://doi.org/10.1007/s11336-015-9484-7)
   contents:
   - items_revised_psvtr
+- title: "Early Childhood Longitudinal Study, Kindergarten Approaches to Learning (ECLS-K ATL)"
+  desc: >
+    Data in the Early Childhood Longitudinal Study, Kindergarten (ECLS-K) Approaches to Learning
+    survey by [NCES (2011)](https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2010070)
+    used in [Culpepper (2019b)](https://doi.org/10.1007/s11336-019-09683-4).
+  contents:
+  - items_ordered_eclsk_atl
 - title: Oracle Q Matrices
   desc: >
     Pre-generated identified Q matrices used in simulation studies.
