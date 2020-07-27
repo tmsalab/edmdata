@@ -32,12 +32,17 @@ devtools::install_github("tmsalab/edmdata")
   - Fraction Addition and Subtraction (Tatsuoka, 2002, 1984).
       - `items_fractions`: N = 536 subject responses to J = 20 items.
       - `qmatrix_fractions`: J = 536 items and K = 20 traits.
-      - **TMSA Papers:** Chen et al. (2020), Culpepper (2019), Culpepper
-        & Chen (2019), Chen et al. (2018)
+      - **TMSA Papers:** Chen et al. (2020), Culpepper (2019b),
+        Culpepper & Chen (2019), Chen et al. (2018)
   - Revised PSVT:R (Culpepper & Balamuta, 2017; Yoon, 2011).
       - `items_revised_psvtr`: N = 516 subject responses to J = 30
         items.
       - **TMSA Papers:** Culpepper & Balamuta (2017), Culpepper (2015)
+  - Subset of Early Childhood Longitudinal Study, Kindergarten Class of
+    1998-1999’s Approaches to Learning (NCES, 2010).
+      - `items_ordered_eclsk_atl`: N = 13354 subject responses to J = 12
+        items.
+      - **TMSA Papers:** Culpepper (2019a)
   - Experimental Matrix Reasoning Test (OpenPsychometrics, 2012a).
       - `items_matrix_reasoning`: N = 400 subject responses to J = 25
         items.
@@ -145,11 +150,20 @@ gibbs sampling. *Journal of Educational and Behavioral Statistics*,
 
 </div>
 
+<div id="ref-Culpepper:2019:EODM">
+
+Culpepper, S. A. (2019a). An exploratory diagnostic model for ordinal
+responses with binary attributes: Identifiability and estimation.
+*Psychometrika*, *84*(4), 921–940.
+<https://doi.org/10.1007/s11336-019-09683-4>
+
+</div>
+
 <div id="ref-Culpepper:2019:EGDM">
 
-Culpepper, S. A. (2019). Estimating the cognitive diagnosis \(Q\) matrix
-with expert knowledge: Application to the fraction-subtraction dataset.
-*Psychometrika*, *84*(2), 333–357.
+Culpepper, S. A. (2019b). Estimating the cognitive diagnosis \(Q\)
+matrix with expert knowledge: Application to the fraction-subtraction
+dataset. *Psychometrika*, *84*(2), 333–357.
 <https://doi.org/10.1007/s11336-018-9643-8>
 
 </div>
@@ -168,6 +182,15 @@ Culpepper, S. A., & Chen, Y. (2019). Development and application of an
 exploratory reduced reparameterized unified model. *Journal of
 Educational and Behavioral Statistics*, *44*(1), 3–24.
 <https://doi.org/10.3102/1076998618791306>
+
+</div>
+
+<div id="ref-ECLSK:2010:ATLData">
+
+NCES. (2010). *Early childhood longitudinal study, kindergarten class of
+1998-99 (ecls-k) kindergarten through fifth grade approaches to learning
+and self-description questionnaire (sdq) items and public-use data
+files*. <https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2010070>
 
 </div>
 

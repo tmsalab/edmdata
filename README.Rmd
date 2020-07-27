@@ -51,6 +51,11 @@ library("edmdata")
     - `items_revised_psvtr`: N = `r nrow(items_revised_psvtr)` subject responses
       to J = `r ncol(items_revised_psvtr)` items.
     - **TMSA Papers:** @Culpepper:2017:ChoiceIRT, @Culpepper:2015:BayesianDINA
+- Subset of Early Childhood Longitudinal Study, Kindergarten Class of 1998-1999's
+  Approaches to Learning [@ECLSK:2010:ATLData].
+    - `items_ordered_eclsk_atl`: N = `r nrow(items_ordered_eclsk_atl)` subject responses
+      to J = `r ncol(items_ordered_eclsk_atl)` items.
+    - **TMSA Papers:** @Culpepper:2019:EODM
 - Experimental Matrix Reasoning Test [@OpenPsychometrics:2012:IQ1].
     - `items_matrix_reasoning`: N = `r nrow(items_matrix_reasoning)`
       subject responses to J = `r ncol(items_matrix_reasoning)` items.
