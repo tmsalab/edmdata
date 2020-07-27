@@ -12,8 +12,7 @@ parent_items = readLines(file.path(data_raw_location, "parent-items.txt"))
 ## Write to documentation template ----
 writeLines("#' @details
 #' Items were split between being answered by **Parents** and **Teachers**.
-#'
-",
+#'",
   template_location
 )
 

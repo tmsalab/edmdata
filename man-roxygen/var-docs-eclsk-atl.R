@@ -1,7 +1,6 @@
 #' @details
 #' Items were split between being answered by **Parents** and **Teachers**.
 #'
-
 #' - **Parents**:
 #'   - `P4SRS10`: Keep working at something until {he/she} is finished?
 #'   - `P4SRS13`: Show interest in a variety of things?
