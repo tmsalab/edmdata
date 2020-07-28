@@ -12,3 +12,4 @@
 ^bibliography\.bib$
 ^LICENSE\.md$
 ^apa-single-spaced\.csl$
+^cran-comments\.md$
