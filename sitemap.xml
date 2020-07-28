@@ -1,36 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://tmsalab.github.io/ecdmdata/index.html</loc>
+    <loc>https://tmsalab.github.io/edmdata/index.html</loc>
   </url>
   <url>
-    <loc>https://tmsalab.github.io/ecdmdata/reference/edmdata-package.html</loc>
+    <loc>https://tmsalab.github.io/edmdata/reference/edmdata-package.html</loc>
   </url>
   <url>
-    <loc>https://tmsalab.github.io/ecdmdata/reference/items_ecpe.html</loc>
+    <loc>https://tmsalab.github.io/edmdata/reference/items_ecpe.html</loc>
   </url>
   <url>
-    <loc>https://tmsalab.github.io/ecdmdata/reference/items_fractions.html</loc>
+    <loc>https://tmsalab.github.io/edmdata/reference/items_fractions.html</loc>
   </url>
   <url>
-    <loc>https://tmsalab.github.io/ecdmdata/reference/items_matrix_reasoning.html</loc>
+    <loc>https://tmsalab.github.io/edmdata/reference/items_matrix_reasoning.html</loc>
   </url>
   <url>
-    <loc>https://tmsalab.github.io/ecdmdata/reference/items_narcissistic_personality_inventory.html</loc>
+    <loc>https://tmsalab.github.io/edmdata/reference/items_narcissistic_personality_inventory.html</loc>
   </url>
   <url>
-    <loc>https://tmsalab.github.io/ecdmdata/reference/items_revised_psvtr.html</loc>
+    <loc>https://tmsalab.github.io/edmdata/reference/items_ordered_eclsk_atl.html</loc>
   </url>
   <url>
-    <loc>https://tmsalab.github.io/ecdmdata/reference/items_taylor_manifest_anxiety_scale.html</loc>
+    <loc>https://tmsalab.github.io/edmdata/reference/items_revised_psvtr.html</loc>
   </url>
   <url>
-    <loc>https://tmsalab.github.io/ecdmdata/reference/qmatrix_ecpe.html</loc>
+    <loc>https://tmsalab.github.io/edmdata/reference/items_taylor_manifest_anxiety_scale.html</loc>
   </url>
   <url>
-    <loc>https://tmsalab.github.io/ecdmdata/reference/qmatrix_fractions.html</loc>
+    <loc>https://tmsalab.github.io/edmdata/reference/qmatrix_ecpe.html</loc>
   </url>
   <url>
-    <loc>https://tmsalab.github.io/ecdmdata/reference/qmatrix_oracle.html</loc>
+    <loc>https://tmsalab.github.io/edmdata/reference/qmatrix_fractions.html</loc>
+  </url>
+  <url>
+    <loc>https://tmsalab.github.io/edmdata/reference/qmatrix_oracle.html</loc>
   </url>
 </urlset>
