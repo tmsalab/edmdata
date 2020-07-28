@@ -97,11 +97,12 @@ head(items_revised_psvtr)
 ```
 
 The second approach is to use the `data()` command to load data on the
-fly without and type the name of a data set.
+fly without loading the package. After using `data()`, the data set
+will be available to use under the given name. 
 
 ``` r
-# Loading `items_revised_psvtr` without a `library(ucidata)` call
-data("items_revised_psvtr", package = "ucidata")
+# Loading `items_revised_psvtr` without a `library(edmdata)` call
+data("items_revised_psvtr", package = "edmdata")
 
 # See the first 10 observations of the `items_revised_psvtr` dataset
 head(items_revised_psvtr)
