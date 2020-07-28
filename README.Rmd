@@ -51,6 +51,11 @@ library("edmdata")
     - `items_revised_psvtr`: N = `r nrow(items_revised_psvtr)` subject responses
       to J = `r ncol(items_revised_psvtr)` items.
     - **TMSA Papers:** @Culpepper:2017:ChoiceIRT, @Culpepper:2015:BayesianDINA
+- Subset of Early Childhood Longitudinal Study, Kindergarten Class of 1998-1999's
+  Approaches to Learning [@ECLSK:2010:ATLData].
+    - `items_ordered_eclsk_atl`: N = `r nrow(items_ordered_eclsk_atl)` subject responses
+      to J = `r ncol(items_ordered_eclsk_atl)` items.
+    - **TMSA Papers:** @Culpepper:2019:EODM
 - Experimental Matrix Reasoning Test [@OpenPsychometrics:2012:IQ1].
     - `items_matrix_reasoning`: N = `r nrow(items_matrix_reasoning)`
       subject responses to J = `r ncol(items_matrix_reasoning)` items.
@@ -92,11 +97,12 @@ head(items_revised_psvtr)
 ```
 
 The second approach is to use the `data()` command to load data on the
-fly without and type the name of a data set.
+fly without loading the package. After using `data()`, the data set
+will be available to use under the given name. 
 
 ``` r
-# Loading `items_revised_psvtr` without a `library(ucidata)` call
-data("items_revised_psvtr", package = "ucidata")
+# Loading `items_revised_psvtr` without a `library(edmdata)` call
+data("items_revised_psvtr", package = "edmdata")
 
 # See the first 10 observations of the `items_revised_psvtr` dataset
 head(items_revised_psvtr)
