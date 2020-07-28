@@ -12,7 +12,7 @@ Authors@R: c(
                     role = c("aut"),
                     comment = c(ORCID = "0000-0003-4226-6176")
                     ),
-           person("Jeffrey", "Douglas",
+           person("Jeffrey Alan", "Douglas",
                    email = "jeffdoug@illinois.edu",
                    role = c("aut")
                    )

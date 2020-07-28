@@ -12,9 +12,9 @@ Collection of data sets from assessments that can be used to
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://tmsalab.github.io/ecdmdata}
-  \item \url{https://github.com/tmsalab/ecdmdata}
-  \item Report bugs at \url{https://github.com/tmsalab/ecdmdata/issues}
+  \item \url{https://tmsalab.github.io/edmdata}
+  \item \url{https://github.com/tmsalab/edmdata}
+  \item Report bugs at \url{https://github.com/tmsalab/edmdata/issues}
 }
 
 }
@@ -24,7 +24,7 @@ Useful links:
 Authors:
 \itemize{
   \item Steven Andrew Culpepper \email{sculpepp@illinois.edu} (\href{https://orcid.org/0000-0003-4226-6176}{ORCID})
-  \item Jeffrey Douglas \email{jeffdoug@illinois.edu}
+  \item Jeffrey Alan Douglas \email{jeffdoug@illinois.edu}
 }
 
 }
