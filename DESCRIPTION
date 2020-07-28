@@ -1,6 +1,6 @@
 Package: edmdata
 Title: Data Sets for Psychometric Modeling
-Version: 0.6.0
+Version: 1.0.0
 Authors@R: c(
            person("James Joseph", "Balamuta", 
                     email = "balamut2@illinois.edu",
