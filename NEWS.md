@@ -1,4 +1,4 @@
-# ecdmdata 1.0.0
+# edmdata 1.0.0
 
 ## Features
 
