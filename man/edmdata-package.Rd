@@ -6,8 +6,15 @@
 \alias{edmdata-package}
 \title{edmdata: Data Sets for Psychometric Modeling}
 \description{
-Collection of data sets from assessments that can be used to 
-    evaluate psychometric models.
+Collection of data sets from various assessments that can be used to 
+    evaluate psychometric models. These data sets have been analyzed in the
+    following papers that introduced new methodology as part of the application section:
+    Chen, Y., Culpepper, S. A., & Liang, F. (2020) <doi: 10.1007/s11336-019-09693-2>
+    Culpepper, S. A. (2019a) <doi: 10.1007/s11336-019-09683-4>,
+    Culpepper, S. A. (2019b) <doi: 10.1007/s11336-018-9643-8>,
+    Culpepper, S. A., & Chen, Y. (2019) <doi: 10.3102/1076998618791306>,
+    Culpepper, S. A., & Balamuta, J. J. (2017) <doi: 10.1007/s11336-015-9484-7>,
+    and Culpepper, S. A. (2015) <doi: 10.3102/1076998615595403>.
 }
 \seealso{
 Useful links:
@@ -19,12 +26,12 @@ Useful links:
 
 }
 \author{
-\strong{Maintainer}: James Joseph Balamuta \email{balamut2@illinois.edu} (\href{https://orcid.org/0000-0003-2826-8458}{ORCID})
+\strong{Maintainer}: James Joseph Balamuta \email{balamut2@illinois.edu} (\href{https://orcid.org/0000-0003-2826-8458}{ORCID}) [copyright holder]
 
 Authors:
 \itemize{
-  \item Steven Andrew Culpepper \email{sculpepp@illinois.edu} (\href{https://orcid.org/0000-0003-4226-6176}{ORCID})
-  \item Jeffrey Alan Douglas \email{jeffdoug@illinois.edu}
+  \item Steven Andrew Culpepper \email{sculpepp@illinois.edu} (\href{https://orcid.org/0000-0003-4226-6176}{ORCID}) [copyright holder]
+  \item Jeffrey Alan Douglas \email{jeffdoug@illinois.edu} [copyright holder]
 }
 
 }
