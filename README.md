@@ -43,6 +43,9 @@ devtools::install_github("tmsalab/edmdata")
       - `items_ordered_eclsk_atl`: N = 13354 subject responses to J = 12
         items.
       - **TMSA Papers:** Culpepper (2019a)
+  - Last Series of the Standard Progressive Matrices (SPM-LS)
+    (Myszkowski & Storme, 2018; Raven, 1941; Robitzsch, 2020).
+      - `items_spm_ls`: N = 499 subject responses to J = 12 items.
   - Experimental Matrix Reasoning Test (OpenPsychometrics, 2012a).
       - `items_matrix_reasoning`: N = 400 subject responses to J = 25
         items.
@@ -186,6 +189,15 @@ Educational and Behavioral Statistics*, *44*(1), 3–24.
 
 </div>
 
+<div id="ref-Myszkowski:2018:IRTSPMLS">
+
+Myszkowski, N., & Storme, M. (2018). A snapshot of g? Binary and
+polytomous item-response theory investigations of the last series of the
+standard progressive matrices (spm-ls). *Intelligence*, *68*, 109–116.
+<https://doi.org/10.1016/j.intell.2018.03.010>
+
+</div>
+
 <div id="ref-ECLSK:2010:ATLData">
 
 NCES. (2010). *Early childhood longitudinal study, kindergarten class of
@@ -222,6 +234,22 @@ Raskin, R., & Terry, H. (1988). A principal-components analysis of the
 narcissistic personality inventory and further evidence of its construct
 validity. *Journal of Personality and Social Psychology*, *54*(5), 890.
 <https://doi.org/10.1037/0022-3514.54.5.890>
+
+</div>
+
+<div id="ref-Raven:1941:SPM">
+
+Raven, J. C. (1941). Standardization of progressive matrices, 1938.
+*British Journal of Medical Psychology*, *19*(1), 137–150.
+<https://doi.org/10.1111/j.2044-8341.1941.tb00316.x>
+
+</div>
+
+<div id="ref-Robitzsch:2020:IRTRCLMSPMLS">
+
+Robitzsch, A. (2020). Regularized latent class analysis for polytomous
+item responses: An application to spm-ls data. *Preprint*.
+<https://doi.org/10.20944/preprints202007.0269.v1>
 
 </div>
 
