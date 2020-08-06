@@ -55,6 +55,15 @@ reference:
     used in [Culpepper (2019b)](https://doi.org/10.1007/s11336-019-09683-4).
   contents:
   - items_ordered_eclsk_atl
+- title: Last Series of the Standard Progressive Matrices (SPM-LS) Item Responses
+  desc: >
+    Data from Last Series of the Standard Progressive Matrices (SPM-LS) by
+    [Raven, 1941](https://doi.org/10.1111/j.2044-8341.1941.tb00316.x) collected from
+    [Myszkowski & Storme, 2018](https://doi.org/10.1016/j.intell.2018.03.010)
+    with scoring guidance in
+    [Robitzsch, 2020](https://doi.org/10.20944/preprints202007.0269.v1).
+  contents:
+  - items_spm_ls
 - title: Oracle Q Matrices
   desc: >
     Pre-generated identified Q matrices used in simulation studies.
@@ -62,11 +71,6 @@ reference:
   - qmatrix_oracle_k3_j20
   - qmatrix_oracle_k4_j20
   - qmatrix_oracle_k5_j30
-- title: Last Series of the Standard Progressive Matrices (SPM-LS) Item Responses
-  desc: >
-    Last Series of the Standard Progressive Matrices (SPM-LS) Item Responses.
-  contents:
-  - items_spm_ls
 - title: OpenPsychometrics
   desc: >
     Data sets compiled from [OpenPsychometrics' raw data portal](https://openpsychometrics.org/_rawdata/).
