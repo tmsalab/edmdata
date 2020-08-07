@@ -11,13 +11,7 @@
 - This is a new release.
 - This is a resubmit to address the following comments:
 
-> The authors seem also to be copyright holders [cph].
-> Please add this information to the Authors@R field.
+> Please omit the space within the doi specification to make it clickable.
 
-We have added the `cph` tag to all authors attached to the package.
-
-> If there are references describing the methods in your package, please
-> add these in the description field of your DESCRIPTION file in the form...
-
-We have included the references to the methodology papers that used these 
-data sets in their application section.
+We've removed the white space in the doi specification. Specifically,
+<doi: 10.1007/...> is now <doi:10.1007/...>
