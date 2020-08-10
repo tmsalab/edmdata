@@ -96,7 +96,7 @@ The Journal of Abnormal and Social Psychology, 48(2), 285–290.
 \strong{Data originated from:}
 \itemize{
 \item OpenPsychometrics. 2012. \emph{Taylor Manifest Anxiety Scale}.
-\url{http://openpsychometrics.org/_rawdata/TMA.zip}.
+\url{https://openpsychometrics.org/_rawdata/TMA.zip}.
 }
 
 \strong{Data used in:}

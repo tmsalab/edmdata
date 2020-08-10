@@ -9,7 +9,7 @@
 #' **Data originated from:**
 #'
 #' - OpenPsychometrics. 2012. *Taylor Manifest Anxiety Scale*.
-#'   <http://openpsychometrics.org/_rawdata/TMA.zip>.
+#'   <https://openpsychometrics.org/_rawdata/TMA.zip>.
 #'
 #' **Data used in:**
 #'

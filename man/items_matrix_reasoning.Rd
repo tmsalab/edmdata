@@ -66,7 +66,7 @@ a random order for each participant.
 \strong{Data originated from:}
 \itemize{
 \item OpenPsychometrics. (2012). \emph{Experimental matrix reasoning iq test}.
-\url{http://openpsychometrics.org/_rawdata/IQ1.zip}
+\url{https://openpsychometrics.org/_rawdata/IQ1.zip}
 }
 
 \strong{Data used in:}

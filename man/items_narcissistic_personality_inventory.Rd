@@ -244,7 +244,7 @@ validity. \emph{Journal of Personality and Social Psychology}, \emph{54}(5), 890
 \strong{Data originated from:}
 \itemize{
 \item OpenPsychometrics. 2013. \emph{Narcissistic Personality Inventory}.
-\url{http://openpsychometrics.org/_rawdata/NPI.zip}.
+\url{https://openpsychometrics.org/_rawdata/NPI.zip}.
 }
 
 \strong{Data used in:}

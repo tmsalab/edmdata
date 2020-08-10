@@ -19,8 +19,8 @@ Collection of data sets from various assessments that can be used to
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://tmsalab.github.io/edmdata}
-  \item \url{https://github.com/tmsalab/edmdata}
+  \item \url{https://tmsalab.github.io/edmdata/}
+  \item \url{https://github.com/tmsalab/edmdata/}
   \item Report bugs at \url{https://github.com/tmsalab/edmdata/issues}
 }
 

@@ -3,7 +3,7 @@
 #' **Data originated from:**
 #'
 #' - OpenPsychometrics. (2012). *Experimental matrix reasoning iq test*.
-#'   <http://openpsychometrics.org/_rawdata/IQ1.zip>
+#'   <https://openpsychometrics.org/_rawdata/IQ1.zip>
 #'
 #' **Data used in:**
 #'

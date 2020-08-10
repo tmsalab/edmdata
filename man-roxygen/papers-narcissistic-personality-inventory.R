@@ -10,7 +10,7 @@
 #' **Data originated from:**
 #'
 #' - OpenPsychometrics. 2013. *Narcissistic Personality Inventory*.
-#'   <http://openpsychometrics.org/_rawdata/NPI.zip>.
+#'   <https://openpsychometrics.org/_rawdata/NPI.zip>.
 #'
 #' **Data used in:**
 #'

@@ -210,21 +210,21 @@ files*. <https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2010070>
 <div id="ref-OpenPsychometrics:2012:IQ1">
 
 OpenPsychometrics. (2012a). *Experimental matrix reasoning iq test*.
-<http://openpsychometrics.org/_rawdata/IQ1.zip>
+<https://openpsychometrics.org/_rawdata/IQ1.zip>
 
 </div>
 
 <div id="ref-OpenPsychometrics:2012:TaylorAnxietyScale">
 
 OpenPsychometrics. (2012b). *Taylor manifest anxiety scale*.
-<http://openpsychometrics.org/_rawdata/TMA.zip>
+<https://openpsychometrics.org/_rawdata/TMA.zip>
 
 </div>
 
 <div id="ref-OpenPsychometrics:2013:NPI">
 
 OpenPsychometrics. (2013). *Narcissistic personality inventory*.
-<http://openpsychometrics.org/_rawdata/NPI.zip>
+<https://openpsychometrics.org/_rawdata/NPI.zip>
 
 </div>
 
