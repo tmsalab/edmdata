@@ -3,6 +3,7 @@
 \docType{data}
 \name{qmatrix_oracle}
 \alias{qmatrix_oracle}
+\alias{qmatrix_oracle_k2_j12}
 \alias{qmatrix_oracle_k3_j20}
 \alias{qmatrix_oracle_k4_j20}
 \alias{qmatrix_oracle_k5_j30}
@@ -12,6 +13,7 @@ A \code{matrix} with varying numbers of traits (\code{K}) and items (\code{J}).
 
 Specifically:
 \itemize{
+\item \code{qmatrix_oracle_k2_j12}: 12 items and 2 traits.
 \item \code{qmatrix_oracle_k3_j20}: 20 items and 3 traits.
 \item \code{qmatrix_oracle_k4_j20}: 20 items and 4 traits.
 \item \code{qmatrix_oracle_k5_j30}: 30 items and 5 traits.

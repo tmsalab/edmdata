@@ -9,6 +9,7 @@
 #'
 #' Specifically:
 #'
+#' - `qmatrix_oracle_k2_j12`: 12 items and 2 traits.
 #' - `qmatrix_oracle_k3_j20`: 20 items and 3 traits.
 #' - `qmatrix_oracle_k4_j20`: 20 items and 4 traits.
 #' - `qmatrix_oracle_k5_j30`: 30 items and 5 traits.
@@ -18,7 +19,7 @@
 #' the item does not use the skill.
 #'
 #' @name qmatrix_oracle
-#' @aliases qmatrix_oracle_k3_j20 qmatrix_oracle_k4_j20 qmatrix_oracle_k5_j30
+#' @aliases qmatrix_oracle_k2_j12 qmatrix_oracle_k3_j20 qmatrix_oracle_k4_j20 qmatrix_oracle_k5_j30
 #' @docType data
 #' @keywords datasets
 NULL

@@ -59,6 +59,7 @@ devtools::install_github("tmsalab/edmdata")
       - `items_narcissistic_personality_inventory`: N = 11243 subject
         responses to J = 40 items.
   - Pre-generated identified Q matrices.
+      - `qmatrix_oracle_k2_j12`: J = 12 items and K = 2 traits.
       - `qmatrix_oracle_k3_j20`: J = 20 items and K = 3 traits.
       - `qmatrix_oracle_k4_j20`: J = 20 items and K = 4 traits.
       - `qmatrix_oracle_k5_j30`: J = 30 items and K = 5 traits.
