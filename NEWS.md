@@ -1,3 +1,12 @@
+# edmdata 1.0.0.900
+
+## Data Sets
+
+- `items_spm_ls`
+  - Last Series of the Standard Progressive Matrices (SPM-LS) Item Responses
+- `qmatrix_oracle_k2_j12`
+  - Oracle Q Matrices for J = 12 Items and K = 2 Traits.
+
 # edmdata 1.0.0
 
 ## Features
