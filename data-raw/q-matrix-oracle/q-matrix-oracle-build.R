@@ -20,7 +20,7 @@ generate_oracle_q = function(q_c, J, K) {
 qmatrix_oracle_k2_j12 = generate_oracle_q(qc2, 12, 2)
 qmatrix_oracle_k3_j20 = generate_oracle_q(qc3, 20, 3)
 qmatrix_oracle_k4_j20 = generate_oracle_q(qc4, 20, 4)
-qmatrix_oracle_k5_j30 = generate_oracle_q(qc5, 30, 4)
+qmatrix_oracle_k5_j30 = generate_oracle_q(qc5, 30, 5)
 
 ## Validate generated Q matrices are identifiable.
 stopifnot(all(ecdmcore::check_identifiability(qmatrix_oracle_k3_j20),
