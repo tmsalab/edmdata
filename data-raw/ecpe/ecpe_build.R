@@ -4,8 +4,8 @@
 ######################################
 
 # Read in data as a data.frame
-items_ecpe = ecdm::read_items("data-raw/ecpe/ecpe_item_data.dat",
-                                  header = FALSE, sep = " ", drop_columns = 1)
+items_ecpe = edmcore::read_item_matrix("data-raw/ecpe/ecpe_item_data.dat",
+                                  header = FALSE, sep = " ")
 
 ## The following uses the `app_tables` data file used in the E-rRUM paper
 # # Extract out expert matrix
@@ -20,10 +20,10 @@ items_ecpe = ecdm::read_items("data-raw/ecpe/ecpe_item_data.dat",
 # sink()
 
 # Read the Expert ECPE Q Matrix in
-qmatrix_ecpe = ecdm::read_qmatrix("data-raw/ecpe/qmatrix_ecpe.txt",
+qmatrix_ecpe = edmcore::read_q_matrix("data-raw/ecpe/qmatrix_ecpe.txt",
                                   header = FALSE, sep = " ")
 
 # Export data sets
-devtools::use_data(items_ecpe, overwrite = TRUE)
+usethis::use_data(items_ecpe, overwrite = TRUE)
 
-devtools::use_data(qmatrix_ecpe, overwrite = TRUE)
+usethis::use_data(qmatrix_ecpe, overwrite = TRUE)
