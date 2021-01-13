@@ -59,10 +59,10 @@ The subjects answered the following assessment items:
 \item Templin, J., & Bradshaw, L. (2014). Hierarchical diagnostic
 classification models: A family of models for estimating and testing
 attribute hierarchies. \emph{Psychometrika}, \emph{79}(2), 317–339.
-\url{https://doi.org/10.1007/s11336-013-9362-0}
+\doi{10.1007/s11336-013-9362-0}
 \item Templin, J., & Hoffman, L. (2013). Obtaining diagnostic classification
 model estimates using mplus. \emph{Educational Measurement: Issues and
-Practice}, \emph{32}(2), 37–50. \url{https://doi.org/10.1111/emip.12010}
+Practice}, \emph{32}(2), 37–50. \doi{10.1111/emip.12010}
 }
 
 \strong{Data used in:}
@@ -70,7 +70,7 @@ Practice}, \emph{32}(2), 37–50. \url{https://doi.org/10.1111/emip.12010}
 \item Culpepper, S. A., & Chen, Y. (2019). Development and application of an
 exploratory reduced reparameterized unified model. \emph{Journal of
 Educational and Behavioral Statistics}, \emph{44}(1), 3–24.
-\url{https://doi.org/10.3102/1076998618791306}
+\doi{10.3102/1076998618791306}
 }
 }
 \keyword{datasets}

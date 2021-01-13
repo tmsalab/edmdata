@@ -238,7 +238,7 @@ of the item matrix, otherwise they received a zero.
 \item Raskin, R., & Terry, H. (1988). A principal-components analysis of the
 narcissistic personality inventory and further evidence of its construct
 validity. \emph{Journal of Personality and Social Psychology}, \emph{54}(5), 890.
-\url{https://doi.org/10.1037/0022-3514.54.5.890}
+\doi{10.1037/0022-3514.54.5.890}
 }
 
 \strong{Data originated from:}

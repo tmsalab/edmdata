@@ -44,7 +44,7 @@ of the item matrix, otherwise they received a zero.
 \itemize{
 \item Raven, J. C. (1941). Standardization of progressive matrices, 1938.
 \emph{British Journal of Medical Psychology}, \emph{19}(1), 137–150.
-\url{https://doi.org/10.1111/j.2044-8341.1941.tb00316.x}
+\doi{10.1111/j.2044-8341.1941.tb00316.x}
 }
 
 \strong{Data originated from:}
@@ -52,10 +52,10 @@ of the item matrix, otherwise they received a zero.
 \item Myszkowski, N., & Storme, M. (2018). A snapshot of g? Binary and
 polytomous item-response theory investigations of the last series of the
 standard progressive matrices (spm-ls). \emph{Intelligence}, \emph{68}, 109–116.
-\url{https://doi.org/10.1016/j.intell.2018.03.010}
+\doi{10.1016/j.intell.2018.03.010}
 \item Robitzsch, A. (2020). Regularized latent class analysis for polytomous
 item responses: An application to spm-ls data. \emph{Preprint}.
-\url{https://doi.org/10.20944/preprints202007.0269.v1}
+\doi{10.20944/preprints202007.0269.v1}
 }
 
 \strong{Data used in:}

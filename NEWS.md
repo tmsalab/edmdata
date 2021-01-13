@@ -5,8 +5,9 @@
 - `qmatrix_oracle_k2_j12`
   - Oracle Q Matrices for J = 12 Items and K = 2 Traits.
 
-## Bugfix
+## Bugfixes
 
+- Fixed use of DOIs with URLs instead of `\doi{}`.
 - Fixed an issue with K = 5 attribute in `qmatrix_oracle_k5_j30`
 
 # edmdata 1.0.0

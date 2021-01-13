@@ -71,7 +71,7 @@ files}. \url{https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2010070}
 \item Culpepper, S. (2019). An exploratory diagnostic model for ordinal
 responses with binary attributes: Identifiability and estimation.
 \emph{Psychometrika}, \emph{84}(4), 921–940.
-\url{https://doi.org/10.1007/s11336-019-09683-4}
+\doi{10.1007/s11336-019-09683-4}
 }
 }
 \keyword{datasets}

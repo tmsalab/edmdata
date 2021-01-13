@@ -61,17 +61,17 @@ psvt: R)}. Purdue University.
 \itemize{
 \item Culpepper, S. A., & Balamuta, J. J. (2017). A Hierarchical Model for
 Accuracy and Choice on Standardized Tests. \emph{Psychometrika}, \emph{82}(3),
-820–845. \url{https://doi.org/10.1007/s11336-015-9484-7}
+820–845. \doi{10.1007/s11336-015-9484-7}
 }
 
 \strong{Data used in:}
 \itemize{
 \item Culpepper, S. A. (2015). Bayesian estimation of the dina model with
 gibbs sampling. \emph{Journal of Educational and Behavioral Statistics},
-\emph{40}(5), 454–476. \url{https://doi.org/10.3102/1076998615595403}
+\emph{40}(5), 454–476. \doi{10.3102/1076998615595403}
 \item Culpepper, S. A., & Balamuta, J. J. (2017). A Hierarchical Model for
 Accuracy and Choice on Standardized Tests. \emph{Psychometrika}, \emph{82}(3),
-820–845. \url{https://doi.org/10.1007/s11336-015-9484-7}
+820–845. \doi{10.1007/s11336-015-9484-7}
 }
 }
 \keyword{datasets}

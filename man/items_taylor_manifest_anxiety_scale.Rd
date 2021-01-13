@@ -90,7 +90,7 @@ of the item matrix, otherwise they received a zero.
 \itemize{
 \item Taylor, J. A. (1953). \emph{A personality scale of manifest anxiety}.
 The Journal of Abnormal and Social Psychology, 48(2), 285–290.
-\url{https://doi.org/10.1037/h0056264}
+\doi{10.1037/h0056264}.
 }
 
 \strong{Data originated from:}

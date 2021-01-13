@@ -11,4 +11,4 @@
 #' - Culpepper, S. (2019). An exploratory diagnostic model for ordinal
 #'   responses with binary attributes: Identifiability and estimation.
 #'   *Psychometrika*, *84*(4), 921–940.
-#'   <https://doi.org/10.1007/s11336-019-09683-4>
+#'   \doi{10.1007/s11336-019-09683-4}

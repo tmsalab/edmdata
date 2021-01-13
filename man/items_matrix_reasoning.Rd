@@ -73,7 +73,7 @@ a random order for each participant.
 \itemize{
 \item Chen, Y., Culpepper, S. A., & Liang, F. (2020). A sparse latent class model
 for cognitive diagnosis. \emph{Psychometrika}, 1–33.
-\url{https://doi.org/10.1007/s11336-019-09693-2}
+\doi{10.1007/s11336-019-09693-2}
 }
 }
 \keyword{datasets}
