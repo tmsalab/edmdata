@@ -48,31 +48,21 @@ The subjects answered the following assessment items:
 \references{
 \strong{Data originated from:}
 \itemize{
-\item Tatsuoka, C. (2002). Data analytic methods for latent partially ordered
-classification models. \emph{Journal of the Royal Statistical Society: Series
-C (Applied Statistics)}, \emph{51}(3), 337–350.
-\doi{10.1111/1467-9876.00272}
-\item Tatsuoka, K. K. (1984), Analysis of errors in fraction addition and subtraction
-problems (Final Report for Grant No. NIE-G-81-0002). Urbana: University of
-Illinois, Computer-Based Education Research Laboratory (CERL).
+\item Templin, J., & Bradshaw, L. (2014). Hierarchical diagnostic
+classification models: A family of models for estimating and testing
+attribute hierarchies. \emph{Psychometrika}, \emph{79}(2), 317–339.
+\doi{10.1007/s11336-013-9362-0}
+\item Templin, J., & Hoffman, L. (2013). Obtaining diagnostic classification
+model estimates using mplus. \emph{Educational Measurement: Issues and
+Practice}, \emph{32}(2), 37–50. \doi{10.1111/emip.12010}
 }
 
 \strong{Data used in:}
 \itemize{
-\item Chen, Y., Culpepper, S. A., & Liang, F. (2020). A sparse latent class model
-for cognitive diagnosis. \emph{Psychometrika}, 1–33.
-\doi{10.1007/s11336-019-09693-2}
-\item Culpepper, S. A. (2019). Estimating the cognitive diagnosis \eqn{Q} matrix
-with expert knowledge: Application to the fraction-subtraction dataset.
-\emph{Psychometrika}, \emph{84}(2), 333–357.
-\doi{10.1007/s11336-018-9643-8}
 \item Culpepper, S. A., & Chen, Y. (2019). Development and application of an
 exploratory reduced reparameterized unified model. \emph{Journal of
 Educational and Behavioral Statistics}, \emph{44}(1), 3–24.
 \doi{10.3102/1076998618791306}
-\item Chen, Y., Culpepper, S. A., Chen, Y., & Douglas, J. (2018). Bayesian
-estimation of the dina q matrix. \emph{Psychometrika}, \emph{83}(1), 89–108.
-\doi{10.1007/s11336-017-9579-4}
 }
 }
 \keyword{datasets}

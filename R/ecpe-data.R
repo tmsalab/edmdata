@@ -33,7 +33,7 @@
 #' - `item28`
 #'
 #'
-#' @template papers-fractions
+#' @template papers-ecpe
 "items_ecpe"
 
 #' Examination for the Certificate of Proficiency in English (ECPE) Expert-Derived Q matrix

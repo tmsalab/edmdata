@@ -1,3 +1,9 @@
+# edmdata 1.1.1
+
+## Bugfixes
+
+- Fixed `ecpe` paper references.
+
 # edmdata 1.1.0
 
 ## Data Sets
