@@ -71,6 +71,19 @@ reference:
   - qmatrix_oracle_k3_j20
   - qmatrix_oracle_k4_j20
   - qmatrix_oracle_k5_j30
+- title: Oracle Strategy Sets
+  desc: >
+    Pre-generated strategy sets used in multiple-strategies
+    simulation studies.
+  contents:
+  - strategy_oracle_k3_j20_s2
+  - strategy_oracle_k3_j30_s2
+  - strategy_oracle_k3_j40_s2
+  - strategy_oracle_k3_j50_s2
+  - strategy_oracle_k4_j20_s2
+  - strategy_oracle_k4_j30_s2
+  - strategy_oracle_k4_j40_s2
+  - strategy_oracle_k4_j50_s2
 - title: OpenPsychometrics
   desc: >
     Data sets compiled from [OpenPsychometrics' raw data portal](https://openpsychometrics.org/_rawdata/).
