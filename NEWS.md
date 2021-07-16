@@ -1,7 +1,13 @@
-# edmdata 1.1.2
+# edmdata 1.2.0
 
 ## Data Sets
 
+- `items_probability_part_one`
+  - Elementary Probability Theory Assessment Item Responses based on data
+    from the `pks` package.
+- `qmatrix_probability_part_one` 
+  - Elementary Probability Theory Assessment Expert-Derived Q Matrix based
+    off of the mapping given in the `pks` package data example.
 - Oracle Strategy Sets for use in multiple-strategies simulation studies.
   - `strategy_oracle_k3_j20_s2`: 20 items, 3 traits, and 2 strategies.
   - `strategy_oracle_k3_j30_s2`: 30 items, 3 traits, and 2 strategies.

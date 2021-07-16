@@ -8,6 +8,8 @@
 [![R build
 status](https://github.com/tmsalab/edmdata/workflows/R-CMD-check/badge.svg)](https://github.com/tmsalab/edmdata/actions)
 [![Package-License](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](https://opensource.org/licenses/MIT)
+[![CRAN
+status](https://www.r-pkg.org/badges/version/edmdata)](https://CRAN.R-project.org/package=edmdata)
 <!-- badges: end -->
 
 The goal of `edmdata` is to provide a set of an example assessment data
@@ -33,8 +35,14 @@ devtools::install_github("tmsalab/edmdata")
     Tatsuoka, 1984).
     -   `items_fractions`: N = 536 subject responses to J = 20 items.
     -   `qmatrix_fractions`: J = 536 items and K = 20 traits.
-    -   **TMSA Papers:** Yinyin Chen et al. (2020), Culpepper (2019b),
-        Culpepper & Chen (2019), Yinghan Chen et al. (2018)
+    -   **TMSA Papers:** Yinghan Chen et al. (2021), Yinyin Chen et
+        al. (2020), Culpepper (2019b), Culpepper & Chen (2019), Yinghan
+        Chen et al. (2018)
+-   Elementary Probability Theory (Heller & Wickelmaier, 2013).
+    -   `items_probability_part_one`: N = 504 subject responses to J =
+        12 items.
+    -   `qmatrix_probability_part_one`: J = 12 items and K = 4 traits.
+    -   **TMSA Papers:** Yinghan Chen et al. (2021)
 -   Revised PSVT:R (Culpepper & Balamuta, 2017; Yoon, 2011).
     -   `items_revised_psvtr`: N = 516 subject responses to J = 30
         items.
@@ -165,6 +173,15 @@ class model for cognitive diagnosis. *Psychometrika*, 1–33.
 
 </div>
 
+<div id="ref-Chen:2021:InferK" class="csl-entry">
+
+Chen, Yinghan, Liu, Y., Culpepper, S. A., & Chen, Y. (2021). Inferring
+the number of attributes for the exploratory DINA model.
+*Psychometrika*, *86*(1), 30–64.
+<https://doi.org/10.1007/s11336-021-09750-9>
+
+</div>
+
 <div id="ref-Culpepper:2015:BayesianDINA" class="csl-entry">
 
 Culpepper, S. A. (2015). Bayesian estimation of the DINA model with
@@ -206,6 +223,14 @@ Culpepper, S. A., & Chen, Y. (2019). Development and application of an
 exploratory reduced reparameterized unified model. *Journal of
 Educational and Behavioral Statistics*, *44*(1), 3–24.
 <https://doi.org/10.3102/1076998618791306>
+
+</div>
+
+<div id="ref-Heller:2013:ProbabilityKS" class="csl-entry">
+
+Heller, J., & Wickelmaier, F. (2013). Minimum discrepancy estimation in
+probabilistic knowledge structures. *Electronic Notes in Discrete
+Mathematics*, *42*, 49–56.
 
 </div>
 
