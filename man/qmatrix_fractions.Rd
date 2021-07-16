@@ -65,6 +65,9 @@ Illinois, Computer-Based Education Research Laboratory (CERL).
 
 \strong{Data used in:}
 \itemize{
+\item Chen, Y., Liu, Y., Culpepper, S. A., & Chen, Y. (2021).
+Inferring the number of attributes for the exploratory DINA model.
+Psychometrika, 86(1), 30–64. \doi{10.1007/s11336-021-09750-9}
 \item Chen, Y., Culpepper, S. A., & Liang, F. (2020). A sparse latent class model
 for cognitive diagnosis. \emph{Psychometrika}, 1–33.
 \doi{10.1007/s11336-019-09693-2}
