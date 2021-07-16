@@ -1,4 +1,16 @@
-# edmdata 1.1.1
+# edmdata 1.1.2
+
+## Data Sets
+
+- Oracle Strategy Sets for use in multiple-strategies simulation studies.
+  - `strategy_oracle_k3_j20_s2`: 20 items, 3 traits, and 2 strategies.
+  - `strategy_oracle_k3_j30_s2`: 30 items, 3 traits, and 2 strategies.
+  - `strategy_oracle_k3_j40_s2`: 40 items, 3 traits, and 2 strategies.
+  - `strategy_oracle_k3_j50_s2`: 50 items, 3 traits, and 2 strategies.
+  - `strategy_oracle_k4_j20_s2`: 20 items, 4 traits, and 2 strategies.
+  - `strategy_oracle_k4_j30_s2`: 30 items, 4 traits, and 2 strategies.
+  - `strategy_oracle_k4_j40_s2`: 40 items, 4 traits, and 2 strategies.
+  - `strategy_oracle_k4_j50_s2`: 50 items, 4 traits, and 2 strategies.
 
 ## Bugfixes
 
