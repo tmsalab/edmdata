@@ -19,6 +19,7 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 [![R build status](https://github.com/tmsalab/edmdata/workflows/R-CMD-check/badge.svg)](https://github.com/tmsalab/edmdata/actions)
 [![Package-License](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](https://opensource.org/licenses/MIT)
+[![CRAN status](https://www.r-pkg.org/badges/version/edmdata)](https://CRAN.R-project.org/package=edmdata)
 <!-- badges: end -->
 
 The goal of `edmdata` is to provide a set of an example assessment data sets
@@ -46,7 +47,13 @@ library("edmdata")
 - Fraction Addition and Subtraction [@Tatsuoka:1984:FractionSubtraction; @Tatsuoka:2002:FractionSubtractionRelease].
     - `items_fractions`: N = `r nrow(items_fractions)` subject responses to J = `r ncol(items_fractions)` items.
     - `qmatrix_fractions`: J = `r nrow(items_fractions)` items and K = `r ncol(items_fractions)` traits. 
-    - **TMSA Papers:** @Chen:2020:SLCMDC, @Culpepper:2019:EGDM, @Culpepper:2019:ErRUM, @Chen:2018:EDINA
+    - **TMSA Papers:** @Chen:2021:InferK, @Chen:2020:SLCMDC, @Culpepper:2019:EGDM, @Culpepper:2019:ErRUM, @Chen:2018:EDINA
+- Elementary Probability Theory [@Heller:2013:ProbabilityKS].
+    - `items_probability_part_one`: N = `r nrow(items_probability_part_one)`
+      subject responses to J = `r ncol(items_probability_part_one)` items.
+    - `qmatrix_probability_part_one`: J = `r nrow(qmatrix_probability_part_one)` 
+     items and K = `r ncol(qmatrix_probability_part_one)` traits. 
+    - **TMSA Papers:** @Chen:2021:InferK
 - Revised PSVT:R [@Yoon:2011:RevisedPSVTR; @Culpepper:2017:ChoiceIRT].
     - `items_revised_psvtr`: N = `r nrow(items_revised_psvtr)` subject responses
       to J = `r ncol(items_revised_psvtr)` items.
