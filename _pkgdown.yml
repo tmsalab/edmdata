@@ -73,7 +73,7 @@ reference:
   - qmatrix_oracle_k5_j30
 - title: Oracle Strategy Sets
   desc: >
-    Pre-generated identified strategy sets used in multiple-strategies
+    Pre-generated strategy sets used in multiple-strategies
     simulation studies.
   contents:
   - strategy_oracle_k3_j20_s2
