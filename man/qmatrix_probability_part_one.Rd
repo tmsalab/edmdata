@@ -14,17 +14,24 @@ qmatrix_probability_part_one
 Elementary Probability Theory Assessment Expert-Derived Q Matrix
 }
 \details{
-Each entry in the matrix is either \code{1}, if the Item uses the Trait, or \code{0}, if
-the Item does not use the Trait. The traits identified by this \code{matrix} are:
+Each entry in the matrix is either \code{1}, if the item uses the trait, or \code{0}, if
+the item does not use the trait. The traits identified by this \code{matrix} are:
 \itemize{
-\item \code{Trait1}
-\item \code{Trait2}
-\item \code{Trait3}
-\item \code{Trait4}
+\item \code{cp}: the probability of the complement of an event
+\item \code{id}: two independent events
+\item \code{pb}: probability of an event
+\item \code{un}: union of two disjoint events
 }
 
 For a detailed overview of items, please see \code{\link{items_probability_part_one}}.
 }
+\section{Identifiability}{
+
+
+Note, the expert supplied Q-matrix is \emph{not} strictly identified.
+Though, the expert matrix is generically identified.
+}
+
 \references{
 \strong{Data originated from:}
 \itemize{

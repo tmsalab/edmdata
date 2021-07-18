@@ -56,15 +56,20 @@
 #' Elementary Probability Theory Assessment Expert-Derived Q Matrix
 #'
 #' @details
-#' Each entry in the matrix is either `1`, if the Item uses the Trait, or `0`, if
-#' the Item does not use the Trait. The traits identified by this `matrix` are:
+#' Each entry in the matrix is either `1`, if the item uses the trait, or `0`, if
+#' the item does not use the trait. The traits identified by this `matrix` are:
 #'
-#' - `Trait1`
-#' - `Trait2`
-#' - `Trait3`
-#' - `Trait4`
+#' - `cp`: the probability of the complement of an event
+#' - `id`: two independent events
+#' - `pb`: probability of an event
+#' - `un`: union of two disjoint events
 #'
 #' For a detailed overview of items, please see [`items_probability_part_one`].
+#'
+#' @section Identifiability:
+#'
+#' Note, the expert supplied Q-matrix is _not_ strictly identified.
+#' Though, the expert matrix is generically identified.
 #'
 #' @template papers-probability
 "qmatrix_probability_part_one"
