@@ -33,6 +33,7 @@ reference:
     from [Tatsuoka, C. (2002)](https://doi.org/10.1111/1467-9876.00272)
     generated in [Tatsuoka, K. K. (1984)](https://eric.ed.gov/?id=ED257665)
     used in
+    [Chen et al. (2021)](https://doi.org/10.1007/s11336-021-09750-9),
     [Chen et al. (2020)](https://doi.org/10.1007/s11336-019-09693-2),
     [Culpepper (2019a)](https://doi.org/10.1007/s11336-018-9643-8),
     [Culpepper and Chen (2019)](https://doi.org/10.3102/1076998618791306),
@@ -40,6 +41,14 @@ reference:
   contents:
   - items_fractions
   - qmatrix_fractions
+- title: Elementary Probability Theory Assessment
+  desc: >
+    Data from an Elementary Probability Theory Assessment by
+    [Heller, J., & Wickelmaier, F. (2013)](https://doi.org/0.1016/j.endm.2013.05.145)
+    used in [Chen et al. (2021)](https://doi.org/10.1007/s11336-021-09750-9)
+  contents:
+  - items_probability_part_one
+  - qmatrix_probability_part_one
 - title: "Revised Purdue Spatial Visualization Test: Visualization of Rotations (Revised PSVT:R)"
   desc: >
     Data collected using Revised PSVT:R by [Yoon (2011)](https://docs.lib.purdue.edu/dissertations/AAI3480934/)
@@ -64,18 +73,14 @@ reference:
     [Robitzsch, 2020](https://doi.org/10.20944/preprints202007.0269.v1).
   contents:
   - items_spm_ls
-- title: Oracle Q Matrices
+- title: Oracle Data
   desc: >
-    Pre-generated identified Q matrices used in simulation studies.
+    Pre-generated identified Q matrices or strategy sets used in simulation studies.
   contents:
+  - qmatrix_oracle_k2_j12
   - qmatrix_oracle_k3_j20
   - qmatrix_oracle_k4_j20
   - qmatrix_oracle_k5_j30
-- title: Oracle Strategy Sets
-  desc: >
-    Pre-generated strategy sets used in multiple-strategies
-    simulation studies.
-  contents:
   - strategy_oracle_k3_j20_s2
   - strategy_oracle_k3_j30_s2
   - strategy_oracle_k3_j40_s2
