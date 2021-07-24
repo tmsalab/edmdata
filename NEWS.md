@@ -22,6 +22,11 @@
 
 - Fixed `ecpe` paper references.
 
+## Deployment 
+
+- Added a custom user dictionary containing author names to prevent the 
+  R CMD check error of 'Possibly misspelled words in DESCRIPTION'. 
+
 # edmdata 1.1.0
 
 ## Data Sets
