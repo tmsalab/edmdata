@@ -9,7 +9,8 @@
 Collection of data sets from various assessments that can be used to 
     evaluate psychometric models. These data sets have been analyzed in the
     following papers that introduced new methodology as part of the application section:
-    Chen, Y., Culpepper, S. A., & Liang, F. (2020) <doi:10.1007/s11336-019-09693-2>
+    Yinghan Chen et al. (2021) <doi:10.1007/s11336-021-09750-9>,
+    Yinyin Chen et al. (2020) <doi:10.1007/s11336-019-09693-2>,
     Culpepper, S. A. (2019a) <doi:10.1007/s11336-019-09683-4>,
     Culpepper, S. A. (2019b) <doi:10.1007/s11336-018-9643-8>,
     Culpepper, S. A., & Chen, Y. (2019) <doi:10.3102/1076998618791306>,
