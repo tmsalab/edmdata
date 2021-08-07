@@ -15,6 +15,84 @@ Programme for International Student Assessment (PISA) 2012 US Math Assessment
 }
 \details{
 Items alongside of the problem name:
+\itemize{
+\item \code{pm00fq01}: P2012 Apartment Purchase Q1
+\item \code{pm00gq01}: P2012 An Advertising Column Q1
+\item \code{pm00kq02}: P2012 Wheelchair Basketball Q2
+\item \code{pm033q01}: P2000 A View with a Room Q1
+\item \code{pm034q01t}: P2000 Bricks Q1
+\item \code{pm155q01}: P2000 Pop Pyramids Q1
+\item \code{pm155q04t}: P2000 Pop Pyramids Q4
+\item \code{pm192q01t}: P2000 Containers Q1
+\item \code{pm273q01t}: P2000 Pipelines Q1
+\item \code{pm305q01}: P2000 Map Q1
+\item \code{pm406q01}: P2003 Running Tracks Q1
+\item \code{pm406q02}: P2003 Running Tracks Q2
+\item \code{pm408q01t}: P2003 Lotteries Q1
+\item \code{pm411q01}: P2003 Diving Q1
+\item \code{pm411q02}: P2003 Diving Q2
+\item \code{pm420q01t}: P2003 Transport Q1
+\item \code{pm423q01}: P2003 Tossing Coins Q1
+\item \code{pm442q02}: P2003 Braille Q2
+\item \code{pm446q01}: P2003 The Thermometer Cricket Q1
+\item \code{pm446q02}: P2003 The Thermometer Cricket Q2
+\item \code{pm447q01}: P2003 Tile Arrangement Q1
+\item \code{pm464q01t}: P2003 The Fence Q1
+\item \code{pm474q01}: P2003 Running Time Q1
+\item \code{pm496q01t}: P2003 Cash Withdrawal Q1
+\item \code{pm496q02}: P2003 Cash Withdrawal Q2
+\item \code{pm559q01}: P2003 Telephone Rates Q1
+\item \code{pm564q01}: P2003 Chair Lift Q1
+\item \code{pm564q02}: P2003 Chair Lift Q2
+\item \code{pm571q01}: P2003 Stop the Car Q1
+\item \code{pm603q01t}: P2003 Number Check Q1
+\item \code{pm800q01}: P2003 Computer Game Q1
+\item \code{pm803q01t}: P2003 Labels Q1
+\item \code{pm828q01}: P2003 Carbon Dioxide Q1
+\item \code{pm828q02}: P2003 Carbon Dioxide Q2
+\item \code{pm828q03}: P2003 Carbon Dioxide Q3
+\item \code{pm903q03}: P2012 Drip Rate Q3
+\item \code{pm905q01t}: P2012 Tennis Balls Q1
+\item \code{pm905q02}: P2012 Tennis Balls Q2
+\item \code{pm906q01}: P2012 Crazy Ants Q1
+\item \code{pm909q01}: P2012 Speeding Fines Q1
+\item \code{pm909q02}: P2012 Speeding Fines Q2
+\item \code{pm909q03}: P2012 Speeding Fines Q3
+\item \code{pm915q01}: P2012 Carbon Tax Q1
+\item \code{pm915q02}: P2012 Carbon Tax Q2
+\item \code{pm918q01}: P2012 Charts Q1
+\item \code{pm918q02}: P2012 Charts Q2
+\item \code{pm918q05}: P2012 Charts Q5
+\item \code{pm919q01}: P2012 Zs Fan Merchandise Q1
+\item \code{pm919q02}: P2012 Zs Fan Merchandise Q2
+\item \code{pm923q01}: P2012 Sailing Ships Q1
+\item \code{pm923q03}: P2012 Sailing Ships Q3
+\item \code{pm923q04}: P2012 Sailing Ships Q4
+\item \code{pm924q02}: P2012 Sauce Q2
+\item \code{pm943q01}: P2012 Arches Q1
+\item \code{pm943q02}: P2012 Arches Q2
+\item \code{pm949q01t}: P2012 Roof Truss Design Q1
+\item \code{pm949q02t}: P2012 Roof Truss Design Q2
+\item \code{pm953q02}: P2012 Flu Test Q2
+\item \code{pm953q03}: P2012 Flu Test Q3
+\item \code{pm954q01}: P2012 Medicine Doses Q1
+\item \code{pm954q02}: P2012 Medicine Doses Q2
+\item \code{pm954q04}: P2012 Medicine Doses Q4
+\item \code{pm955q01}: P2012 Migration Q1
+\item \code{pm955q02}: P2012 Migration Q2
+\item \code{pm982q01}: P2012 Employment Data Q1
+\item \code{pm982q02}: P2012 Employment Data Q2
+\item \code{pm982q03t}: P2012 Employment Data Q3
+\item \code{pm982q04}: P2012 Employment Data Q4
+\item \code{pm992q01}: P2012 Spacers Q1
+\item \code{pm992q02}: P2012 Spacers Q2
+\item \code{pm992q03}: P2012 Spacers Q3
+\item \code{pm995q01}: P2012 Revolving Door Q1
+\item \code{pm995q02}: P2012 Revolving Door Q2
+\item \code{pm995q03}: P2012 Revolving Door Q3
+\item \code{pm998q02}: P2012 Bike Rental Q2
+\item \code{pm998q04t}: P2012 Bike Rental Q4
+}
 }
 \section{Answer coding}{
 
@@ -51,7 +129,7 @@ items are coded with \verb{Score 0} as \code{0}, \verb{Score 1} as \code{1},
 \references{
 \strong{Assessment Design:}
 \itemize{
-\item PISA Test Overview: https://www.oecd.org/pisa/aboutpisa/
+\item PISA Test Overview: \url{https://www.oecd.org/pisa/aboutpisa/}
 \item PISA 2012 Mathematics Items:
 \url{https://www.oecd.org/pisa/test/PISA\%202012\%20items\%20for\%20release_ENGLISH.pdf}
 }
