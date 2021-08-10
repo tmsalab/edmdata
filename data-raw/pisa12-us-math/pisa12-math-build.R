@@ -7,7 +7,7 @@
 # install.packages("EdSurvey)
 library("EdSurvey")
 
-data_location = "data-raw/pisa12-math/db-pisa"
+data_location = "data-raw/pisa12-us-math/db-pisa"
 
 # Create the download directory
 dir.create(data_location, recursive = TRUE)
@@ -64,10 +64,10 @@ factor_level_check = purrr::map_lgl(pisa12_math, ~ length(levels(.x)) == 4)
 
 keep_items_with_factors = colnames(pisa12_math)[factor_level_check]
 
-pisa12_math = pisa12_math[, keep_items_with_factors]
+pisa12_math_fct = pisa12_math[, keep_items_with_factors]
 
 # Force factors to integers
-pisa12_math = purrr::map_df(pisa12_math, as.integer )
+pisa12_math_int = purrr::map_df(pisa12_math_fct, as.integer )
 
 # Setup a function to handle multiple value changes
 modify_pisa = function(df, old_value, new_value) {
@@ -76,13 +76,13 @@ modify_pisa = function(df, old_value, new_value) {
 }
 
 # Apply conversion
-pisa12_math = modify_pisa(pisa12_math, 1, 0)
-pisa12_math = modify_pisa(pisa12_math, 2, 1)
-pisa12_math = modify_pisa(pisa12_math, 3, NA)
-pisa12_math = modify_pisa(pisa12_math, 4, 0)
+pisa12_math_mod = modify_pisa(pisa12_math_int, 1, 0)
+pisa12_math_mod = modify_pisa(pisa12_math_mod, 2, 1)
+pisa12_math_mod = modify_pisa(pisa12_math_mod, 3, NA)
+pisa12_math_mod = modify_pisa(pisa12_math_mod, 4, 0)
 
 # Rename
-items_pisa12_us_math = as.data.frame(pisa12_math)
+items_pisa12_us_math = as.data.frame(pisa12_math_mod)
 
 # Export
 usethis::use_data(items_pisa12_us_math, overwrite = TRUE)
