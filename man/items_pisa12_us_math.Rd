@@ -5,7 +5,7 @@
 \alias{items_pisa12_us_math}
 \title{Programme for International Student Assessment (PISA) 2012 US Math Assessment}
 \format{
-An object of class \code{data.frame} with 4978 rows and 76 columns.
+An object of class \code{matrix} (inherits from \code{array}) with 4978 rows and 76 columns.
 }
 \usage{
 items_pisa12_us_math
@@ -14,6 +14,9 @@ items_pisa12_us_math
 Programme for International Student Assessment (PISA) 2012 US Math Assessment
 }
 \details{
+PISA assessment booklets have a spiral pattern. As a result, we've opted to
+re-order the data by booklet ID
+
 Items alongside of the problem name:
 \itemize{
 \item \code{pm00fq01}: P2012 Apartment Purchase Q1
@@ -123,7 +126,7 @@ variables that had problems with the following labels:
 
 Note, this data set includes items with four levels only. Further,
 items are coded with \verb{Score 0} as \code{0}, \verb{Score 1} as \code{1},
-\verb{Score 7: N/A} as \code{NA}, and \verb{Score 8: Not Attempted} as 0.
+\verb{Score 7: N/A} as \code{NA}, and \verb{Score 8: Not Attempted} as \code{0}.
 }
 
 \references{

@@ -42,10 +42,13 @@ math_item_variables = pisa_columns[stringr::str_detect(pisa_columns, "^pm")]
 # For more details, please see: https://www.air.org/sites/default/files/EdSurvey-getData.pdf
 pisa12_math = EdSurvey::getData(
   data = us_pisa12,
-  varnames = math_item_variables,
+  varnames = c("bookid", math_item_variables),
   omittedLevels = FALSE,
   addAttributes = FALSE
 )
+
+pisa12_math = pisa12_math %>%
+  arrange(desc(bookid))
 
 # Todos:
 # - Remove any question with score 2
@@ -60,7 +63,7 @@ table(unlist(factor_level_counts))
 
 # Determine which factors have only 4 levels
 # N/A, score 0, score 1, score 8 (not attempted)
-factor_level_check = purrr::map_lgl(pisa12_math, ~ length(levels(.x)) == 4)
+factor_level_check = purrr::map_lgl(pisa12_math, ~ length(levels(.x)) %in% c(4, 13))
 
 keep_items_with_factors = colnames(pisa12_math)[factor_level_check]
 
@@ -82,7 +85,7 @@ pisa12_math_mod = modify_pisa(pisa12_math_mod, 3, NA)
 pisa12_math_mod = modify_pisa(pisa12_math_mod, 4, 0)
 
 # Rename
-items_pisa12_us_math = as.data.frame(pisa12_math_mod)
+items_pisa12_us_math = as.matrix(as.data.frame(pisa12_math_mod)[, -1])
 
 # Export
 usethis::use_data(items_pisa12_us_math, overwrite = TRUE)
