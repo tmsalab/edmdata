@@ -2,7 +2,7 @@ pandoc: 2.7.3
 pkgdown: 1.6.1
 pkgdown_sha: ~
 articles: {}
-last_built: 2021-07-25T15:21Z
+last_built: 2021-09-25T05:11Z
 urls:
   reference: https://tmsalab.github.io/edmdata/reference
   article: https://tmsalab.github.io/edmdata/articles
