@@ -75,7 +75,8 @@
 #' - `pb`: probability of an event
 #' - `un`: union of two disjoint events
 #'
-#' For a detailed overview of items, please see [`items_probability_part_one`].
+#' For a detailed overview of items, please see
+#' [`items_probability_part_one_full`] or [`items_probability_part_one_reduced`].
 #'
 #' @section Identifiability:
 #'

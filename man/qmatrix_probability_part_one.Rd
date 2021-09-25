@@ -23,7 +23,8 @@ the item does not use the trait. The traits identified by this \code{matrix} are
 \item \code{un}: union of two disjoint events
 }
 
-For a detailed overview of items, please see \code{\link{items_probability_part_one}}.
+For a detailed overview of items, please see
+\code{\link{items_probability_part_one_full}} or \code{\link{items_probability_part_one_reduced}}.
 }
 \section{Identifiability}{
 
