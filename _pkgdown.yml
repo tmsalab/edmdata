@@ -47,7 +47,8 @@ reference:
     [Heller, J., & Wickelmaier, F. (2013)](https://doi.org/0.1016/j.endm.2013.05.145)
     used in [Chen et al. (2021)](https://doi.org/10.1007/s11336-021-09750-9)
   contents:
-  - items_probability_part_one
+  - items_probability_part_one_full
+  - items_probability_part_one_reduced
   - qmatrix_probability_part_one
 - title: "Revised Purdue Spatial Visualization Test: Visualization of Rotations (Revised PSVT:R)"
   desc: >
