@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Elementary Probability Theory Assessment Expert-Derived Q Matrix — qmatrix_probability_part_one • edmdata</title>
+<title>Elementary Probability Theory Assessment Item Responses — items_probability_part_one_full • edmdata</title>
 
 
 <!-- jquery -->
@@ -39,8 +39,8 @@
 
 
 
-<meta property="og:title" content="Elementary Probability Theory Assessment Expert-Derived Q Matrix — qmatrix_probability_part_one" />
-<meta property="og:description" content="Elementary Probability Theory Assessment Expert-Derived Q Matrix" />
+<meta property="og:title" content="Elementary Probability Theory Assessment Item Responses — items_probability_part_one_full" />
+<meta property="og:description" content="Elementary Probability Theory Assessment Item Responses" />
 
 
 
@@ -115,40 +115,83 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Elementary Probability Theory Assessment Expert-Derived Q Matrix</h1>
+    <h1>Elementary Probability Theory Assessment Item Responses</h1>
     <small class="dont-index">Source: <a href='https://github.com/tmsalab/edmdata/blob/master/R/probability-data.R'><code>R/probability-data.R</code></a></small>
-    <div class="hidden name"><code>qmatrix_probability_part_one.Rd</code></div>
+    <div class="hidden name"><code>items-probability.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>Elementary Probability Theory Assessment Expert-Derived Q Matrix</p>
+    <p>Elementary Probability Theory Assessment Item Responses</p>
     </div>
 
-    <pre class="usage"><span class='va'>qmatrix_probability_part_one</span></pre>
+    <pre class="usage"><span class='va'>items_probability_part_one_full</span>
+
+<span class='va'>items_probability_part_one_reduced</span></pre>
 
 
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
-    <p>An object of class <code>matrix</code> (inherits from <code>array</code>) with 12 rows and 4 columns.</p>
+    <p>An object of class <code>matrix</code> (inherits from <code>array</code>) with 504 rows and 12 columns.</p>
+<p>An object of class <code>matrix</code> (inherits from <code>array</code>) with 431 rows and 12 columns.</p>
     <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
 
-    <p>Each entry in the matrix is either <code>1</code>, if the item uses the trait, or <code>0</code>, if
-the item does not use the trait. The traits identified by this <code>matrix</code> are:</p><ul>
-<li><p><code>cp</code>: the probability of the complement of an event</p></li>
-<li><p><code>id</code>: two independent events</p></li>
-<li><p><code>pb</code>: probability of an event</p></li>
-<li><p><code>un</code>: union of two disjoint events</p></li>
+    <p>Questions wording and answers are from the <code>pks</code> package documentation.</p>
+<p>Items with their desired responses bolded:</p><ul>
+<li><p><code>b101</code>:  A box contains 30 marbles in the following colors:
+8 red, 10 black, 12 yellow.  What is the probability that a randomly
+drawn marble is yellow?  <strong>(0.40)</strong></p></li>
+<li><p><code>b102</code>:  A bag contains 5-cent, 10-cent, and 20-cent coins.
+The probability of drawing a 5-cent coin is 0.35, that of drawing a
+10-cent coin is 0.25, and that of drawing a 20-cent coin is 0.40.  What
+is the probability that the coin randomly drawn is not a 5-cent
+coin?  <strong>(0.65)</strong></p></li>
+<li><p><code>b103</code>:  A bag contains 5-cent, 10-cent, and 20-cent coins.
+The probability of drawing a 5-cent coin is 0.20, that of drawing a
+10-cent coin is 0.45, and that of drawing a 20-cent coin is 0.35.  What
+is the probability that the coin randomly drawn is a 5-cent coin or
+a 20-cent coin?  <strong>(0.55)</strong></p></li>
+<li><p><code>b104</code>:  In a school, 40\<!-- % of the pupils are boys and 80\\% of -->
+the pupils are right-handed.  Suppose that gender and handedness are
+independent.  What is the probability of randomly selecting a
+right-handed boy?  <strong>(0.32)</strong></p></li>
+<li><p><code>b105</code>:  Given a standard deck containing 32 different cards,
+what is the probability of not drawing a heart?  <strong>(0.75)</strong></p></li>
+<li><p><code>b106</code>:  A box contains 20 marbles in the following colors:
+4 white, 14 green, 2 red.  What is the probability that a randomly
+drawn marble is not white?  <strong>(0.80)</strong></p></li>
+<li><p><code>b107</code>:  A box contains 10 marbles in the following colors:
+2 yellow, 5 blue, 3 red.  What is the probability that a randomly
+drawn marble is yellow or blue?  <strong>(0.70)</strong></p></li>
+<li><p><code>b108</code>:  What is the probability of obtaining an even number
+by throwing a dice?  <strong>(0.50)</strong></p></li>
+<li><p><code>b109</code>:  Given a standard deck containing 32 different cards,
+what is the probability of drawing a 4 in a black suit?
+<strong>(Responses that round to 0.06 were considered correct.)</strong></p></li>
+<li><p><code>b110</code>:  A box contains marbles that are red or yellow, small
+or large. The probability of drawing a red marble is 0.70 <strong>(lab: 0.30)</strong>,
+the probability of drawing a small marble is 0.40.  Suppose that the
+color of the marbles is independent of their size.  What is the
+probability of randomly drawing a small marble that is not red?  <strong>(0.12, lab: 0.28)</strong></p></li>
+<li><p><code>b111</code>:  In a garage there are 50 cars.  20 are black and 10 are
+diesel powered.  Suppose that the color of the cars is independent of
+the kind of fuel.  What is the probability that a randomly selected car
+is not black and it is diesel powered?  <strong>(0.12)</strong></p></li>
+<li><p><code>b112</code>:  A box contains 20 marbles.  10 marbles are red, 6 are
+yellow and 4 are black.  12 marbles are small and 8 are large.  Suppose
+that the color of the marbles is independent of their size.  What is the
+probability of randomly drawing a small marble that is yellow or
+red?  <strong>(0.48)</strong></p></li>
 </ul>
 
-<p>For a detailed overview of items, please see
-<code><a href='items_probability_part_one_full.html'>items_probability_part_one_full</a></code> or <code><a href='items_probability_part_one_full.html'>items_probability_part_one_reduced</a></code>.</p>
-    <h2 class="hasAnchor" id="identifiability"><a class="anchor" href="#identifiability"></a>Identifiability</h2>
+    <h2 class="hasAnchor" id="data-cleaning"><a class="anchor" href="#data-cleaning"></a>Data Cleaning</h2>
 
     
 
-
-<p>Note, the expert supplied Q-matrix is <em>not</em> strictly identified.
-Though, the expert matrix is generically identified.</p>
+<p>The <code>items_probability_part_one_full</code> data set includes \(N = 504\) observations
+used in Chen et al. (2021). However, the observations contained
+missing trial data as <code>NA</code>. Excluding the missing response values from part
+one respondents yields \(N = 431\). The data set with reduced items is given
+in <code>items_probability_part_one_reduced</code>.</p>
     <h2 class="hasAnchor" id="references"><a class="anchor" href="#references"></a>References</h2>
 
     <p><strong>Data originated from:</strong></p><ul>
