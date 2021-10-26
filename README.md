@@ -38,11 +38,6 @@ devtools::install_github("tmsalab/edmdata")
     -   **TMSA Papers:** Yinghan Chen et al. (2021), Yinyin Chen et
         al. (2020), Culpepper (2019b), Culpepper & Chen (2019), Yinghan
         Chen et al. (2018)
--   Elementary Probability Theory (Heller & Wickelmaier, 2013).
-    -   `items_probability_part_one`: N = 504 subject responses to J =
-        12 items.
-    -   `qmatrix_probability_part_one`: J = 12 items and K = 4 traits.
-    -   **TMSA Papers:** Yinghan Chen et al. (2021)
 -   Revised PSVT:R (Culpepper & Balamuta, 2017; Yoon, 2011).
     -   `items_revised_psvtr`: N = 516 subject responses to J = 30
         items.
@@ -52,6 +47,11 @@ devtools::install_github("tmsalab/edmdata")
     -   `items_ordered_eclsk_atl`: N = 13354 subject responses to J = 12
         items.
     -   **TMSA Papers:** Culpepper (2019a)
+-   Trends in International Mathematics and Science Study 2015 (TIMSS)
+    Grade 8 Student Background Survey Item Responses (Mullis et
+    al., 2016).
+    -   `items_ordered_timss15_background`: N = 9672 subject responses
+        to J = 16 items.
 -   Last Series of the Standard Progressive Matrices (SPM-LS)
     (Myszkowski & Storme, 2018; Raven, 1941; Robitzsch, 2020).
     -   `items_spm_ls`: N = 499 subject responses to J = 12 items.
@@ -226,11 +226,13 @@ Educational and Behavioral Statistics*, *44*(1), 3–24.
 
 </div>
 
-<div id="ref-Heller:2013:ProbabilityKS" class="csl-entry">
+<div id="ref-TIMSS:2015:Background" class="csl-entry">
 
-Heller, J., & Wickelmaier, F. (2013). Minimum discrepancy estimation in
-probabilistic knowledge structures. *Electronic Notes in Discrete
-Mathematics*, *42*, 49–56.
+Mullis, I. V. S., Martin, M. O., Goh, S., & Cotter, K. (Eds. ). (2016).
+*TIMSS 2015 encyclopedia: Education policy and curriculum in mathematics
+and science*. Retrieved from Boston College, TIMSS & PIRLS International
+Study Center website:
+http://timssandpirls.bc.edu/timss2015/encyclopedia/.
 
 </div>
 
