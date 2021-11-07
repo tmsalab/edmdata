@@ -239,6 +239,14 @@ Educational and Behavioral Statistics*, *44*(1), 3–24.
 
 </div>
 
+<div id="ref-Heller:2013:ProbabilityKS" class="csl-entry">
+
+Heller, J., & Wickelmaier, F. (2013). Minimum discrepancy estimation in
+probabilistic knowledge structures. *Electronic Notes in Discrete
+Mathematics*, *42*, 49–56. <https://doi.org/10.1016/j.endm.2013.05.145>
+
+</div>
+
 <div id="ref-TIMSS:2015:Background" class="csl-entry">
 
 Mullis, I. V. S., Martin, M. O., Goh, S., & Cotter, K. (Eds. ). (2016).
@@ -246,7 +254,7 @@ Mullis, I. V. S., Martin, M. O., Goh, S., & Cotter, K. (Eds. ). (2016).
 and science*. Retrieved from Boston College, TIMSS & PIRLS International
 Study Center website:
 http://timssandpirls.bc.edu/timss2015/encyclopedia/.
-  
+
 </div>
 
 <div id="ref-Myszkowski:2018:IRTSPMLS" class="csl-entry">
