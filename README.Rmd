@@ -69,6 +69,16 @@ library("edmdata")
   Student Background Survey Item Responses [@TIMSS:2015:Background].
     - `items_ordered_timss15_background`: N = `r nrow(items_ordered_timss15_background)` subject responses
       to J = `r ncol(items_ordered_timss15_background)` items.
+- Programme for International Student Assessment (PISA) 2012
+  U.S. Student Questionnaire Problem-Solving Vignettes [@Culpepper:2021:OHOEGDM].
+    - `items_ordered_pisa12_us_vignette`: 
+      N = `r nrow(items_ordered_pisa12_us_vignette)`
+      subject responses to J = `r ncol(items_ordered_pisa12_us_vignette)` items.
+- Programme for International Student Assessment (PISA) 2012
+  U.S. Math Assessment.
+    - `items_pisa12_us_math`: 
+      N = `r nrow(items_pisa12_us_math)`
+      subject responses to J = `r ncol(items_pisa12_us_math)` items.
 - Last Series of the Standard Progressive Matrices (SPM-LS) [@Raven:1941:SPM; @Myszkowski:2018:IRTSPMLS; @Robitzsch:2020:IRTRCLMSPMLS].
     - `items_spm_ls`: N = `r nrow(items_spm_ls)`
       subject responses to J = `r ncol(items_spm_ls)` items.
