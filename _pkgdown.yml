@@ -50,7 +50,7 @@ reference:
   - items_probability_part_one_full
   - items_probability_part_one_reduced
   - qmatrix_probability_part_one
-- title: "Human Connectome Project's Penn Progressive Matrices Fluid Intelligence Assessment""
+- title: "Human Connectome Project's Penn Progressive Matrices Fluid Intelligence Assessment"
   desc: >
     Data collected by the Human Connectome Project using the a reduced set of
     Raven's Progressive Matrices known as the
