@@ -50,6 +50,14 @@ reference:
   - items_probability_part_one_full
   - items_probability_part_one_reduced
   - qmatrix_probability_part_one
+- title: "Human Connectome Project's Penn Progressive Matrices Fluid Intelligence Assessment""
+  desc: >
+    Data collected by the Human Connectome Project using the a reduced set of
+    Raven's Progressive Matrices known as the
+    Penn Progressive Matrices.
+  contents:
+  - items_hcp_penn_matrix
+  - items_hcp_penn_matrix_missing
 - title: "Revised Purdue Spatial Visualization Test: Visualization of Rotations (Revised PSVT:R)"
   desc: >
     Data collected using Revised PSVT:R by [Yoon (2011)](https://docs.lib.purdue.edu/dissertations/AAI3480934/)
@@ -65,6 +73,12 @@ reference:
     used in [Culpepper (2019b)](https://doi.org/10.1007/s11336-019-09683-4).
   contents:
   - items_ordered_eclsk_atl
+- title: "Trends in International Mathematics and Science Study 2015 (TIMSS) Grade 8 Student Background Survey Item Responses (Mullis et al., 2016)."
+  desc: >
+    Data in the Trends in International Mathematics and Science Study 2015 (TIMSS)
+    Grade 8 Student Background Survey by [TIMSS 2015](https://timssandpirls.bc.edu/timss2015/international-database/).
+  contents:
+  - items_ordered_timss15_background
 - title: Last Series of the Standard Progressive Matrices (SPM-LS) Item Responses
   desc: >
     Data from Last Series of the Standard Progressive Matrices (SPM-LS) by

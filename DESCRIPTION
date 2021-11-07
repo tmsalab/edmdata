@@ -15,7 +15,11 @@ Authors@R: c(
            person("Jeffrey Alan", "Douglas",
                    email = "jeffdoug@illinois.edu",
                    role = c("aut", "cph")
-                   )
+                   ),
+           person("Auburn", "Jimenez",
+                   email = "aajimen2@illinois.edu",
+                   role = c("ctb", "cph")
+                   ) 
           )
 Description: Collection of data sets from various assessments that can be used to 
     evaluate psychometric models. These data sets have been analyzed in the
