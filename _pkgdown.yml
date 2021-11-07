@@ -73,6 +73,12 @@ reference:
     used in [Culpepper (2019b)](https://doi.org/10.1007/s11336-019-09683-4).
   contents:
   - items_ordered_eclsk_atl
+- title: "Trends in International Mathematics and Science Study 2015 (TIMSS) Grade 8 Student Background Survey Item Responses (Mullis et al., 2016)."
+  desc: >
+    Data in the Trends in International Mathematics and Science Study 2015 (TIMSS)
+    Grade 8 Student Background Survey by [TIMSS 2015](https://timssandpirls.bc.edu/timss2015/international-database/).
+  contents:
+  - items_ordered_timss15_background
 - title: Last Series of the Standard Progressive Matrices (SPM-LS) Item Responses
   desc: >
     Data from Last Series of the Standard Progressive Matrices (SPM-LS) by

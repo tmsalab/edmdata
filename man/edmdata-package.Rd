@@ -26,5 +26,10 @@ Authors:
   \item Jeffrey Alan Douglas \email{jeffdoug@illinois.edu} [copyright holder]
 }
 
+Other contributors:
+\itemize{
+  \item Auburn Jimenez \email{aajimen2@illinois.edu} [contributor, copyright holder]
+}
+
 }
 \keyword{internal}

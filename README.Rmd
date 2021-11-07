@@ -65,6 +65,10 @@ library("edmdata")
     - `items_ordered_eclsk_atl`: N = `r nrow(items_ordered_eclsk_atl)` subject responses
       to J = `r ncol(items_ordered_eclsk_atl)` items.
     - **TMSA Papers:** @Culpepper:2019:EODM
+- Trends in International Mathematics and Science Study 2015 (TIMSS) Grade 8
+  Student Background Survey Item Responses [@TIMSS:2015:Background].
+    - `items_ordered_timss15_background`: N = `r nrow(items_ordered_timss15_background)` subject responses
+      to J = `r ncol(items_ordered_timss15_background)` items.
 - Last Series of the Standard Progressive Matrices (SPM-LS) [@Raven:1941:SPM; @Myszkowski:2018:IRTSPMLS; @Robitzsch:2020:IRTRCLMSPMLS].
     - `items_spm_ls`: N = `r nrow(items_spm_ls)`
       subject responses to J = `r ncol(items_spm_ls)` items.
