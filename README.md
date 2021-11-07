@@ -59,6 +59,15 @@ devtools::install_github("tmsalab/edmdata")
     al., 2016).
     -   `items_ordered_timss15_background`: N = 9672 subject responses
         to J = 16 items.
+-   Programme for International Student Assessment (PISA) 2012 U.S.
+    Student Questionnaire Problem-Solving Vignettes (Culpepper &
+    Balamuta, 2021).
+    -   `items_ordered_pisa12_us_vignette`: N = 3075 subject responses
+        to J = 12 items.
+-   Programme for International Student Assessment (PISA) 2012 U.S. Math
+    Assessment.
+    -   `items_pisa12_us_math`: N = 4978 subject responses to J = 76
+        items.
 -   Last Series of the Standard Progressive Matrices (SPM-LS)
     (Myszkowski & Storme, 2018; Raven, 1941; Robitzsch, 2020).
     -   `items_spm_ls`: N = 499 subject responses to J = 12 items.
@@ -227,6 +236,15 @@ Culpepper, S. A., & Balamuta, J. J. (2017). <span class="nocase">A
 Hierarchical Model for Accuracy and Choice on Standardized Tests</span>.
 *Psychometrika*, *82*(3), 820–845.
 <https://doi.org/10.1007/s11336-015-9484-7>
+
+</div>
+
+<div id="ref-Culpepper:2021:OHOEGDM" class="csl-entry">
+
+Culpepper, S. A., & Balamuta, J. J. (2021). Inferring latent structure
+in polytomous data with a higher-order diagnostic model. *Multivariate
+Behavioral Research*, 1–19.
+<https://doi.org/10.1080/00273171.2021.1985949>
 
 </div>
 
