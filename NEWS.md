@@ -1,3 +1,20 @@
+# edmdata 1.3.0
+
+## Data Sets
+
+- `items_pisa12_us_math` 
+  - Programme for International Student Assessment (PISA) 2012 
+    U.S. Math Assessment.
+- `items_ordered_pisa12_us_vignette`
+  - Programme for International Student Assessment (PISA) 2012 
+    U.S. Student Questionnaire Problem-Solving Vignettes
+- `items_hcp_penn_matrix`
+  - Human Connectome Project’s Penn Progressive Matrices Fluid Intelligence
+    Assessment with missing values coded as zero.
+- `items_hcp_penn_matrix_missing`
+  - Human Connectome Project’s Penn Progressive Matrices Fluid Intelligence
+    Assessment with missing values coded as `NA`.
+
 # edmdata 1.2.0
 
 ## Data Sets

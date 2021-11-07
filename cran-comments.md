@@ -1,7 +1,7 @@
 ## Test environments
 
-- local R installation, R 4.1.0
-- ubuntu 18.04 (on github-actions), R 4.1.0
+- local R installation, R 4.1.3
+- ubuntu 20.04 (on github-actions), R 4.1.3
 - win-builder (devel)
 
 ## R CMD check results
