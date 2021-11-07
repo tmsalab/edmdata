@@ -50,6 +50,14 @@ reference:
   - items_probability_part_one_full
   - items_probability_part_one_reduced
   - qmatrix_probability_part_one
+- title: "Human Connectome Project's Penn Progressive Matrices Fluid Intelligence Assessment""
+  desc: >
+    Data collected by the Human Connectome Project using the a reduced set of
+    Raven's Progressive Matrices known as the
+    Penn Progressive Matrices.
+  contents:
+  - items_hcp_penn_matrix
+  - items_hcp_penn_matrix_missing
 - title: "Revised Purdue Spatial Visualization Test: Visualization of Rotations (Revised PSVT:R)"
   desc: >
     Data collected using Revised PSVT:R by [Yoon (2011)](https://docs.lib.purdue.edu/dissertations/AAI3480934/)

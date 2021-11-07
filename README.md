@@ -38,6 +38,13 @@ devtools::install_github("tmsalab/edmdata")
     -   **TMSA Papers:** Yinghan Chen et al. (2021), Yinyin Chen et
         al. (2020), Culpepper (2019b), Culpepper & Chen (2019), Yinghan
         Chen et al. (2018)
+-   Elementary Probability Theory (Heller & Wickelmaier, 2013).
+    -   `items_probability_part_one_full`: N = 504 subject responses to
+        J = 12 items.
+    -   `items_probability_part_one_reduced`: N = 431 subject responses
+        to J = 12 items.
+    -   `qmatrix_probability_part_one`: J = 12 items and K = 4 traits.
+    -   **TMSA Papers:** Yinghan Chen et al. (2021)
 -   Revised PSVT:R (Culpepper & Balamuta, 2017; Yoon, 2011).
     -   `items_revised_psvtr`: N = 516 subject responses to J = 30
         items.
@@ -55,6 +62,12 @@ devtools::install_github("tmsalab/edmdata")
 -   Last Series of the Standard Progressive Matrices (SPM-LS)
     (Myszkowski & Storme, 2018; Raven, 1941; Robitzsch, 2020).
     -   `items_spm_ls`: N = 499 subject responses to J = 12 items.
+-   Human Connectome Project’s Penn Progressive Matrices Fluid
+    Intelligence Assessment
+    -   `items_hcp_penn_matrix`: N = 1201 subject responses to J = 24
+        items.
+    -   `items_hcp_penn_matrix_missing`: N = 1201 subject responses with
+        missing data indicators to J = 24 items.
 -   Experimental Matrix Reasoning Test (OpenPsychometrics, 2012a).
     -   `items_matrix_reasoning`: N = 400 subject responses to J = 25
         items.
@@ -233,7 +246,7 @@ Mullis, I. V. S., Martin, M. O., Goh, S., & Cotter, K. (Eds. ). (2016).
 and science*. Retrieved from Boston College, TIMSS & PIRLS International
 Study Center website:
 http://timssandpirls.bc.edu/timss2015/encyclopedia/.
-
+  
 </div>
 
 <div id="ref-Myszkowski:2018:IRTSPMLS" class="csl-entry">

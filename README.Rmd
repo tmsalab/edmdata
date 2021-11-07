@@ -48,6 +48,14 @@ library("edmdata")
     - `items_fractions`: N = `r nrow(items_fractions)` subject responses to J = `r ncol(items_fractions)` items.
     - `qmatrix_fractions`: J = `r nrow(items_fractions)` items and K = `r ncol(items_fractions)` traits. 
     - **TMSA Papers:** @Chen:2021:InferK, @Chen:2020:SLCMDC, @Culpepper:2019:EGDM, @Culpepper:2019:ErRUM, @Chen:2018:EDINA
+- Elementary Probability Theory [@Heller:2013:ProbabilityKS].
+    - `items_probability_part_one_full`: N = `r nrow(items_probability_part_one_full)`
+      subject responses to J = `r ncol(items_probability_part_one_full)` items.
+    - `items_probability_part_one_reduced`: N = `r nrow(items_probability_part_one_reduced)`
+      subject responses to J = `r ncol(items_probability_part_one_reduced)` items.
+    - `qmatrix_probability_part_one`: J = `r nrow(qmatrix_probability_part_one)` 
+     items and K = `r ncol(qmatrix_probability_part_one)` traits. 
+    - **TMSA Papers:** @Chen:2021:InferK
 - Revised PSVT:R [@Yoon:2011:RevisedPSVTR; @Culpepper:2017:ChoiceIRT].
     - `items_revised_psvtr`: N = `r nrow(items_revised_psvtr)` subject responses
       to J = `r ncol(items_revised_psvtr)` items.
@@ -64,6 +72,11 @@ library("edmdata")
 - Last Series of the Standard Progressive Matrices (SPM-LS) [@Raven:1941:SPM; @Myszkowski:2018:IRTSPMLS; @Robitzsch:2020:IRTRCLMSPMLS].
     - `items_spm_ls`: N = `r nrow(items_spm_ls)`
       subject responses to J = `r ncol(items_spm_ls)` items.
+- Human Connectome Project's Penn Progressive Matrices Fluid Intelligence Assessment
+    - `items_hcp_penn_matrix`: N = `r nrow(items_hcp_penn_matrix)`
+      subject responses to J = `r ncol(items_hcp_penn_matrix)` items.
+    - `items_hcp_penn_matrix_missing`: N = `r nrow(items_hcp_penn_matrix_missing)`
+      subject responses with missing data indicators to J = `r ncol(items_hcp_penn_matrix_missing)` items.
 - Experimental Matrix Reasoning Test [@OpenPsychometrics:2012:IQ1].
     - `items_matrix_reasoning`: N = `r nrow(items_matrix_reasoning)`
       subject responses to J = `r ncol(items_matrix_reasoning)` items.
