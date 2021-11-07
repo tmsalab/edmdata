@@ -4,4 +4,5 @@
 .Ruserdata
 docs/
 CRAN-RELEASE
+data-raw/pisa12-us-math/db-pisa
 data-raw/timss15-background/T15_G8_SPSSData_pt4*
