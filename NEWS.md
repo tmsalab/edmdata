@@ -1,4 +1,4 @@
-# edmdata 1.3.0
+# edmdata 1.2.1
 
 ## Data Sets
 
@@ -14,6 +14,15 @@
 - `items_hcp_penn_matrix_missing`
   - Human Connectome Project’s Penn Progressive Matrices Fluid Intelligence
     Assessment with missing values coded as `NA`.
+- `items_probability_part_one_reduced`
+  - Elementary Probability Theory Assessment Item Responses based on data
+    from the `pks` package with subjects containing any missing values
+    removed. Please see the README file in the package's data-raw directory 
+    for more information.
+    
+## Bugfix
+
+- We have renamed the `items_probability_part_one` to `items_probability_part_one_full`.
 
 # edmdata 1.2.0
 
