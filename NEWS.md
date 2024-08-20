@@ -1,7 +1,9 @@
-# edmdata 1.2.1
+# edmdata 1.3.0
 
 ## Data Sets
 
+- `items_ordered_pswc_hw`
+  -  Calculus-based probability and statistics course homework problems.
 - `items_pisa12_us_math` 
   - Programme for International Student Assessment (PISA) 2012 
     U.S. Math Assessment.

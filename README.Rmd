@@ -22,23 +22,81 @@ knitr::opts_chunk$set(
 [![CRAN status](https://www.r-pkg.org/badges/version/edmdata)](https://CRAN.R-project.org/package=edmdata)
 <!-- badges: end -->
 
-The goal of `edmdata` is to provide a set of an example assessment data sets
+The goal of `edmdata` R data package is to provide a set of assessment data sets
 for psychometric modeling.
 
 ## Installation
 
-You can install `edmdata` from github with:
+The `edmdata` package is available on both 
+[CRAN](https://CRAN.R-project.org/package=edmdata) and
+[GitHub](https://github.com/tmsalab/edmdata). The CRAN version is considered 
+stable while the GitHub version is in a state of development and may break.
 
-```{r gh-installation, eval = FALSE}
-# install.packages("devtools")
-devtools::install_github("tmsalab/edmdata")
+You can install the stable version of the `edmdata` package with:
+
+```{r}
+#| label: cran-installation
+#| eval: false
+install.packages("edmdata")
 ```
 
-```{r echo = FALSE}
+For the development version, you can install the `edmdata` package from GitHub with:
+
+```{r}
+#| label: gh-installation
+#| eval: false
+
+# install.packages("remotes")
+remotes::install_github("tmsalab/edmdata")
+```
+
+
+## Using data in the package
+
+There are two ways to access the data contained within this package.
+
+The first is to load the package itself and type the name of a data set.
+This approach takes advantage of *R*’s lazy loading mechanism, which
+avoids loading the data until it is used in *R* session. For details on
+how lazy loading works, please see [Section 1.17: Lazy
+Loading](https://cran.r-project.org/doc/manuals/r-release/R-ints.html#Lazy-loading)
+of the [R
+Internals](https://cran.r-project.org/doc/manuals/r-release/R-ints.html)
+manual.
+
+``` r
+# Load the `edmdata` package
 library("edmdata")
+
+# See the first 10 observations of the `items_revised_psvtr` dataset
+head(items_revised_psvtr)
+
+# View the help documentation for `items_revised_psvtr`
+?items_revised_psvtr
+```
+
+The second approach is to use the `data()` command to load data on the
+fly without loading the package. After using `data()`, the data set
+will be available to use under the given name. 
+
+``` r
+# Loading `items_revised_psvtr` without a `library(edmdata)` call
+data("items_revised_psvtr", package = "edmdata")
+
+# See the first 10 observations of the `items_revised_psvtr` dataset
+head(items_revised_psvtr)
+
+# View the help documentation for `items_revised_psvtr`
+?items_revised_psvtr
 ```
 
 ## Data Sets Included
+
+```{r}
+#| echo: false
+library(edmdata)
+```
+
 
 - Examination for the Certificate of Proficiency in English (ECPE) [@Templin:2013:DCMECPE; @Templin:2014:HierarchicalDCM]. 
     - `items_ecpe`: N = `r nrow(items_ecpe)` subject responses to J = `r ncol(items_ecpe)` items.
@@ -69,6 +127,9 @@ library("edmdata")
   Student Background Survey Item Responses [@TIMSS:2015:Background].
     - `items_ordered_timss15_background`: N = `r nrow(items_ordered_timss15_background)` subject responses
       to J = `r ncol(items_ordered_timss15_background)` items.
+- Calculus-based probability and statistics course homework problems [@Jimenez:2023:OPGEDM]
+    - `items_ordered_pswc_hw`: N = `r nrow(items_ordered_pswc_hw)`
+      subject responses to J = `r ncol(items_ordered_pswc_hw)` items.
 - Programme for International Student Assessment (PISA) 2012
   U.S. Student Questionnaire Problem-Solving Vignettes [@Culpepper:2021:OHOEGDM].
     - `items_ordered_pisa12_us_vignette`: 
@@ -113,44 +174,6 @@ library("edmdata")
     - `strategy_oracle_k4_j50_s2`: 50 items, 4 traits, and 2 strategies.
 
 
-## Using data in the package
-
-There are two ways to access the data contained within this package.
-
-The first is to load the package itself and type the name of a data set.
-This approach takes advantage of *R*’s lazy loading mechansim, which
-avoids loading the data until it is used in *R* session. For details on
-how lazy loading works, please see [Section 1.17: Lazy
-Loading](https://cran.r-project.org/doc/manuals/r-release/R-ints.html#Lazy-loading)
-of the [R
-Internals](https://cran.r-project.org/doc/manuals/r-release/R-ints.html)
-manual.
-
-``` r
-# Load the `edmdata` package
-library("edmdata")
-
-# See the first 10 observations of the `items_revised_psvtr` dataset
-head(items_revised_psvtr)
-
-# View the help documentation for `items_revised_psvtr`
-?items_revised_psvtr
-```
-
-The second approach is to use the `data()` command to load data on the
-fly without loading the package. After using `data()`, the data set
-will be available to use under the given name. 
-
-``` r
-# Loading `items_revised_psvtr` without a `library(edmdata)` call
-data("items_revised_psvtr", package = "edmdata")
-
-# See the first 10 observations of the `items_revised_psvtr` dataset
-head(items_revised_psvtr)
-
-# View the help documentation for `items_revised_psvtr`
-?items_revised_psvtr
-```
 
 ## Build Scripts
 

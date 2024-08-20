@@ -20,7 +20,7 @@ Items were split between being answered by \strong{Parents} and \strong{Teachers
 \itemize{
 \item \strong{Parents}:
 \itemize{
-\item \code{P4SRS10}: Keep working at something until {he/she} is finished?
+\item \code{P4SRS10}: Keep working at something until he or she is finished?
 \item \code{P4SRS13}: Show interest in a variety of things?
 \item \code{P4SRS15}: Concentrate on a task and ignore distractions?
 \item \code{P4SRS18}: Help with chores?
