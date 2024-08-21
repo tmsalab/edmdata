@@ -39,7 +39,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="index.html">edmdata</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">1.2.1</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">1.2.9.9000</span>
       </span>
     </div>
 
@@ -75,14 +75,43 @@
 
 <!-- badges: start -->
 
-<p>The goal of <code>edmdata</code> is to provide a set of an example assessment data sets for psychometric modeling.</p>
+<p>The goal of <code>edmdata</code> R data package is to provide a set of assessment data sets for psychometric modeling.</p>
 <div class="section level2">
 <h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
 </h2>
-<p>You can install <code>edmdata</code> from github with:</p>
+<p>The <code>edmdata</code> package is available on both <a href="https://CRAN.R-project.org/package=edmdata" class="external-link">CRAN</a> and <a href="https://github.com/tmsalab/edmdata" class="external-link">GitHub</a>. The CRAN version is considered stable while the GitHub version is in a state of development and may break.</p>
+<p>You can install the stable version of the <code>edmdata</code> package with:</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="co"># install.packages("devtools")</span></span>
-<span><span class="fu">devtools</span><span class="fu">::</span><span class="fu">install_github</span><span class="op">(</span><span class="st">"tmsalab/edmdata"</span><span class="op">)</span></span></code></pre></div>
+<code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html" class="external-link">install.packages</a></span><span class="op">(</span><span class="st">"edmdata"</span><span class="op">)</span></span></code></pre></div>
+<p>For the development version, you can install the <code>edmdata</code> package from GitHub with:</p>
+<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="co"># install.packages("remotes")</span></span>
+<span><span class="fu">remotes</span><span class="fu">::</span><span class="fu">install_github</span><span class="op">(</span><span class="st">"tmsalab/edmdata"</span><span class="op">)</span></span></code></pre></div>
+</div>
+<div class="section level2">
+<h2 id="using-data-in-the-package">Using data in the package<a class="anchor" aria-label="anchor" href="#using-data-in-the-package"></a>
+</h2>
+<p>There are two ways to access the data contained within this package.</p>
+<p>The first is to load the package itself and type the name of a data set. This approach takes advantage of <em>R</em>’s lazy loading mechanism, which avoids loading the data until it is used in <em>R</em> session. For details on how lazy loading works, please see <a href="https://cran.r-project.org/doc/manuals/r-release/R-ints.html#Lazy-loading" class="external-link">Section 1.17: Lazy Loading</a> of the <a href="https://cran.r-project.org/doc/manuals/r-release/R-ints.html" class="external-link">R Internals</a> manual.</p>
+<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="co"># Load the `edmdata` package</span></span>
+<span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="st"><a href="https://tmsalab.github.io/edmdata/">"edmdata"</a></span><span class="op">)</span></span>
+<span></span>
+<span><span class="co"># See the first 10 observations of the `items_revised_psvtr` dataset</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/utils/head.html" class="external-link">head</a></span><span class="op">(</span><span class="va">items_revised_psvtr</span><span class="op">)</span></span>
+<span></span>
+<span><span class="co"># View the help documentation for `items_revised_psvtr`</span></span>
+<span><span class="op">?</span><span class="va">items_revised_psvtr</span></span></code></pre></div>
+<p>The second approach is to use the <code><a href="https://rdrr.io/r/utils/data.html" class="external-link">data()</a></code> command to load data on the fly without loading the package. After using <code><a href="https://rdrr.io/r/utils/data.html" class="external-link">data()</a></code>, the data set will be available to use under the given name.</p>
+<div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="co"># Loading `items_revised_psvtr` without a `library(edmdata)` call</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/utils/data.html" class="external-link">data</a></span><span class="op">(</span><span class="st">"items_revised_psvtr"</span>, package <span class="op">=</span> <span class="st">"edmdata"</span><span class="op">)</span></span>
+<span></span>
+<span><span class="co"># See the first 10 observations of the `items_revised_psvtr` dataset</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/utils/head.html" class="external-link">head</a></span><span class="op">(</span><span class="va">items_revised_psvtr</span><span class="op">)</span></span>
+<span></span>
+<span><span class="co"># View the help documentation for `items_revised_psvtr`</span></span>
+<span><span class="op">?</span><span class="va">items_revised_psvtr</span></span></code></pre></div>
 </div>
 <div class="section level2">
 <h2 id="data-sets-included">Data Sets Included<a class="anchor" aria-label="anchor" href="#data-sets-included"></a>
@@ -105,7 +134,7 @@
 <li>
 <code>qmatrix_fractions</code>: J = 536 items and K = 20 traits.</li>
 <li>
-<strong>TMSA Papers:</strong> Yinghan Chen et al. (2021), Yinyin Chen et al. (2020), Culpepper (2019b), Culpepper &amp; Chen (2019), Yinghan Chen et al. (2018)</li>
+<strong>TMSA Papers:</strong> Yinghan Chen et al. (2021), Yinyin Chen et al. (2020), Culpepper (2019b), Culpepper &amp; Chen (2019), Yinghan Chen et al. (2018)</li>
 </ul>
 </li>
 <li>Elementary Probability Theory (Heller &amp; Wickelmaier, 2013).
@@ -140,6 +169,12 @@
 <ul>
 <li>
 <code>items_ordered_timss15_background</code>: N = 9672 subject responses to J = 16 items.</li>
+</ul>
+</li>
+<li>Calculus-based probability and statistics course homework problems (Jimenez et al., 2023)
+<ul>
+<li>
+<code>items_ordered_pswc_hw</code>: N = 288 subject responses to J = 30 items.</li>
 </ul>
 </li>
 <li>Programme for International Student Assessment (PISA) 2012 U.S. Student Questionnaire Problem-Solving Vignettes (Culpepper &amp; Balamuta, 2021).
@@ -223,31 +258,6 @@
 </ul>
 </div>
 <div class="section level2">
-<h2 id="using-data-in-the-package">Using data in the package<a class="anchor" aria-label="anchor" href="#using-data-in-the-package"></a>
-</h2>
-<p>There are two ways to access the data contained within this package.</p>
-<p>The first is to load the package itself and type the name of a data set. This approach takes advantage of <em>R</em>’s lazy loading mechansim, which avoids loading the data until it is used in <em>R</em> session. For details on how lazy loading works, please see <a href="https://cran.r-project.org/doc/manuals/r-release/R-ints.html#Lazy-loading" class="external-link">Section 1.17: Lazy Loading</a> of the <a href="https://cran.r-project.org/doc/manuals/r-release/R-ints.html" class="external-link">R Internals</a> manual.</p>
-<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="co"># Load the `edmdata` package</span></span>
-<span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="st"><a href="https://tmsalab.github.io/edmdata/">"edmdata"</a></span><span class="op">)</span></span>
-<span></span>
-<span><span class="co"># See the first 10 observations of the `items_revised_psvtr` dataset</span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/utils/head.html" class="external-link">head</a></span><span class="op">(</span><span class="va">items_revised_psvtr</span><span class="op">)</span></span>
-<span></span>
-<span><span class="co"># View the help documentation for `items_revised_psvtr`</span></span>
-<span><span class="op">?</span><span class="va">items_revised_psvtr</span></span></code></pre></div>
-<p>The second approach is to use the <code><a href="https://rdrr.io/r/utils/data.html" class="external-link">data()</a></code> command to load data on the fly without loading the package. After using <code><a href="https://rdrr.io/r/utils/data.html" class="external-link">data()</a></code>, the data set will be available to use under the given name.</p>
-<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="co"># Loading `items_revised_psvtr` without a `library(edmdata)` call</span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/utils/data.html" class="external-link">data</a></span><span class="op">(</span><span class="st">"items_revised_psvtr"</span>, package <span class="op">=</span> <span class="st">"edmdata"</span><span class="op">)</span></span>
-<span></span>
-<span><span class="co"># See the first 10 observations of the `items_revised_psvtr` dataset</span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/utils/head.html" class="external-link">head</a></span><span class="op">(</span><span class="va">items_revised_psvtr</span><span class="op">)</span></span>
-<span></span>
-<span><span class="co"># View the help documentation for `items_revised_psvtr`</span></span>
-<span><span class="op">?</span><span class="va">items_revised_psvtr</span></span></code></pre></div>
-</div>
-<div class="section level2">
 <h2 id="build-scripts">Build Scripts<a class="anchor" aria-label="anchor" href="#build-scripts"></a>
 </h2>
 <p>Want to see how each data set was imported? Check out the <a href="https://github.com/tmsalab/edmdata/tree/master/data-raw" class="external-link"><code>data-raw</code></a> folder!</p>
@@ -261,7 +271,7 @@
 <h2 id="citing-the-edmdata-package">Citing the <code>edmdata</code> package<a class="anchor" aria-label="anchor" href="#citing-the-edmdata-package"></a>
 </h2>
 <p>To ensure future development of the package, please cite <code>edmdata</code> package if used during an analysis or simulation study. Citation information for the package may be acquired by using in <em>R</em>:</p>
-<div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/citation.html" class="external-link">citation</a></span><span class="op">(</span><span class="st">"edmdata"</span><span class="op">)</span></span></code></pre></div>
 </div>
 <div class="section level2">
@@ -272,7 +282,7 @@
 <div class="section level2">
 <h2 id="references">References<a class="anchor" aria-label="anchor" href="#references"></a>
 </h2>
-<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="refs" class="references csl-bib-body hanging-indent" entry-spacing="0">
 <div id="ref-Chen:2018:EDINA" class="csl-entry">
 Chen, Yinghan, Culpepper, S. A., Chen, Y., &amp; Douglas, J. (2018). Bayesian estimation of the DINA q matrix. <em>Psychometrika</em>, <em>83</em>(1), 89–108. <a href="https://doi.org/10.1007/s11336-017-9579-4" class="external-link uri">https://doi.org/10.1007/s11336-017-9579-4</a>
 </div>
@@ -289,7 +299,7 @@ Culpepper, S. A. (2015). Bayesian estimation of the DINA model with gibbs sampli
 Culpepper, S. A. (2019a). An exploratory diagnostic model for ordinal responses with binary attributes: Identifiability and estimation. <em>Psychometrika</em>, <em>84</em>(4), 921–940. <a href="https://doi.org/10.1007/s11336-019-09683-4" class="external-link uri">https://doi.org/10.1007/s11336-019-09683-4</a>
 </div>
 <div id="ref-Culpepper:2019:EGDM" class="csl-entry">
-Culpepper, S. A. (2019b). Estimating the cognitive diagnosis <em>Q</em> matrix with expert knowledge: Application to the fraction-subtraction dataset. <em>Psychometrika</em>, <em>84</em>(2), 333–357. <a href="https://doi.org/10.1007/s11336-018-9643-8" class="external-link uri">https://doi.org/10.1007/s11336-018-9643-8</a>
+Culpepper, S. A. (2019b). Estimating the cognitive diagnosis <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>Q</mi><annotation encoding="application/x-tex">Q</annotation></semantics></math> matrix with expert knowledge: Application to the fraction-subtraction dataset. <em>Psychometrika</em>, <em>84</em>(2), 333–357. <a href="https://doi.org/10.1007/s11336-018-9643-8" class="external-link uri">https://doi.org/10.1007/s11336-018-9643-8</a>
 </div>
 <div id="ref-Culpepper:2017:ChoiceIRT" class="csl-entry">
 Culpepper, S. A., &amp; Balamuta, J. J. (2017). <span class="nocase">A Hierarchical Model for Accuracy and Choice on Standardized Tests</span>. <em>Psychometrika</em>, <em>82</em>(3), 820–845. <a href="https://doi.org/10.1007/s11336-015-9484-7" class="external-link uri">https://doi.org/10.1007/s11336-015-9484-7</a>
@@ -302,6 +312,9 @@ Culpepper, S. A., &amp; Chen, Y. (2019). Development and application of an explo
 </div>
 <div id="ref-Heller:2013:ProbabilityKS" class="csl-entry">
 Heller, J., &amp; Wickelmaier, F. (2013). Minimum discrepancy estimation in probabilistic knowledge structures. <em>Electronic Notes in Discrete Mathematics</em>, <em>42</em>, 49–56. <a href="https://doi.org/10.1016/j.endm.2013.05.145" class="external-link uri">https://doi.org/10.1016/j.endm.2013.05.145</a>
+</div>
+<div id="ref-Jimenez:2023:OPGEDM" class="csl-entry">
+Jimenez, A., Balamuta, J. J., &amp; Culpepper, S. A. (2023). A sequential exploratory diagnostic model using a pólya-gamma data augmentation strategy. <em>British Journal of Mathematical and Statistical Psychology</em>, <em>76</em>(3), 513–538. <a href="https://doi.org/" class="external-link uri">https://doi.org/</a><a href="https://doi.org/10.1111/bmsp.12307" class="external-link uri">https://doi.org/10.1111/bmsp.12307</a>
 </div>
 <div id="ref-TIMSS:2015:Background" class="csl-entry">
 Mullis, I. V. S., Martin, M. O., Goh, S., &amp; Cotter, K. (Eds. ). (2016). <em>TIMSS 2015 encyclopedia: Education policy and curriculum in mathematics and science</em>. Retrieved from Boston College, TIMSS &amp; PIRLS International Study Center website: <a href="http://timssandpirls.bc.edu/timss2015/encyclopedia/" class="external-link uri">http://timssandpirls.bc.edu/timss2015/encyclopedia/</a>.
@@ -392,7 +405,14 @@ Yoon, S. Y. (2011). <em>Psychometric properties of the revised purdue spatial vi
 </ul>
 </div>
 
-
+<div class="dev-status">
+<h2 data-toc-skip>Dev status</h2>
+<ul class="list-unstyled">
+<li><a href="https://github.com/tmsalab/edmdata/actions" class="external-link"><img src="https://github.com/tmsalab/edmdata/workflows/R-CMD-check/badge.svg" alt="R build status"></a></li>
+<li><a href="https://opensource.org/licenses/MIT" class="external-link"><img src="http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat" alt="Package-License"></a></li>
+<li><a href="https://CRAN.R-project.org/package=edmdata" class="external-link"><img src="https://www.r-pkg.org/badges/version/edmdata" alt="CRAN status"></a></li>
+</ul>
+</div>
 
   </div>
 </div>
