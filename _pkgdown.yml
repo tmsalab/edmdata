@@ -7,9 +7,6 @@ template:
 home:
   strip_header: true
 
-development:
-  mode: auto
-
 authors:
   James Joseph Balamuta:
     href: https://thecoatlessprofessor.com
