@@ -2,7 +2,7 @@
 #'
 #' **Assessment Design:**
 #'
-#' - PISA Test Overview: <https://www.oecd.org/pisa/aboutpisa/>
+#' - PISA Test Overview: <https://www.oecd.org/pisa/aboutpisa.html>
 #' - PISA 2012 Mathematics Items:
 #'  <https://www.oecd.org/pisa/test/PISA%202012%20items%20for%20release_ENGLISH.pdf>
 #'

@@ -14,3 +14,4 @@
 ^apa-single-spaced\.csl$
 ^cran-comments\.md$
 ^CRAN-RELEASE$
+^CRAN-SUBMISSION$

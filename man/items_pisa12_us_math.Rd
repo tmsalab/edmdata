@@ -132,7 +132,7 @@ items are coded with \verb{Score 0} as \code{0}, \verb{Score 1} as \code{1},
 \references{
 \strong{Assessment Design:}
 \itemize{
-\item PISA Test Overview: \url{https://www.oecd.org/pisa/aboutpisa/}
+\item PISA Test Overview: \url{https://www.oecd.org/pisa/aboutpisa.html}
 \item PISA 2012 Mathematics Items:
 \url{https://www.oecd.org/pisa/test/PISA\%202012\%20items\%20for\%20release_ENGLISH.pdf}
 }
