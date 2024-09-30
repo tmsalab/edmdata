@@ -111,8 +111,8 @@ head(items_revised_psvtr)
   - `items_ordered_timss15_background`: N = 9672 subject responses to J
     = 16 items.
 - Calculus-based probability and statistics course homework problems
-  (Jimenez et al., 2023)
-  - `items_ordered_pswc_hw`: N = 288 subject responses to J = 30 items.
+  Jimenez et al. (2023)
+  - `items_ordered_pswc_hw`: N = 288 subject responses to J = 29 items.
 - Programme for International Student Assessment (PISA) 2012 U.S.
   Student Questionnaire Problem-Solving Vignettes (Culpepper & Balamuta,
   2021).
@@ -209,6 +209,15 @@ the number of attributes for the exploratory DINA model.
 
 </div>
 
+<div id="ref-Culpepper:2014:SequentialIRT" class="csl-entry">
+
+Culpepper, S. A. (2014). If at first you don’t succeed, try, try again:
+Applications of sequential IRT models to cognitive assessments. *Applied
+Psychological Measurement*, *38*(8), 632–644.
+<https://doi.org/10.1177/0146621614536464>
+
+</div>
+
 <div id="ref-Culpepper:2015:BayesianDINA" class="csl-entry">
 
 Culpepper, S. A. (2015). Bayesian estimation of the DINA model with
@@ -228,9 +237,9 @@ responses with binary attributes: Identifiability and estimation.
 
 <div id="ref-Culpepper:2019:EGDM" class="csl-entry">
 
-Culpepper, S. A. (2019b). Estimating the cognitive diagnosis $Q$ matrix
-with expert knowledge: Application to the fraction-subtraction dataset.
-*Psychometrika*, *84*(2), 333–357.
+Culpepper, S. A. (2019b). Estimating the cognitive diagnosis $`Q`$
+matrix with expert knowledge: Application to the fraction-subtraction
+dataset. *Psychometrika*, *84*(2), 333–357.
 <https://doi.org/10.1007/s11336-018-9643-8>
 
 </div>

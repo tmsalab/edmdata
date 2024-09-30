@@ -127,7 +127,7 @@ library(edmdata)
   Student Background Survey Item Responses [@TIMSS:2015:Background].
     - `items_ordered_timss15_background`: N = `r nrow(items_ordered_timss15_background)` subject responses
       to J = `r ncol(items_ordered_timss15_background)` items.
-- Calculus-based probability and statistics course homework problems [@Jimenez:2023:OPGEDM]
+- Calculus-based probability and statistics course homework problems [@Culpepper:2014:SequentialIRT, @Jimenez:2023:OPGEDM]
     - `items_ordered_pswc_hw`: N = `r nrow(items_ordered_pswc_hw)`
       subject responses to J = `r ncol(items_ordered_pswc_hw)` items.
 - Programme for International Student Assessment (PISA) 2012

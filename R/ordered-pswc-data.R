@@ -42,4 +42,11 @@
 #'    A sequential exploratory diagnostic model using a Pólya-gamma data
 #'    augmentation strategy. *British Journal of Mathematical and Statistical Psychology*,
 #'   *76*, 513–538. \doi{10.1111/bmsp.12307}
+#'
+#' **Data originated from:**
+#'
+#' - Culpepper, S. A. (2014).
+#'   If at first you don’t succeed, try, try again: Applications of sequential
+#'   IRT models to cognitive assessments. *Applied Psychological Measurement*,
+#'   38(8), 632–644. \doi{10.1177/0146621614536464}
 "items_ordered_pswc_hw"

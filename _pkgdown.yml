@@ -50,7 +50,8 @@ reference:
 - title: Calculus-based probability and statistics homework
   desc: >
     Data from a calculus-based probability and statistics course homework
-    assignment.
+    assignment originating from [Culpepper, S.A. (2014)](https://doi.org/10.1177/0146621614536464)
+    and used in [Jimenez, A., Balamuta, J. J., & Culpepper, S. A. (2023)](https://doi.org/10.1111/bmsp.12307).
   contents:
   - items_ordered_pswc_hw
 - title: "Human Connectome Project's Penn Progressive Matrices Fluid Intelligence Assessment"
