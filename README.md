@@ -284,7 +284,7 @@ Mathematics*, *42*, 49–56. <https://doi.org/10.1016/j.endm.2013.05.145>
 Jimenez, A., Balamuta, J. J., & Culpepper, S. A. (2023). A sequential
 exploratory diagnostic model using a pólya-gamma data augmentation
 strategy. *British Journal of Mathematical and Statistical Psychology*,
-*76*(3), 513–538. https://doi.org/<https://doi.org/10.1111/bmsp.12307>
+*76*(3), 513–538. <https://doi.org/10.1111/bmsp.12307>
 
 </div>
 
