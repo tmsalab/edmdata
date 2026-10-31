@@ -3,9 +3,10 @@ url: https://tmsalab.github.io/edmdata
 template:
   params:
     ganalytics: UA-151562227-1
-
-home:
-  strip_header: true
+  opengraph:
+    image:
+      src: man/figures/edmdata-logo-static-light.svg
+      alt: The edmdata hex logo, a database cylinder with an orange copy of one data set being loaded.
 
 authors:
   James Joseph Balamuta:
