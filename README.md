@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# edmdata
+# edmdata <a href="https://tmsalab.github.io/edmdata/"><picture><source media="(prefers-color-scheme: dark)" srcset="man/figures/edmdata-logo-animated-dark.svg"><img src="man/figures/edmdata-logo-animated-light.svg" width="150" align="right" alt="A hexagonal logo for edmdata: a solid database cylinder of three platters with the word edmdata cut out of the top one, under a floating orange disc, a copy of one data set being loaded, whose edge shows the first examinee's first ten answers as solid and empty cells."/></picture></a>
 
 <!-- badges: start -->
 
